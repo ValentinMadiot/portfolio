@@ -4,8 +4,8 @@ import { FaLocationArrow } from 'react-icons/fa';
 
 const Contact = () => {
   return (
-    <section className="w-full pt-20 pb-10" id="contact">
-      <div className="w-full absolute left-0 -bottom-72 min-h-96 ">
+    <section className="w-full pt-20" id="contact">
+      <div className="w-full absolute left-0 -bottom-72 min-h-96">
         <img
           src="/footer-grid.svg"
           alt="grid"
