@@ -1,3 +1,4 @@
+"use client";
 import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
 import Experience from "@/components/Experience";
@@ -12,7 +13,7 @@ export default function Home() {
     <div className="">
       <main className="relative bg-black-100 flex flex-col items-center overflow-clip justify-center mx-auto sm:px-10 px-5">
         <div className="max-w-7xl w-full">
-          <FloatingNavbar navItems={navItems}/>
+          <FloatingNavbar navItems={navItems} />
           <Hero />
           <Grid />
           <RecentProject />
@@ -21,7 +22,6 @@ export default function Home() {
           <Footer />
         </div>
       </main>
-      <footer></footer>
     </div>
   );
 }
