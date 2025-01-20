@@ -42,7 +42,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "Passionné de technologie et de développement.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -109,100 +109,24 @@ export const projects = [
   },
 ];
 
-export const testimonials = [
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-];
-
-export const companies = [
-  {
-    id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
-  },
-  {
-    id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
-  },
-  {
-    id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
-  },
-  {
-    id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
-  },
-];
-
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Développeur Web",
+    date: "Depuis 2022",
+    company: "Freelance ",
+    location: " Remote",
+    desc: "Je conçois et développe des sites web adaptés aux besoins des particuliers et des petites entreprises, en mettant l'accent sur des designs sur mesure, responsives et intuitifs. Mon travail englobe l'optimisation des performances, le renforcement du référencement naturel (SEO) pour améliorer la visibilité en ligne, ainsi que la production de contenus uniques et conformes aux droits d'auteur. J'offre également des services de création de logos et de gestion des réseaux sociaux, visant à renforcer l'identité de marque et à engager efficacement les audiences dans divers domaines.",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
-  },
-  {
-    id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Développeur Web",
+    date: "Novembre 2022",
+    company: "OpenClassRooms ",
+    location: " Certificat",
+    desc: "Spécialisé dans le développement frontend et la gestion des APIs backend, allant de leur intégration à leur création sur mesure. Expertise en conception d’applications web responsives, en optimisation des performances et en amélioration de l’expérience utilisateur. Gestion complète de projets, de la planification à la livraison, sous encadrement. Réalisation notable : Groupomania, une plateforme de médias sociaux full-stack développée avec la stack MERN.",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
   },
 ];
 
@@ -210,13 +134,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/ValentinMadiot",
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/link.svg",
+    link: "https://www.linkedin.com/in/valentinmadiot/",
   },
   {
     id: 3,
-    img: "/link.svg",
+    img: "/wha.svg",
+    link: "https://wa.me/33677505531",
   },
 ];

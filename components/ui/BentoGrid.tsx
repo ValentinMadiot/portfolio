@@ -47,25 +47,25 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
   }) => {
-   const leftLists = ["ReactJS", "Express", "Typescript"];
-   const rightLists = ["VueJS", "NuxtJS", "GraphQL"];
+  const leftLists = ["React.js", "Next.js", "Typescript"];
+  const rightLists = ["Node.js", "Express", "MongoDB"];
 
-   const [copied, setCopied] = useState(false);
+  const [copied, setCopied] = useState(false);
 
-   const defaultOptions = {
-     loop: copied,
-     autoplay: copied,
-     animationData: animationData,
-     rendererSettings: {
-       preserveAspectRatio: "xMidYMid slice",
-     },
-   };
+  const defaultOptions = {
+    loop: copied,
+    autoplay: copied,
+    animationData: animationData,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  };
 
-   const handleCopy = () => {
-     const text = "valentin.madiot@gmail.com";
-     navigator.clipboard.writeText(text);
-     setCopied(true);
-   };  
+  const handleCopy = () => {
+    const text = "valentin.madiot@gmail.com";
+    navigator.clipboard.writeText(text);
+    setCopied(true);
+  };  
   
   return (
     <div
@@ -116,12 +116,16 @@ export const BentoGridItem = ({
           <div className="font-sans font-extralight md:max-w-100 md:text-xs lg:text-base text-sm text-[#C1C2D3] z-10">
             {description}
           </div>
-          {id === 2 && <GlobeDemo />}
+            {id === 2 && (
+            <div className="absolute inset-0 z-0">
+              <GlobeDemo />
+            </div>
+            )}
 
           {id === 3 && (
             <div className="flex gap-1 lg:gap-5 w-fit absolute -right-0 lg:-right-2">
               <div className="flex flex-col gap-3 lg:gap-8">
-                {["React.js", "Next.js", "TypeScript"].map((item) => (
+                {leftLists.map((item) => (
                   <span
                     key={item}
                     className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]">
@@ -132,7 +136,7 @@ export const BentoGridItem = ({
               </div>
               <div className="flex flex-col gap-3 lg:gap-8">
                 <span className="py-4 px-3 rounded-lg text-center bg-[#10132e]" />
-                {["Vue.js", "AWS", "MongoDB"].map((item) => (
+                {rightLists.map((item) => (
                   <span
                     key={item}
                     className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]">

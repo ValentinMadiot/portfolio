@@ -7,7 +7,7 @@ const RecentProject = () => {
   return (
     <div id="projects" className="py-20">
       <h1 className="heading">
-        Une petite selection de {""}
+        Selection de {""}
         <span className="text-blue">mes projets récent</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10">
