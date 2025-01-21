@@ -146,4 +146,9 @@ export const socialMedia = [
     img: "/wha.svg",
     link: "https://wa.me/33677505531",
   },
+  {
+    id: 4,
+    img: "/resume.svg",
+    link: "https://cvdesignr.com/p/677c0a3bc8d51?hl=en_GB",
+  },
 ];

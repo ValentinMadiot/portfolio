@@ -13,7 +13,11 @@ export default function Home() {
     <div className="">
       <main className="relative bg-black-100 flex flex-col items-center overflow-clip justify-center mx-auto sm:px-10 px-5">
         <div className="max-w-7xl w-full">
-          <FloatingNavbar navItems={navItems} />
+          <FloatingNavbar 
+            navItems={navItems} 
+            onLanguageChange={() => {}} 
+            currentLanguage="fr" 
+          />
           <Hero />
           <Grid />
           <RecentProject />

@@ -1,6 +1,7 @@
 import React from 'react'
 import MagicButton from './ui/Button';
 import { FaLocationArrow } from 'react-icons/fa';
+import { socialMedia } from '@/data';
 
 const Contact = () => {
   return (
@@ -25,10 +26,20 @@ const Contact = () => {
         <a href="mailto:valentin.madiot@gmail.com">
           <MagicButton
             title="Entrons en contact!"
-            icon={<FaLocationArrow/>}
-            position='right'          
+            icon={<FaLocationArrow />}
+            position="right"
           />
         </a>
+        <article className="flex items-center md:gap-3 gap-6">
+          {socialMedia.map((info) => (
+            <a
+              key={info.id}
+              href={info.link}
+              className="hover:bg-blue mt-10 w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300">
+              <img src={info.img} alt="icons" width={20} height={20} />
+            </a>
+          ))}
+        </article>
       </div>
     </section>
   );
