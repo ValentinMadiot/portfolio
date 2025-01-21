@@ -1,5 +1,4 @@
 import { socialMedia } from '@/data';
-import { img } from 'framer-motion/client';
 import React from 'react'
 
 const Footer = () => {
