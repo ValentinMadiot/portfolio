@@ -1,5 +1,6 @@
 import { socialMedia } from '@/data';
 import React from 'react'
+// import PolitiqueConfidentialite from "./Confidentiality";
 
 const Footer = () => {
   return (
