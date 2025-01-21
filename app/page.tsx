@@ -11,12 +11,12 @@ import { navItems } from "@/data";
 export default function Home() {
   return (
     <div className="">
-      <main className="relative bg-black-100 flex flex-col items-center overflow-clip justify-center mx-auto sm:px-10 px-5">
+      <main className="relative bg-black-100 flex flex-col items-center overflow-clip justify-center">
         <div className="max-w-7xl w-full">
-          <FloatingNavbar 
-            navItems={navItems} 
-            onLanguageChange={() => {}} 
-            currentLanguage="fr" 
+          <FloatingNavbar
+            navItems={navItems}
+            onLanguageChange={() => {}}
+            currentLanguage="fr"
           />
           <Hero />
           <Grid />

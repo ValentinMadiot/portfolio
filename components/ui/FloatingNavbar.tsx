@@ -59,7 +59,7 @@ export const FloatingNavbar = ({
           duration: 0.2,
         }}
         className={cn(
-          "flex w-full fixed z-[5000] top-0 inset-x-0 mx-auto px-10 py-5 rounded-lg border border-black/.1 shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] items-center justify-between space-x-4",
+          "flex w-full fixed z-[5000] top-0 inset-x-0 mx-auto py-5 rounded-lg border items-center justify-between",
           className
         )}
         style={{
@@ -68,21 +68,23 @@ export const FloatingNavbar = ({
           borderRadius: "0",
           border: "1px solid rgba(255, 255, 255, 0.125)",
         }}>
-        <button
+        {/* <button
           onClick={onLanguageChange}
-          className="dark:hover:text-blue text-sm font-medium relative text-black dark:text-white">
+          className="font-medium relative text-black dark:text-white dark:hover:text-blue">
           <span>{currentLanguage === "FR" ? "EN" : "FR"}</span>
-        </button>
-        <div className="flex items-center justify-center w-full space-x-2 lg:justify-center">
+        </button> */}
+        <div className="flex items-center justify-center w-full sm:gap-5 gap-2">
           {navItems.map((navItem: any, idx: number) => (
             <Link
               key={`link=${idx}`}
               href={navItem.link}
               className={cn(
-                "relative dark:text-neutral-50 items-center flex space-x-1 text-neutral-600 dark:hover:text-blue hover:text-neutral-500"
+                "relative items-center flex tracking-wider text-white  hover:text-lightblue-200"
               )}>
               <span className="block sm:hidden">{navItem.icon}</span>
-              <span className="text-sm !cursor-pointer">{navItem.name}</span>
+              <span className="text-sm sm:text-base !cursor-pointer">
+                {navItem.name}
+              </span>
             </Link>
           ))}
         </div>

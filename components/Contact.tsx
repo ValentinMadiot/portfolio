@@ -5,7 +5,7 @@ import { socialMedia } from '@/data';
 
 const Contact = () => {
   return (
-    <section className="w-full pt-20" id="contact">
+    <section className="w-full p-20 px-3" id="contact">
       {/* <div className="w-full absolute left-0 -bottom-72 min-h-96">
         <img
           src="/footer-grid.svg"
@@ -19,9 +19,8 @@ const Contact = () => {
           Contactez
           <span className="text-blue"> moi</span>
         </h1>
-        <p className="text-white-200 md:mt-10 my-5 text-center">
-          Envoyez-moi un message et je vous répondrai dans les plus brefs
-          délais.
+        <p className="text-blue-100 md:mt-10 my-5 text-center">
+          Envoyez-moi un message et je vous répondrai dans les plus brefs délais.
         </p>
         <a href="mailto:valentin.madiot@gmail.com">
           <MagicButton

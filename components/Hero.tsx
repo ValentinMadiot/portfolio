@@ -7,7 +7,7 @@ import { socialMedia } from '@/data';
 
 const Hero = () => {
   return (
-    <div className="h-screen flex flex-col items-center justify-center relative">
+    <div className="h-screen m-auto flex flex-col items-center justify-center relative p-1 sm:p-20">
       <div>
         <Spotlight
           className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
@@ -29,10 +29,10 @@ const Hero = () => {
             Valentin Madiot
           </h2>
           <TextGenerateEffect
-            className="text-center text-[40px] md:text-5xl lg:text-6xl"
+            className="text-center text-[30px] sm:text-4xl md:text-5xl lg:text-6xl"
             words="Développeur Web"
           />
-          <p className="text-lightblue-100 text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
+          <p className="text-lightblue-100 text-center tracking-wide md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl max-w-md sm:max-w-xl lg:max-w-2xl">
             Expert React JS, Next.js et WordPress, je crée des sites web depuis
             plus de deux ans. Passionné par l'apprentissage continu, je
             développe également des projets personnels pour enrichir mes

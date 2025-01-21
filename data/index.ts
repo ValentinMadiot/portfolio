@@ -1,6 +1,6 @@
 export const navItems = [
   { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
+  { name: "Projets", link: "#projects" },
   { name: "Experiences", link: "#experiences" },
   { name: "Contact", link: "#contact" },
 ];
@@ -9,12 +9,10 @@ export const gridItems = [
   {
     id: 1,
     title: "Présentation",
-    description: `"Développeur web full-stack, je conçois des sites modernes, réactifs et optimisés, parfaitement adaptés aux besoins des particuliers et des petites entreprises. Mon objectif : associer design intuitif, performance technique et services comme le SEO et le copywriting pour maximiser votre présence en ligne.
-
-    Ma stack inclut React et Next.js pour le frontend, ainsi que Node.js et MongoDB pour le backend, garantissant des applications robustes et complètes. J’intègre aussi des outils d’IA tels que ChatGPT, Git Copilot et Midjourney pour enrichir mon flux de travail.
-
-    Passionné et déterminé, je perfectionne continuellement mes compétences techniques et humaines (autonomie, communication, adaptabilité). Toujours prêt à relever de nouveaux défis, je suis à votre disposition pour collaborer et concrétiser vos projets."`,
-    className: "lg:col-span-3 md:col-span-6 md:row-span-4 ",
+    description: `Développeur web full-stack, je conçois des sites modernes, réactifs et optimisés, parfaitement adaptés aux besoins des particuliers et des petites entreprises. Mon objectif : associer design intuitif, performance technique et services comme le SEO et le copywriting pour maximiser votre présence en ligne.`,
+    description2: `Ma stack inclut React et Next.js pour le frontend, ainsi que Node.js et MongoDB pour le backend, garantissant des applications robustes et complètes. J’intègre aussi des outils d’IA tels que ChatGPT, Git Copilot et Midjourney pour enrichir mon flux de travail.`,
+    description3: `Passionné et déterminé, je perfectionne continuellement mes compétences techniques et humaines (autonomie, communication, adaptabilité). Toujours prêt à relever de nouveaux défis, je suis à votre disposition pour collaborer et concrétiser vos projets.`,
+    className: "lg:col-span-3 md:col-span-6 md:row-span-4",
     imgClassName: "",
     titleClassName: "",
     img: "",
@@ -33,7 +31,8 @@ export const gridItems = [
   {
     id: 3,
     title: "Stack",
-    description: "En progression constante",
+    description: "En progression",
+    description2: "constante",
     className: "lg:col-span-2 md:col-span-3 md:row-span-4",
     imgClassName: "",
     titleClassName: "justify-center",

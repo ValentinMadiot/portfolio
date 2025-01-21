@@ -32,6 +32,8 @@ export const BentoGridItem = ({
   className,
   title,
   description,
+  description2,
+  description3,
   id,
   img,
   imgClassName,
@@ -41,12 +43,14 @@ export const BentoGridItem = ({
   className?: string;
   title?: string | React.ReactNode;
   description?: string | React.ReactNode;
+  description2?: string | React.ReactNode;
+  description3?: string | React.ReactNode;
   id?: Number;
   img?: string;
   imgClassName?: string;
   titleClassName?: string;
   spareImg?: string;
-  }) => {
+}) => {
   const leftLists = ["React.js", "Next.js", "Typescript"];
   const rightLists = ["Node.js", "Express", "MongoDB"];
 
@@ -65,8 +69,8 @@ export const BentoGridItem = ({
     const text = "valentin.madiot@gmail.com";
     navigator.clipboard.writeText(text);
     setCopied(true);
-  };  
-  
+  };
+
   return (
     <div
       className={cn(
@@ -108,19 +112,27 @@ export const BentoGridItem = ({
         <div
           className={cn(
             titleClassName,
-            "group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col px-5 p-5 lg:p-10"
+            "group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col px-5 p-3 sm:p-5 lg:p-10"
           )}>
-          <div className="font-sans text-lg lg:text-3xl max-w-96 font-bold z-10">
+          <div className="font-sans text-lg lg:text-3xl max-w-md font-bold z-10 mb-5">
             {title}
           </div>
-          <div className="font-sans font-extralight md:max-w-100 md:text-xs lg:text-base text-sm text-[#C1C2D3] z-10">
+          <div className="font-sans font-extralight md:max-w-100 text-base text-lightblue-100 z-10">
             {description}
           </div>
-            {id === 2 && (
+          <br />
+          <div className="font-sans font-extralight md:max-w-100 text-base text-lightblue-100 z-10">
+            {description2}
+          </div>
+          <br />
+          <div className="font-sans font-extralight md:max-w-100 text-base text-lightblue-100 z-10">
+            {description3}
+          </div>
+          {id === 2 && (
             <div className="absolute inset-0 z-0">
               <GlobeDemo />
             </div>
-            )}
+          )}
 
           {id === 3 && (
             <div className="flex gap-1 lg:gap-5 w-fit absolute -right-0 lg:-right-2">
@@ -128,7 +140,7 @@ export const BentoGridItem = ({
                 {leftLists.map((item) => (
                   <span
                     key={item}
-                    className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]">
+                    className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E] text-lightblue-100">
                     {item}
                   </span>
                 ))}
@@ -139,7 +151,7 @@ export const BentoGridItem = ({
                 {rightLists.map((item) => (
                   <span
                     key={item}
-                    className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]">
+                    className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E] text-lightblue-100">
                     {item}
                   </span>
                 ))}
