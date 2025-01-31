@@ -8,9 +8,9 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "Présentation",
-    description: `Développeur web full-stack, je conçois des sites modernes, réactifs et optimisés, parfaitement adaptés aux besoins des particuliers et des petites entreprises. Mon objectif : associer design intuitif, performance technique et services comme le SEO et le copywriting pour maximiser votre présence en ligne.`,
-    description2: `Ma stack inclut React et Next.js pour le frontend, ainsi que Node.js et MongoDB pour le backend, garantissant des applications robustes et complètes. J’intègre aussi des outils d’IA tels que ChatGPT, Git Copilot et Midjourney pour enrichir mon flux de travail.`,
+    title: "",
+    description: `Développeur Web, je conçois des sites modernes, réactifs et optimisés, parfaitement adaptés aux besoins des particuliers et des petites entreprises. Mon objectif : associer design intuitif, performance technique et services comme le SEO et le copywriting pour maximiser votre présence en ligne.`,
+    description2: `Ma stack inclut React et Next.js pour le frontend, ainsi que Node.js et MongoDB pour le backend, garantissant des applications robustes et complètes. J’intègre aussi des outils d’IA tels que ChatGPT et Midjourney pour enrichir mon flux de travail.`,
     description3: `Passionné et déterminé, je perfectionne continuellement mes compétences techniques et humaines (autonomie, communication, adaptabilité). Toujours prêt à relever de nouveaux défis, je suis à votre disposition pour collaborer et concrétiser vos projets.`,
     className: "lg:col-span-3 md:col-span-6 md:row-span-4",
     imgClassName: "",
@@ -49,7 +49,6 @@ export const gridItems = [
     img: "/grid.svg",
     spareImg: "/b4.svg",
   },
-
   {
     id: 2,
     title:
@@ -63,7 +62,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Vous souhaitez démarrer un projet ensemble ?",
+    title: "Apprenez-en plus sur moi !",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -126,6 +125,27 @@ export const workExperience = [
     location: " Certificat",
     desc: "Spécialisé dans le développement frontend et la gestion des APIs backend, allant de leur intégration à leur création sur mesure. Expertise en conception d’applications web responsives, en optimisation des performances et en amélioration de l’expérience utilisateur. Gestion complète de projets, de la planification à la livraison, sous encadrement. Réalisation notable : Groupomania, une plateforme de médias sociaux full-stack développée avec la stack MERN.",
     className: "md:col-span-2",
+  },
+];
+
+export const processApproach = [
+  {
+    id: 1,
+    title: "Analyse et Planification",
+    desc: "Dans cette première étape, nous mettons un point d’honneur à bien comprendre vos besoins et vos objectifs. Cela passe par des échanges approfondis pour clarifier vos attentes, identifier les fonctionnalités essentielles et élaborer une stratégie claire et détaillée. En parallèle, nous analysons votre audience cible afin de garantir que le produit final sera en parfaite adéquation avec leurs besoins et vos ambitions.",
+    thumbnail: "/exp3.svg",
+  },
+  {
+    id: 2,
+    title: "Conception et Développement",
+    desc: "Forts d’une vision claire de votre projet, nous entamons la phase de conception et développement. Nous créons d’abord des maquettes interactives pour donner vie à vos idées et vous permettre de visualiser le futur produit. Une fois ces maquettes validées, nous entamons le développement en utilisant les technologies les plus performantes et les standards actuels. La collaboration reste au cœur du processus : des points réguliers permettent de recueillir vos retours et d’ajuster le projet en temps réel, afin de garantir que le résultat final correspond parfaitement à vos attentes.",
+    thumbnail: "/exp1.svg",
+  },
+  {
+    id: 3,
+    title: "Tests, Livraison et Support",
+    desc: "Lors de cette phase cruciale, nous effectuons des tests rigoureux pour garantir un produit fiable, performant et exempt de bugs. Cela comprend des vérifications approfondies de l’interface utilisateur et des tests de performance pour s’assurer que tout fonctionne de manière optimale. Une fois validé, nous livrons le produit dans les délais convenus. Enfin, nous restons disponibles grâce à un support post-lancement, pour répondre à vos questions ou résoudre rapidement toute problématique qui pourrait survenir.",
+    thumbnail: "/exp2.svg",
   },
 ];
 

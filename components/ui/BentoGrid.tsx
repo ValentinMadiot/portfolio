@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { IoCopyOutline } from "react-icons/io5";
+import { GrDocumentUser } from "react-icons/gr";
 
 import { cn } from "@/lib/utils";
 import Lottie from "react-lottie";
@@ -66,15 +66,14 @@ export const BentoGridItem = ({
   };
 
   const handleCopy = () => {
-    const text = "valentin.madiot@gmail.com";
-    navigator.clipboard.writeText(text);
+    window.open("https://cvdesignr.com/p/677c0a3bc8d51?hl=en_GB", "_blank");
     setCopied(true);
   };
 
   return (
     <div
       className={cn(
-        "row-span-1 relative overflow-hidden rounded-3xl border border-white/[0.1] group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none justify-between flex flex-col space-y-4",
+        "row-span-1 relative overflow-hidden rounded-3xl border border-white/[0.1] shadow-input dark:shadow-none justify-between flex flex-col space-y-4",
         className
       )}
       style={{
@@ -88,7 +87,10 @@ export const BentoGridItem = ({
             <img
               src={img}
               alt={img}
-              className={cn(imgClassName, "object-cover object-center")}
+              className={cn(
+                imgClassName,
+                "object-cover object-center  w-full h-full"
+              )}
             />
           )}
         </div>
@@ -119,7 +121,7 @@ export const BentoGridItem = ({
               <div className="text-end">{title}</div>
             ) : id === 4 ? (
               <div className="text-center md:text-start mt-16 lg:mt-0">
-                {title}
+                {id !== 1 && title}
               </div>
             ) : (
               title
@@ -127,17 +129,18 @@ export const BentoGridItem = ({
           </div>
           {id === 1 && (
             <>
-              <div className="font-sans font-extralight md:max-w-100 text-base text-lightblue-100 z-10">
+              <div className="font-sans font-normal tracking-wide md:max-w-100 text-lg text-lightblue-100 z-10">
                 {description}
               </div>
               <br />
-              <div className="font-sans font-extralight md:max-w-100 text-base text-lightblue-100 z-10">
+              <div className="font-sans font-normal tracking-wide md:max-w-100 text-lg text-lightblue-100 z-10">
                 {description2}
               </div>
               <br />
-              <div className="font-sans font-extralight md:max-w-100 text-base text-lightblue-100 z-10">
+              <div className="font-sans font-normal tracking-wide md:max-w-100 text-lg text-lightblue-100 z-10">
                 {description3}
               </div>
+              <br />
             </>
           )}
           {id === 2 && (
@@ -171,7 +174,7 @@ export const BentoGridItem = ({
             </div>
           )}
           {id === 6 && (
-            <div className="mt-5 relative">
+            <div className="relative">
               <div
                 className={`absolute -bottom-5 right-0 ${
                   copied ? "block" : "block"
@@ -180,8 +183,8 @@ export const BentoGridItem = ({
               </div>
 
               <Button
-                title={copied ? "Email Copié!" : "Copier mon adresse email"}
-                icon={<IoCopyOutline />}
+                title={"Parcourez mon CV"}
+                icon={<GrDocumentUser />}
                 position="left"
                 handleClick={handleCopy}
                 otherClasses="!bg-[#161A31]"

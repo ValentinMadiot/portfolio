@@ -6,21 +6,20 @@ import { socialMedia } from '@/data';
 const Contact = () => {
   return (
     <section className="w-full p-20 px-3 sm:px-20" id="contact">
-      {/* <div className="w-full absolute left-0 -bottom-72 min-h-96">
+      <div className="w-full absolute left-0 -bottom-72 min-h-96">
         <img
           src="/footer-grid.svg"
           alt="grid"
           className="w-full h-full opacity-50"
         />
-      </div> */}
+      </div>
 
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
-          Contactez
-          <span className="text-blue"> moi</span>
+          Ensemble, donnons vie à <span className="text-blue"> vos idées!</span>
         </h1>
         <p className="text-blue-100 md:mt-10 m-5 text-center">
-          Envoyez-moi un message et je vous répondrai dans les plus brefs délais.
+          Discutons dès maintenant de la manière dont je peux transformer vos idées en solutions concrètes et innovantes. 🚀
         </p>
         <a href="mailto:valentin.madiot@gmail.com">
           <MagicButton

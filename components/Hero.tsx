@@ -20,22 +20,19 @@ const Hero = () => {
         />
         <Spotlight className="top-28 left-80 h-[80vh] w-[50vw]" fill="blue" />
       </div>
-        <DotBackgroundDemo />
+      <DotBackgroundDemo />
 
       <div className="flex justify-center relative z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-          <h2 className="uppercase tracking-widest text-xl text-center max-w-80">
-            Valentin Madiot
+          <h2 className="uppercase tracking-widest text-sm text-center">
+            Créateur d’Interfaces Web Uniques{" "}
           </h2>
           <TextGenerateEffect
-            className="text-center text-[30px] sm:text-4xl md:text-5xl lg:text-6xl"
-            words="Développeur Web"
+            className="text-center text-3xl sm:text-4xl md:text-5xl xl:text-6xl"
+            words="Concrétisez vos idées avec des solutions web immersives"
           />
-          <p className="text-lightblue-100 text-center tracking-wide md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl max-w-md sm:max-w-xl lg:max-w-2xl">
-            Expert React JS, Next.js et WordPress, je crée des sites web depuis
-            plus de deux ans. Passionné par l'apprentissage continu, je
-            développe également des projets personnels pour enrichir mes
-            connaissances. Ensemble, donnons vie à vos idées!
+          <p className="text-lightblue-100 text-center tracking-wide md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl max-w-xl sm:max-w-2xl lg:max-w-3xl">
+            Hi ! Je m'appelle Valentin, développeur front-end passionné, spécialisé en React, Next.js et WordPress.
           </p>
           <a href="#contact">
             <Button
