@@ -56,10 +56,11 @@ const Confidentiality = () => {
             </p>
             <ul>
               <li className="flex flex-col gap-6 text-lg mb-2">
-                ✔️ Votre adresse email.
+                &nbsp;&nbsp;&nbsp;✔️&nbsp;&nbsp;Votre adresse email.
               </li>
               <li className="flex flex-col gap-6 text-lg mb-2">
-                ✔️ Toute information que vous incluez dans votre message.
+                &nbsp;&nbsp;&nbsp;✔️&nbsp;&nbsp;Toute information que vous
+                incluez dans votre message.
               </li>
             </ul>
             <h4 className="text-xl sm:text-2xl font-bold text-lightblue-200">
@@ -79,23 +80,26 @@ const Confidentiality = () => {
             </p>
             <ul>
               <li className="flex flex-col gap-6 text-lg mb-2">
-                ✔️ Répondre à vos demandes.
+                &nbsp;&nbsp;&nbsp;✔️&nbsp;&nbsp;Répondre à vos demandes.
               </li>
               <li className="flex flex-col gap-6 text-lg mb-2">
-                ✔️ Vous fournir une assistance ou des informations pertinentes.
+                &nbsp;&nbsp;&nbsp;✔️&nbsp;&nbsp;Vous fournir une assistance ou
+                des informations pertinentes.
               </li>
               <li className="flex flex-col gap-6 text-lg mb-2">
-                🔹 Nous ne partageons pas vos données avec des tiers et ne les
-                utilisons pas à des fins commerciales ou marketing.
+                &nbsp;&nbsp;&nbsp;➤&nbsp;&nbsp;&nbsp;Nous ne partageons pas vos
+                données avec des tiers et ne les utilisons pas à des fins
+                commerciales ou marketing.
               </li>
             </ul>
             <h3 className="text-2xl sm:text-3xl font-bold text-lightblue-200">
               Partage des données
             </h3>
             <p className="flex flex-col gap-6 text-lg">
-              ❌ Aucune vente, location ou transmission de vos informations à
-              des tiers. Vos données restent strictement confidentielles et ne
-              sont utilisées que pour faciliter notre communication avec vous.
+              &nbsp;&nbsp;&nbsp;❌&nbsp;&nbsp;Aucune vente, location ou
+              transmission de vos informations à des tiers. Vos données restent
+              strictement confidentielles et ne sont utilisées que pour
+              faciliter notre communication avec vous.
             </p>
             <h3 className="text-2xl sm:text-3xl font-bold text-lightblue-200">
               Cookies et technologies de suivi
@@ -120,11 +124,12 @@ const Confidentiality = () => {
             </p>
             <ul>
               <li className="flex flex-col gap-6 text-lg mb-2">
-                ✔️ Demander l’accès aux informations que vous nous avez
-                fournies.
+                &nbsp;&nbsp;&nbsp;✔️&nbsp;&nbsp;Demander l’accès aux
+                informations que vous nous avez fournies.
               </li>
               <li className="flex flex-col gap-6 text-lg mb-2">
-                ✔️ Exiger la suppression de vos données de nos fichiers.
+                &nbsp;&nbsp;&nbsp;✔️&nbsp;&nbsp;Exiger la suppression de vos
+                données de nos fichiers.
               </li>
             </ul>
             <p className="flex flex-col gap-6 text-lg">
@@ -150,7 +155,9 @@ const Confidentiality = () => {
               gestion de vos données personnelles, vous pouvez nous contacter à
               :
             </p>
-            <p className="text-lg mb-5">📧 valentin.madiot@gmail.com</p>
+            <p className="text-lg mb-5">
+              &nbsp;&nbsp;&nbsp;📧 Email : valentin.madiot@gmail.com
+            </p>
           </div>
         </div>
       </div>

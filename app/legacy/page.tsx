@@ -37,30 +37,34 @@ const Legacy = () => {
             </h3>
             <ul>
               <li className="flex flex-col gap-6 text-lg mb-2">
-                🔹 Raison sociale : VALENTIN MADIOT
+                &nbsp;&nbsp;&nbsp;➤&nbsp;&nbsp;&nbsp;Raison sociale : VALENTIN
+                MADIOT
               </li>
               <li className="flex flex-col gap-6 text-lg mb-2">
-                🔹 Forme juridique : Entreprise individuelle (EI)
+                &nbsp;&nbsp;&nbsp;➤&nbsp;&nbsp;&nbsp;Forme juridique :
+                Entreprise individuelle (EI)
               </li>
               <li className="flex flex-col gap-6 text-lg mb-2">
-                🔹 Siège social : 3 ter rue Chevreul, 49630 Mazé, France
+                &nbsp;&nbsp;&nbsp;➤&nbsp;&nbsp;&nbsp;Siège social : 3 ter rue
+                Chevreul, 49630 Mazé, France
               </li>
               <li className="flex flex-col gap-6 text-lg mb-2">
-                🔹 Numéro SIREN : 922 188 446
+                &nbsp;&nbsp;&nbsp;➤&nbsp;&nbsp;&nbsp;Numéro SIREN : 922 188 446
               </li>
             </ul>
             <h3 className="text-2xl sm:text-3xl font-bold text-lightblue-200">
               Contact
             </h3>
             <ul>
-              <li className="flex flex-col gap-6 text-lg"mb-2>
-                📧 Email : valentin.madiot@gmail.com
+              <li className="flex flex-col gap-6 text-lg mb-2">
+                &nbsp;&nbsp;&nbsp;📧&nbsp;&nbsp;Email :
+                valentin.madiot@gmail.com
               </li>
-              <li className="flex flex-col gap-6 text-lg"mb-2>
-                📞 Téléphone : +33 6 77 50 55 31
+              <li className="flex flex-col gap-6 text-lg mb-2">
+                &nbsp;&nbsp;&nbsp;📞&nbsp;&nbsp;Téléphone : +33 6 77 50 55 31
               </li>
-              <li className="flex flex-col gap-6 text-lg"mb-2>
-                🌐 Site web : valentinmadiot.com
+              <li className="flex flex-col gap-6 text-lg mb-2">
+                &nbsp;&nbsp;&nbsp;🌐&nbsp;&nbsp;Site web : valentinmadiot.com
               </li>
             </ul>
 
@@ -68,17 +72,20 @@ const Legacy = () => {
               Hébergeur du Site
             </h3>
             <ul>
-              <li className="flex flex-col gap-6 text-lg"mb-2>
-                🔹 Nom de l'hébergeur : Hostinger
+              <li className="flex flex-col gap-6 text-lg mb-2">
+                &nbsp;&nbsp;&nbsp;➤&nbsp;&nbsp;&nbsp;Nom de l'hébergeur :
+                Hostinger
               </li>
-              <li className="flex flex-col gap-6 text-lg"mb-2>
-                🔹 Adresse : UAB. Jonavos g. 60C, 44192. Vilnius, Lituanie
+              <li className="flex flex-col gap-6 text-lg mb-2">
+                &nbsp;&nbsp;&nbsp;➤&nbsp;&nbsp;&nbsp;Adresse : UAB. Jonavos g.
+                60C, 44192. Vilnius, Lituanie
               </li>
-              <li className="flex flex-col gap-6 text-lg"mb-2>
-                🔹 Téléphone : +370 645 03378
+              <li className="flex flex-col gap-6 text-lg mb-2">
+                &nbsp;&nbsp;&nbsp;➤&nbsp;&nbsp;&nbsp;Téléphone : +370 645 03378
               </li>
-              <li className="flex flex-col gap-6 text-lg"mb-2>
-                🔹 Site web : domains@hostinger.com.
+              <li className="flex flex-col gap-6 text-lg mb-2">
+                &nbsp;&nbsp;&nbsp;➤&nbsp;&nbsp;&nbsp;Site web :
+                domains@hostinger.com.
               </li>
             </ul>
 
@@ -91,10 +98,10 @@ const Legacy = () => {
               Madiot, sauf indication contraire.
             </p>
             <p className="flex flex-col gap-6 text-lg">
-              ❌ Toute reproduction, modification, distribution ou exploitation,
-              totale ou partielle, sans autorisation écrite préalable est
-              strictement interdite et pourra faire l’objet de poursuites
-              judiciaires.
+              &nbsp;&nbsp;&nbsp;❌&nbsp;&nbsp; Toute reproduction, modification,
+              distribution ou exploitation, totale ou partielle, sans
+              autorisation écrite préalable est strictement interdite et pourra
+              faire l’objet de poursuites judiciaires.
             </p>
             <h3 className="text-2xl sm:text-3xl font-bold text-lightblue-200">
               Responsabilités
@@ -107,10 +114,10 @@ const Legacy = () => {
               utilisation.
             </p>
             <p className="flex flex-col gap-6 text-lg">
-              🔹 Liens externes : Ce site peut contenir des liens vers des
-              plateformes tierces. Nous ne contrôlons pas leur contenu et
-              déclinons toute responsabilité quant aux informations, services ou
-              pratiques qu'elles proposent.
+              &nbsp;&nbsp;&nbsp;➤&nbsp;&nbsp;&nbsp;Liens externes : Ce site peut
+              contenir des liens vers des plateformes tierces. Nous ne
+              contrôlons pas leur contenu et déclinons toute responsabilité
+              quant aux informations, services ou pratiques qu'elles proposent.
             </p>
             <h3 className="text-2xl sm:text-3xl font-bold text-lightblue-200">
               Juridiction & Droit Applicable
@@ -129,7 +136,7 @@ const Legacy = () => {
             </p>
             <ul>
               <li className="flex gap-1 text-lg mb-5">
-                📧 Email : valentin.madiot@gmail.com
+                &nbsp;&nbsp;&nbsp;📧 Email : valentin.madiot@gmail.com
               </li>
             </ul>
           </div>
