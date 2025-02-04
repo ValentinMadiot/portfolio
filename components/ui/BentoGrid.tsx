@@ -6,9 +6,9 @@ import { cn } from "@/lib/utils";
 import Lottie from "react-lottie";
 
 import animationData from "@/data/confetti.json";
-import Button from "./Button";
 import { BackgroundGradientAnimation } from "./GradientBg";
-import GlobeDemo from "./GridGlob";
+import MagicButton from "./MagicButton";
+import { GlobeDemo } from "./GridGlobe";
 
 export const BentoGrid = ({
   className,
@@ -114,33 +114,34 @@ export const BentoGridItem = ({
         <div
           className={cn(
             titleClassName,
-            " transition duration-200 relative md:h-full min-h-60 flex flex-col px-5 p-3 sm:p-5 lg:p-10"
+            " transition duration-200 relative md:h-full min-h-60 flex flex-col px-5 p-5 lg:p-10"
           )}>
-          <div className="font-sans text-lg lg:text-3xl max-w-lg font-bold z-10 mb-5">
+          <div className="font-sans text-lg lg:text-3xl font-bold z-10">
             {id === 2 ? (
-              <div className="text-end">{title}</div>
+              <div className="text-end md:ml-10 leading-snug">{title}</div>
             ) : id === 4 ? (
               <div className="text-center md:text-start mt-16 lg:mt-0">
                 {id !== 1 && title}
               </div>
+            ) : id === 6 ? (
+              <div className="mb-10">{title}</div>
             ) : (
               title
             )}
           </div>
           {id === 1 && (
             <>
-              <div className="font-sans font-normal tracking-wide md:max-w-100 text-lg text-lightblue-100 z-10">
-                {description}
-              </div>
-              <br />
-              <div className="font-sans font-normal tracking-wide md:max-w-100 text-lg text-lightblue-100 z-10">
-                {description2}
-              </div>
-              <br />
-              <div className="font-sans font-normal tracking-wide md:max-w-100 text-lg text-lightblue-100 z-10">
-                {description3}
-              </div>
-              <br />
+              {[description, description2, description3].map(
+                (desc, index) =>
+                  desc && (
+                    <div key={index}>
+                      <div className="font-sans font-normal tracking-wide md:max-w-100 text-lg text-white-100 z-10">
+                        {desc}
+                      </div>
+                      {index < 2 && <br />}
+                    </div>
+                  )
+              )}
             </>
           )}
           {id === 2 && (
@@ -182,7 +183,7 @@ export const BentoGridItem = ({
                 <Lottie options={defaultOptions} height={200} width={400} />
               </div>
 
-              <Button
+              <MagicButton
                 title={"Parcourez mon CV"}
                 icon={<GrDocumentUser />}
                 position="left"

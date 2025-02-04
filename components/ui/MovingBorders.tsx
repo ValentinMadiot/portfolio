@@ -13,7 +13,7 @@ import { cn } from "@/lib/utils";
 export function Button({
   borderRadius = "1.75rem",
   children,
-  as: Component = "button",
+  as: Component = "div",
   containerClassName,
   borderClassName,
   duration,
@@ -32,16 +32,18 @@ export function Button({
   return (
     <Component
       className={cn(
-        "bg-transparent relative text-xl p-[1px] overflow-hidden md:col-span-2",
+        "bg-transparent relative text-xl p-[1px] overflow-hidden ",
         containerClassName
       )}
       style={{
         borderRadius: borderRadius,
       }}
-      {...otherProps}>
+      {...otherProps}
+    >
       <div
         className="absolute inset-0"
-        style={{ borderRadius: `calc(${borderRadius} * 0.96)` }}>
+        style={{ borderRadius: `calc(${borderRadius} * 0.96)` }}
+      >
         <MovingBorder duration={duration} rx="30%" ry="30%">
           <div
             className={cn(
@@ -54,12 +56,13 @@ export function Button({
 
       <div
         className={cn(
-          "relative bg-slate-900/[0.8] border border-slate-800 backdrop-blur-xl text-white flex items-center justify-center w-full h-full text-sm antialiased",
+          "relative bg-slate-900/[0.8] border border-slate-800 backdrop-blur-xl text-white flex flex-col w-full h-full text-sm antialiased",
           className
         )}
         style={{
           borderRadius: `calc(${borderRadius} * 0.96)`,
-        }}>
+        }}
+      >
         {children}
       </div>
     </Component>
@@ -79,7 +82,7 @@ export const MovingBorder = ({
   ry?: string;
   [key: string]: any;
 }) => {
-  const pathRef = useRef<any>(null);
+  const pathRef = useRef<any>();
   const progress = useMotionValue<number>(0);
 
   useAnimationFrame((time) => {
@@ -109,7 +112,8 @@ export const MovingBorder = ({
         className="absolute h-full w-full"
         width="100%"
         height="100%"
-        {...otherProps}>
+        {...otherProps}
+      >
         <rect
           fill="none"
           width="100%"
@@ -126,7 +130,8 @@ export const MovingBorder = ({
           left: 0,
           display: "inline-block",
           transform,
-        }}>
+        }}
+      >
         {children}
       </motion.div>
     </>
