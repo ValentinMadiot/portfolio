@@ -73,7 +73,7 @@ const Legacy = () => {
             </h3>
             <ul>
               <li className="flex flex-col gap-6 text-lg mb-2">
-                &nbsp;&nbsp;&nbsp;➤&nbsp;&nbsp;&nbsp;Nom de l'hébergeur :
+                &nbsp;&nbsp;&nbsp;➤&nbsp;&nbsp;&nbsp;Nom de l’hébergeur :
                 Hostinger
               </li>
               <li className="flex flex-col gap-6 text-lg mb-2">
@@ -117,7 +117,7 @@ const Legacy = () => {
               &nbsp;&nbsp;&nbsp;➤&nbsp;&nbsp;&nbsp;Liens externes : Ce site peut
               contenir des liens vers des plateformes tierces. Nous ne
               contrôlons pas leur contenu et déclinons toute responsabilité
-              quant aux informations, services ou pratiques qu'elles proposent.
+              quant aux informations, services ou pratiques qu’elles proposent.
             </p>
             <h3 className="text-2xl sm:text-3xl font-bold text-lightblue-200">
               Juridiction & Droit Applicable
