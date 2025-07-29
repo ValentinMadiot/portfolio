@@ -10,7 +10,7 @@ const RecentProjects = () => {
         Une sélection de mes{" "}
         <span className="text-blue">meilleurs projets</span>
       </h1>
-      <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 mt-10">
+      <div className="grid md:grid-cols-2 grid-cols-1 gap-6 mt-10">
         {projects.map((project) => (
           <ProjectCard key={project.id} {...project} />
         ))}

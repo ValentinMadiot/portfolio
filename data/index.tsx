@@ -89,13 +89,14 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    slug: "solar-system-planets-to-explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
+    title: "Sushi Restaurant",
+    slug: "sushi-restaurant",
+    des: "Création d'une landing page moderne et minimaliste pour un artisan, développée en HTML, CSS et JavaScript. Enrichie d'animations fluides grâce à ScrollReveal.js.",
+    img: "",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    linkDemo: "",
-    linkGithub: "project-name",
+    linkDemo: "https://sushi-restaurant-vm.netlify.app/",
+    linkGithub:
+      "https://github.com/ValentinMadiot/sushi-restaurant_ui?tab=readme-ov-file",
     isClientProject: true,
     paragraphs: [
       "Mon client, une entreprise spécialisée dans l'accompagnement des PME, souhaitait développer un outil en ligne pour simplifier et automatiser l'estimation des crédits d'impôt auxquels ses clients pourraient prétendre. Le but était de centraliser toutes les informations nécessaires, de permettre aux utilisateurs de soumettre leurs simulations en ligne, et de leur fournir des récapitulatifs précis par email.",
@@ -117,13 +118,13 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    slug: "Yoom-Video-Conferencing-App",
+    title: "Pizzeria",
+    slug: "pizzeria",
     des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
+    img: "",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    linkDemo: "",
-    linkGithub: "pygmalion-simulator",
+    linkDemo: "https://pizzeria-paris.netlify.app/",
+    linkGithub: "https://github.com/ValentinMadiot/pizza-restaurant_ui",
     isClientProject: true,
     paragraphs: [
       "Actuellement, je travaille sur le développement d'une landing page de vente pour une formation en trading, conçue pour maximiser les conversions et attirer de nouveaux clients. En parallèle, le client m'a demandé de développer une plateforme complète où ses clients pourront accéder à leurs vidéos de formation, suivre leur progression, et bénéficier d'un espace personnel sécurisé.",
@@ -152,13 +153,14 @@ export const projects = [
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    slug: "AI-Image-SaaS-Canva-Application",
+    title: "Maraicher",
+    slug: "fruits-shop",
     des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
+    img: "",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    linkDemo: "",
-    linkGithub: "pygmalion-simulator",
+    linkDemo: "https://maraicher-fruits.netlify.app/",
+    linkGithub:
+      "https://github.com/ValentinMadiot/fruits-shop_ui?tab=readme-ov-file",
     isClientProject: true,
     paragraphs: [
       "Actuellement, je développe le site web d'une agence de communication digitale. Le projet inclut une refonte complète du design, incluant la création d'un nouveau logo, afin d'aligner l'image de marque avec les valeurs et les objectifs de l'agence. Ce site sera un outil clé pour l’agence, permettant de gérer le blog de manière autonome grâce à un back-office sur mesure.",
@@ -177,10 +179,10 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    slug: "Animated-Apple-Iphone-3D-Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
+    title: "Construct",
+    slug: "construction-company",
+    des: "Création d'une landing page moderne et minimaliste pour un artisan, développée en HTML, CSS et JavaScript. Enrichie d'animations fluides grâce à ScrollReveal.js.",
+    img: "",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     linkDemo: "",
     linkGithub: "pygmalion-simulator",
@@ -206,7 +208,7 @@ export const projects = [
 
 export const workExperience = [
   {
-   id: 1,
+    id: 1,
     title: "Développeur Web",
     date: "Depuis 2022",
     company: "Freelance ",

@@ -28,7 +28,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   isGridThreeCols,
 }) => {
   return (
-    <div className="relative border border-white/10 rounded-3xl p-5 duration-150 transform hover:scale-105">
+    <div className="relative border border-white/10 rounded-2xl p-5 duration-150 transform hover:scale-105">
       <Link href={`/projects/${slug}`} className="">
         <div className="">
           <ImageProject

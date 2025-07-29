@@ -9,7 +9,7 @@ export default function BackButton(): JSX.Element {
   return (
     <button
       className="flex items-center gap-1 text-lg hover:text-white-100 pb-[2px] cursor-pointer w-fit"
-      onClick={() => router.push("/")}>
+      onClick={() => router.back()}>
       <TbArrowBack />
       <span>Retour</span>
     </button>

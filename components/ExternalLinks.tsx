@@ -15,7 +15,7 @@ const ExternalLinks = ({
       className={`flex items-center text-lg lg:text-base xl:text-lg ${className}`}>
       <a
         href={`https://github.com/ValentinMadiot/${linkGithub}`}
-        target="blank_"
+        target="_blank"
         className="flex justify-center items-center gap-1 hover:text-white-100">
         <FiGithub className="ms-3" color="#7aa0fa" />
         <p>GitHub</p>
@@ -27,7 +27,7 @@ const ExternalLinks = ({
             e.preventDefault();
           }
         }}
-        target="blank_"
+        target="_blank"
         className={`flex justify-center items-center gap-1 ${
           linkDemo === ""
             ? "cursor-not-allowed text-gray-500"
