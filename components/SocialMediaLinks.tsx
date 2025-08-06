@@ -1,5 +1,25 @@
-import { socialMedia } from "@/data";
-import React from "react";
+const socialMedia = [
+  {
+    id: 1,
+    img: "/git.svg",
+    link: "https://github.com/ValentinMadiot",
+  },
+  {
+    id: 2,
+    img: "/link.svg",
+    link: "https://www.linkedin.com/in/valentinmadiot/",
+  },
+  {
+    id: 3,
+    img: "/wha.svg",
+    link: "https://wa.me/33677505531",
+  },
+  {
+    id: 4,
+    img: "/resume.svg",
+    link: "https://cvdesignr.com/p/677c0a3bc8d51?hl=en_GB",
+  },
+];
 
 const SocialMediaLinks = () => {
   return (

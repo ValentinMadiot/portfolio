@@ -1,9 +1,10 @@
+import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
+import { LanguageProvider } from "@/contexts/LanguageContext";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import { ThemeProvider } from "./theme-provider";
 import "./globals.css";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
+import { ThemeProvider } from "./theme-provider";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="fr">
       <body className={inter.className}>
         <ThemeProvider
           attribute="class"
@@ -28,9 +29,11 @@ export default function RootLayout({
           disableTransitionOnChange>
           <main className="relative bg-black-100 flex justify-center items-center flex-col mx-auto sm:px-10 px-5 overflow-clip">
             <div className="max-w-7xl w-full">
-              <Navbar />
-              {children}
-              <Footer />
+              <LanguageProvider>
+                <Navbar />
+                {children}
+                <Footer />
+              </LanguageProvider>
             </div>
           </main>
         </ThemeProvider>

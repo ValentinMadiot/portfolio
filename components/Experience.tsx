@@ -1,12 +1,29 @@
-import { workExperience } from "@/data";
-import React from "react";
 import { Button } from "./ui/MovingBorders";
+
+const workExperience = [
+  {
+    id: 1,
+    title: "Développeur Web",
+    date: "Depuis 2022",
+    company: "Freelance ",
+    location: " Remote",
+    desc: "Je conçois et développe des sites web adaptés aux besoins des particuliers et des petites entreprises, en mettant l'accent sur des designs sur mesure, responsives et intuitifs. Mon travail englobe l'optimisation des performances, le renforcement du référencement naturel (SEO) pour améliorer la visibilité en ligne, ainsi que la production de contenus uniques et conformes aux droits d'auteur. J'offre également des services de création de logos et de gestion des réseaux sociaux, visant à renforcer l'identité de marque et à engager efficacement les audiences dans divers domaines.",
+    className: "md:col-span-2",
+  },
+  {
+    id: 2,
+    title: "Développeur Web",
+    date: "Novembre 2022",
+    company: "OpenClassRooms ",
+    location: " Certificat",
+    desc: "Spécialisé dans le développement frontend et la gestion des APIs backend, allant de leur intégration à leur création sur mesure. Expertise en conception d’applications web responsives, en optimisation des performances et en amélioration de l’expérience utilisateur. Gestion complète de projets, de la planification à la livraison, sous encadrement. Réalisation notable : Groupomania, une plateforme de médias sociaux full-stack développée avec la stack MERN.",
+    className: "md:col-span-2",
+  },
+];
 
 const Experience = () => {
   return (
-    <section
-      className="max-w-6xl mx-auto pt-20"
-      id="experiences">
+    <section className="max-w-6xl mx-auto pt-20" id="experiences">
       <h1 className="heading">
         Mes
         <span className="text-blue"> Experiences</span>

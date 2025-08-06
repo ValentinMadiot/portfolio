@@ -1,9 +1,46 @@
 /* eslint-disable @next/next/no-img-element */
-import { processApproach } from "@/data";
-import React from "react";
 import { Button } from "./ui/MovingBorders";
 
 const Process = () => {
+  const processApproach = [
+    {
+      id: 1,
+      title: "Analyse et Planification",
+      desc: "Dans cette première étape, nous mettons un point d’honneur à bien comprendre vos besoins et vos objectifs. Cela passe par des échanges approfondis pour clarifier vos attentes, identifier les fonctionnalités essentielles et élaborer une stratégie claire et détaillée. En parallèle, nous analysons votre audience cible afin de garantir que le produit final sera en parfaite adéquation avec leurs besoins et vos ambitions.",
+      thumbnail: "/exp3.svg",
+    },
+    {
+      id: 2,
+      title: "Développement",
+      desc: "Forts d’une vision claire de votre projet, nous entamons la phase de conception et développement. Nous créons d’abord des maquettes interactives pour donner vie à vos idées et vous permettre de visualiser le futur produit. Une fois ces maquettes validées, nous entamons le développement en utilisant les technologies les plus performantes et les standards actuels. La collaboration reste au cœur du processus : des points réguliers permettent de recueillir vos retours et d’ajuster le projet en temps réel, afin de garantir que le résultat final correspond parfaitement à vos attentes.",
+      thumbnail: "/exp1.svg",
+    },
+    {
+      id: 3,
+      title: "Livraison et Support",
+      desc: "Lors de cette phase cruciale, nous effectuons des tests rigoureux pour garantir un produit fiable, performant et exempt de bugs. Cela comprend des vérifications approfondies de l’interface utilisateur et des tests de performance pour s’assurer que tout fonctionne de manière optimale. Une fois validé, nous livrons le produit dans les délais convenus. Enfin, nous restons disponibles grâce à un support post-lancement, pour répondre à vos questions ou résoudre rapidement toute problématique qui pourrait survenir.",
+      thumbnail: "/exp2.svg",
+    },
+    // {
+    //   id: 1,
+    //   title: "Découverte et Planification",
+    //   desc: "Lors de cette phase initiale, nous prenons le temps de bien comprendre les besoins et les objectifs de votre projet. Cela inclut des réunions approfondies pour discuter de vos attentes, la définition des fonctionnalités clés, et l'établissement d'un plan d'action détaillé. Nous analysons également votre audience cible pour nous assurer que le produit final répondra à leurs besoins.",
+    //   thumbnail: "/exp3.svg",
+    // },
+    // {
+    //   id: 2,
+    //   title: "Conception et Développement",
+    //   desc: "Avec une compréhension claire de vos besoins, nous passons à la conception et au développement. Cette phase inclut la création de maquettes pour visualiser le produit final. Une fois approuvés, nous procédons au développement en utilisant les meilleures pratiques et technologies modernes. Des revues régulières et des feedbacks sont intégrés pour garantir que le projet progresse selon vos attentes.", // change to md:col-span-2
+    //   thumbnail: "/exp1.svg",
+    // },
+    // {
+    //   id: 3,
+    //   title: "Tests et Livraison",
+    //   desc: "La phase finale consiste à tester minutieusement le produit pour s'assurer qu'il est fonctionnel, performant et sans bugs majeurs. Cela inclut des tests d'interface utilisateur et des vérifications de performance. Après avoir obtenu votre approbation finale, nous procédons à la livraison du produit. Vous bénéficiez également d'un support post-lancement pour résoudre toute question ou problème qui pourrait survenir.", // change to md:col-span-2
+    //   thumbnail: "/exp2.svg",
+    // },
+  ];
+
   return (
     <div className="max-w-6xl mx-auto pt-20 pb-44">
       <h1 className="heading">

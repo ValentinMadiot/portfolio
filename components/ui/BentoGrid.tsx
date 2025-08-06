@@ -7,8 +7,8 @@ import Lottie from "react-lottie";
 
 import animationData from "@/data/confetti.json";
 import { BackgroundGradientAnimation } from "./GradientBg";
-import MagicButton from "./MagicButton";
 import { GlobeDemo } from "./GridGlobe";
+import MagicButton from "./MagicButton";
 
 export const BentoGrid = ({
   className,
@@ -20,7 +20,8 @@ export const BentoGrid = ({
   return (
     <div
       className={cn(
-        "grid grid-cols-1 md:grid-cols-6 lg:grid-cols-5 gap-4 lg:gap-8 max-w-6xl mx-auto",
+        // "grid grid-cols-1 md:grid-cols-6 lg:grid-cols-5 gap-4 lg:gap-8 max-w-6xl mx-auto",
+        "grid grid-cols-1 md:grid-cols-6 lg:grid-cols-5 md:grid-row-7 gap-4 lg:gap-8 mx-auto",
         className
       )}>
       {children}
