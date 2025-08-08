@@ -26,7 +26,7 @@ const ImageProject: React.FC<ImageProjectProps> = ({
               ? "h-full"
               : "h-full xl:h-[360px]"
           }`}>
-          <img src="/bg.png" alt="card background image" />
+          <img src="/assets/bg.png" alt="card background image" />
         </div>
         <img
           src={img}

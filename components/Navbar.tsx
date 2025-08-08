@@ -12,17 +12,17 @@ import { FloatingNav } from "./ui/FloatingNav";
 const navItems = [
   {
     name: "Profil",
-    link: "/#about",
+    link: "#about",
     icon: <PiUser />,
   },
   {
     name: "Projets",
-    link: "/#projects",
+    link: "#projects",
     icon: <PiTrendUp />,
   },
   {
     name: "Contact",
-    link: "/#contact",
+    link: "#contact",
     icon: <PiPaperPlaneTilt />,
   },
   {

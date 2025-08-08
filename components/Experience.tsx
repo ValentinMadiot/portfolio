@@ -7,21 +7,19 @@ const Experience = () => {
   const jobs = [
     {
       id: 1,
-      title: t("job1Title"),
-      date: t("job1Date"),
-      company: t("job1Company"),
-      location: t("job1Location"),
-      desc: t("job1Desc"),
-      className: "md:col-span-2",
+      title: t("job1.title"),
+      date: t("job1.date"),
+      company: t("job1.company"),
+      location: t("job1.location"),
+      desc: t("job1.desc"),
     },
     {
       id: 2,
-      title: t("job2Title"),
-      date: t("job2Date"),
-      company: t("job2Company"),
-      location: t("job2Location"),
-      desc: t("job2Desc"),
-      className: "md:col-span-2",
+      title: t("job2.title"),
+      date: t("job2.date"),
+      company: t("job2.company"),
+      location: t("job2.location"),
+      desc: t("job2.desc"),
     },
   ];
 
@@ -40,7 +38,7 @@ const Experience = () => {
             borderRadius="1.75rem"
             className="flex-1 text-white border-neutral-200 dark:border-slate-800">
             <div className=" flex lg:flex-row flex-col lg:item-center p-3 py-6 md:p-5 lg:p-10 gap-2">
-              <div className="">
+              <div className="md:col-span-2">
                 <h2 className="text-start text-lg lg:text-3xl md:text-2xl font-bold">
                   {jobs.title}
                 </h2>

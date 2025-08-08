@@ -6,21 +6,22 @@ const Process = () => {
   const t = useTranslation("process");
   const steps = [
     {
-      title: t("step1Title"),
-      desc: t("step1Desc"),
-      thumbnail: "/exp3.svg",
+      title: t("step1.title"),
+      desc: t("step1.desc"),
+      thumbnail: "assets/step1.svg",
     },
     {
-      title: t("step2Title"),
-      desc: t("step2Desc"),
-      thumbnail: "/exp1.svg",
+      title: t("step2.title"),
+      desc: t("step2.desc"),
+      thumbnail: "assets/step2.svg",
     },
     {
-      title: t("step3Title"),
-      desc: t("step3Desc"),
-      thumbnail: "/exp2.svg",
+      title: t("step3.title"),
+      desc: t("step3.desc"),
+      thumbnail: "assets/step3.svg",
     },
   ];
+
   return (
     <div className="max-w-6xl mx-auto pt-20 pb-44">
       <h1 className="heading">

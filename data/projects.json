@@ -4,7 +4,12 @@
     "key": "sushi",
     "slug": "sushi-restaurant",
     "img": "",
-    "iconLists": ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    "iconLists": [
+      "/badges/css.svg",
+      "/badges/js.svg",
+      "/badges/scroll.svg",
+      "/badges/netli.svg"
+    ],
     "linkDemo": "https://sushiya-vm.netlify.app/",
     "linkGithub": "sushiya_ui",
     "isGridThreeCols": true,
@@ -15,7 +20,12 @@
     "key": "pizzeria",
     "slug": "pizzeria",
     "img": "",
-    "iconLists": ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    "iconLists": [
+      "/badges/js.svg",
+      "/badges/swiper.svg",
+      "/badges/scroll.svg",
+      "/badges/netli.svg"
+    ],
     "linkDemo": "https://pizzeria-paris.netlify.app/",
     "linkGithub": "pizzeria_ui",
     "isGridThreeCols": true,
@@ -26,7 +36,12 @@
     "key": "fruit",
     "slug": "fruit",
     "img": "",
-    "iconLists": ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    "iconLists": [
+      "/badges/css.svg",
+      "/badges/js.svg",
+      "/badges/scroll.svg",
+      "/badges/netli.svg"
+    ],
     "linkDemo": "https://fruit-shop-vm.netlify.app/",
     "linkGithub": "fruit-shop_ui",
     "isGridThreeCols": true,
@@ -38,11 +53,10 @@
     "slug": "construction",
     "img": "",
     "iconLists": [
-      "/next.svg",
-      "/tail.svg",
-      "/ts.svg",
-      "/three.svg",
-      "/gsap.svg"
+      "/badges/js.svg",
+      "/badges/swiper.svg",
+      "/badges/scroll.svg",
+      "/badges/netli.svg"
     ],
     "linkDemo": "https://construction-company-vm.netlify.app/",
     "linkGithub": "construction-company_ui",
@@ -55,11 +69,10 @@
     "slug": "bakery",
     "img": "",
     "iconLists": [
-      "/next.svg",
-      "/tail.svg",
-      "/ts.svg",
-      "/three.svg",
-      "/gsap.svg"
+      "/badges/css.svg",
+      "/badges/js.svg",
+      "/badges/scroll.svg",
+      "/badges/netli.svg"
     ],
     "linkDemo": "https://bakery-vm.netlify.app/",
     "linkGithub": "bakery_ui",
@@ -72,11 +85,10 @@
     "slug": "salad",
     "img": "",
     "iconLists": [
-      "/next.svg",
-      "/tail.svg",
-      "/ts.svg",
-      "/three.svg",
-      "/gsap.svg"
+      "/badges/css.svg",
+      "/badges/js.svg",
+      "/badges/scroll.svg",
+      "/badges/netli.svg"
     ],
     "linkDemo": "https://salad-shop-vm.netlify.app/",
     "linkGithub": "salad-shop_ui",

@@ -193,33 +193,42 @@ export const fr = {
   experience: {
     sectionTitlePrefix: "Mes",
     sectionTitleSuffix: "Experiences",
-    job1Title: "Développeur Web",
-    job1Date: "Depuis 2022",
-    job1Company: "Freelance",
-    job1Location: "Remote",
-    job1Desc:
-      "Je conçois et développe des sites web adaptés aux besoins des particuliers et des petites entreprises, en mettant l'accent sur des designs sur mesure, responsives et intuitifs. Mon travail englobe l'optimisation des performances, le renforcement du référencement naturel (SEO) pour améliorer la visibilité en ligne, ainsi que la production de contenus uniques et conformes aux droits d'auteur. J'offre également des services de création de logos et de gestion des réseaux sociaux, visant à renforcer l'identité de marque et à engager efficacement les audiences dans divers domaines.",
 
-    job2Title: "Développeur Web",
-    job2Date: "Novembre 2022",
-    job2Company: "OpenClassRooms",
-    job2Location: "Certificat",
-    job2Desc:
-      "Spécialisé dans le développement frontend et la gestion des APIs backend, allant de leur intégration à leur création sur mesure. Expertise en conception d’applications web responsives, en optimisation des performances et en amélioration de l’expérience utilisateur. Gestion complète de projets, de la planification à la livraison, sous encadrement. Réalisation notable : Groupomania, une plateforme de médias sociaux full-stack développée avec la stack MERN.",
+    job1: {
+      title: "Développeur Web",
+      date: "Depuis 2022",
+      company: "Freelance",
+      location: "Remote",
+      desc: "Je conçois et développe des sites web adaptés aux besoins des particuliers et des petites entreprises, en mettant l'accent sur des designs sur mesure, responsives et intuitifs. Mon travail englobe l'optimisation des performances, le renforcement du référencement naturel (SEO) pour améliorer la visibilité en ligne, ainsi que la production de contenus uniques et conformes aux droits d'auteur. J'offre également des services de création de logos et de gestion des réseaux sociaux, visant à renforcer l'identité de marque et à engager efficacement les audiences dans divers domaines.",
+    },
+
+    job2: {
+      title: "Développeur Web",
+      date: "Novembre 2022",
+      company: "OpenClassRooms",
+      location: "Certificat",
+      desc: "Spécialisé dans le développement frontend et la gestion des APIs backend, allant de leur intégration à leur création sur mesure. Expertise en conception d’applications web responsives, en optimisation des performances et en amélioration de l’expérience utilisateur. Gestion complète de projets, de la planification à la livraison, sous encadrement. Réalisation notable : Groupomania, une plateforme de médias sociaux full-stack développée avec la stack MERN.",
+    },
   },
 
   process: {
     titlePrefix: "Mon",
     titleSuffix: "Approche",
-    step1Title: "Analyse et Planification",
-    step1Desc:
-      "Dans cette première étape, nous mettons un point d’honneur à bien comprendre vos besoins et vos objectifs. Cela passe par des échanges approfondis pour clarifier vos attentes, identifier les fonctionnalités essentielles et élaborer une stratégie claire et détaillée. En parallèle, nous analysons votre audience cible afin de garantir que le produit final sera en parfaite adéquation avec leurs besoins et vos ambitions.",
-    step2Title: "Développement",
-    step2Desc:
-      "Forts d’une vision claire de votre projet, nous entamons la phase de conception et développement. Nous créons d’abord des maquettes interactives pour donner vie à vos idées et vous permettre de visualiser le futur produit. Une fois ces maquettes validées, nous entamons le développement en utilisant les technologies les plus performantes et les standards actuels. La collaboration reste au cœur du processus : des points réguliers permettent de recueillir vos retours et d’ajuster le projet en temps réel, afin de garantir que le résultat final correspond parfaitement à vos attentes.",
-    step3Title: "Livraison et Support",
-    step3Desc:
-      "Lors de cette phase cruciale, nous effectuons des tests rigoureux pour garantir un produit fiable, performant et exempt de bugs. Cela comprend des vérifications approfondies de l’interface utilisateur et des tests de performance pour s’assurer que tout fonctionne de manière optimale. Une fois validé, nous livrons le produit dans les délais convenus. Enfin, nous restons disponibles grâce à un support post-lancement, pour répondre à vos questions ou résoudre rapidement toute problématique qui pourrait survenir.",
+
+    step1: {
+      title: "Analyse et Planification",
+      desc: "Dans cette première étape, nous mettons un point d’honneur à bien comprendre vos besoins et vos objectifs. Cela passe par des échanges approfondis pour clarifier vos attentes, identifier les fonctionnalités essentielles et élaborer une stratégie claire et détaillée. En parallèle, nous analysons votre audience cible afin de garantir que le produit final sera en parfaite adéquation avec leurs besoins et vos ambitions.",
+    },
+
+    step2: {
+      title: "Développement",
+      desc: "Forts d’une vision claire de votre projet, nous entamons la phase de conception et développement. Nous créons d’abord des maquettes interactives pour donner vie à vos idées et vous permettre de visualiser le futur produit. Une fois ces maquettes validées, nous entamons le développement en utilisant les technologies les plus performantes et les standards actuels. La collaboration reste au cœur du processus : des points réguliers permettent de recueillir vos retours et d’ajuster le projet en temps réel, afin de garantir que le résultat final correspond parfaitement à vos attentes.",
+    },
+
+    step3: {
+      title: "Livraison et Support",
+      desc: "Lors de cette phase cruciale, nous effectuons des tests rigoureux pour garantir un produit fiable, performant et exempt de bugs. Cela comprend des vérifications approfondies de l’interface utilisateur et des tests de performance pour s’assurer que tout fonctionne de manière optimale. Une fois validé, nous livrons le produit dans les délais convenus. Enfin, nous restons disponibles grâce à un support post-lancement, pour répondre à vos questions ou résoudre rapidement toute problématique qui pourrait survenir.",
+    },
   },
 
   footer: {

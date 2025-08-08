@@ -26,8 +26,7 @@ const Badges: React.FC<BadgesProps> = ({ iconLists }) => {
             (
               e.currentTarget as HTMLDivElement
             ).style.transform = `translateX(-${5 * index * 2}px) scale(1)`;
-          }}
-        >
+          }}>
           <img src={icon} alt={`icon-${index}`} className="p-2" />
         </div>
       ))}

@@ -1,22 +1,22 @@
 const socialMedia = [
   {
     id: 1,
-    img: "/git.svg",
+    img: "/icons/git.svg",
     link: "https://github.com/ValentinMadiot",
   },
   {
     id: 2,
-    img: "/link.svg",
+    img: "/icons/link.svg",
     link: "https://www.linkedin.com/in/valentinmadiot/",
   },
   {
     id: 3,
-    img: "/wha.svg",
+    img: "/icons/wha.svg",
     link: "https://wa.me/33677505531",
   },
   {
     id: 4,
-    img: "/resume.svg",
+    img: "/icons/resume.svg",
     link: "https://cvdesignr.com/p/677c0a3bc8d51?hl=en_GB",
   },
 ];
