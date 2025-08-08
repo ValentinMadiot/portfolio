@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 import React from "react";
 
 type ImageProjectProps = {
@@ -26,14 +25,13 @@ const ImageProject: React.FC<ImageProjectProps> = ({
               : isGridThreeCols
               ? "h-full"
               : "h-full xl:h-[360px]"
-          }`}
-        >
+          }`}>
           <img src="/bg.png" alt="card background image" />
         </div>
         <img
           src={img}
           alt={title}
-          className={`z-10 absolute -bottom-5 md:-bottom-40 min-[900px]:-bottom-52 lg:-bottom-5 w-[85%] sm:w-[80%] rounded-xl ${
+          className={`z-10 absolute center sm:w-[90%] rounded-xl ${
             imgRotate ? "transform rotate-2" : ""
           }`}
         />

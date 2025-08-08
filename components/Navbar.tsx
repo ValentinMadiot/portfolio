@@ -1,5 +1,6 @@
 "use client";
-import { useLanguage, useTranslation } from "@/contexts/LanguageContext";
+import { useLanguage } from "@/context/LanguageContext";
+import { useTranslation } from "@/utils/useTranslation";
 import {
   PiPaperPlaneTilt,
   PiTranslate,
@@ -25,8 +26,7 @@ const navItems = [
     icon: <PiPaperPlaneTilt />,
   },
   {
-    // Cette entrée est un simple placeholder ; son label et son comportement
-    // sont définis dynamiquement dans le composant selon la langue en cours.
+    // Cette entrée est un simple placeholder ; son label et son comportement sont définis dynamiquement dans le composant selon la langue en cours.
     name: "Translate",
     link: "",
     icon: <PiTranslate />,
@@ -34,11 +34,11 @@ const navItems = [
 ];
 
 const Navbar = () => {
-  const { language, setLanguage } = useLanguage();
-  const { t } = useTranslation();
+  const t = useTranslation("navbar");
+  const { lang, setLang } = useLanguage();
 
   // Fonction utilitaire pour changer de langue.
-  const toggleLanguage = () => setLanguage(language === "fr" ? "en" : "fr");
+  const toggleLanguage = () => setLang(lang === "fr" ? "en" : "fr");
 
   // On traduit les 3 premiers items et on personnalise le dernier pour
   // basculer entre EN et FR selon la langue actuelle.
@@ -47,7 +47,7 @@ const Navbar = () => {
     if (isToggle) {
       return {
         ...item,
-        name: language === "fr" ? "FR" : "EN",
+        name: lang === "fr" ? "FR" : "EN",
         onClick: toggleLanguage,
       };
     }
@@ -61,9 +61,7 @@ const Navbar = () => {
     <div className="flex justify-end relative">
       {/* La barre flottante affiche désormais la bascule de langue en dernier */}
       <FloatingNav navItems={navItemsLocalized} />
-      <div className="absolute left-1 top-28 z-40">
-        {/* Vous pouvez ajouter ici d’autres éléments comme vos liens sociaux ou un thème sombre */}
-      </div>
+      <div className="absolute left-1 top-28 z-40"></div>
     </div>
   );
 };

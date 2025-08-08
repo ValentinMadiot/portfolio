@@ -18,7 +18,7 @@ const ExternalLinks = ({
         target="_blank"
         className="flex justify-center items-center gap-1 hover:text-white-100">
         <FiGithub className="ms-3" color="#7aa0fa" />
-        <p>GitHub</p>
+        <p>Code</p>
       </a>
       <a
         href={linkDemo !== "" ? linkDemo : undefined}

@@ -1,5 +1,5 @@
 "use client";
-import { useTranslation } from "@/contexts/LanguageContext";
+import { useTranslation } from "@/utils/useTranslation";
 import Link from "next/link";
 import { PiArrowRight } from "react-icons/pi";
 import SocialMediaLinks from "./SocialMediaLinks";
@@ -9,7 +9,7 @@ import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 
 const Hero = () => {
-  const { t } = useTranslation();
+  const t = useTranslation("hero");
 
   return (
     <div className="h-screen m-auto flex flex-col justify-center md:pt-20 items-center">
@@ -30,20 +30,18 @@ const Hero = () => {
       <div className="flex justify-center relative z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <p className="uppercase tracking-widest text-xs text-center text-lightblue-100 max-w-80">
-            {t("Créateur d’Interfaces Web Uniques")}
+            {t("subheading")}
           </p>
           <TextGenerateEffect
             className="text-center text-3xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-6xl"
-            words={t("Concrétisez vos idées avec des solutions web immersives")}
+            words={t("heading")}
           />
           <p className="text-lightblue-100 text-center tracking-wide md:tracking-wider text-sm md:text-lg max-w-xl sm:max-w-2xl lg:max-w-3xl">
-            {t(
-              "Hi ! Je m’appelle Valentin, développeur front‑end passionné, spécialisé en React, Next.js et WordPress."
-            )}
+            {t("description")}
           </p>
           <Link href="#projects" className="my-10 xl:my-5">
             <MagicButton
-              title={t("Découvrez mes projets")}
+              title={t("cta")}
               icon={<PiArrowRight />}
               position="right"
             />

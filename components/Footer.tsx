@@ -1,19 +1,13 @@
-/* eslint-disable @next/next/no-img-element */
 "use client";
-
-import { useRouter } from "next/navigation";
+import TransitionLink from "@/utils/transitionLinks";
+import { useTranslation } from "@/utils/useTranslation";
 import { FaLocationArrow } from "react-icons/fa";
 import SocialMediaLinks from "./SocialMediaLinks";
 import MagicButton from "./ui/MagicButton";
-// import Link from "next/link";
-import { useTranslation } from "@/contexts/LanguageContext";
-import TransitionLink from "@/utils/transitionLinks";
 
 const Footer = () => {
-  const { t } = useTranslation();
-
+  const t = useTranslation("footer");
   const year = new Date().getFullYear();
-  const router = useRouter();
 
   return (
     <footer className="w-full relative -z-1" id="contact">
@@ -27,17 +21,15 @@ const Footer = () => {
 
       <div className="flex flex-col items-center my-24">
         <h1 className="heading lg:max-w-[45vw]">
-          {t("Ensemble, donnons vie à")}{" "}
-          <span className="text-blue"> {t("vos idées!")}</span>
+          {t("headingPart1")}
+          <span className="text-blue"> {t("headingPart2")}</span>
         </h1>
         <p className="text-blue-100 text-lg md:mt-10 m-5 text-center">
-          {t(
-            "Discutons dès maintenant de la manière dont je peux transformer vos idées en solutions concrètes et innovantes."
-          )}
+          {t("description")}
         </p>
         <a href="mailto:valentin.madiot@gmail.com" className="mb-5">
           <MagicButton
-            title={t("Entrons en contact!")}
+            title={t("contactButton")}
             icon={<FaLocationArrow />}
             position="right"
           />
@@ -56,13 +48,13 @@ const Footer = () => {
             href="/confidentiality"
             aria-label="Politique de confidentialité"
             className="dark:hover:text-blue text-white-200 md:text-base text-sm md:font-normal font-light cursor-pointer">
-            {t("Politique de confidentialité")}
+            {t("privacyPolicy")}
           </TransitionLink>
           <TransitionLink
             href="/legacy"
             aria-label="Mentions légales"
             className="dark:hover:text-blue text-white-200 md:text-base text-sm md:font-normal font-light cursor-pointer">
-            {t("Mentions légales")}
+            {t("legalMentions")}
           </TransitionLink>
         </div>
       </div>

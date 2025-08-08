@@ -1,29 +1,24 @@
 export type Project = {
   id: number;
-  title: string;
+  key: string;
   slug: string;
-  des: string;
   img: string;
   iconLists: string[];
   linkDemo: string;
   linkGithub: string;
-  paragraphs: string[];
-  // paragraphContexte: string[];
-  // paragraphSolution: string[];
-  // paragraphResultat: string[];
-  // paragraphTechno: string[];
-  features: string[];
+  isGridThreeCols?: boolean;
   isClientProject: boolean;
 };
 
-export const findProjectBySlug = (
-  array: Project[],
+// Recherche un élément par son slug dans un tableau générique
+export const findProjectBySlug = <T extends { slug: string }>(
+  array: T[],
   slug: string | string[] | undefined
-): Project | undefined => {
-  return array.find((arrayItem) => arrayItem.slug === slug);
+): T | undefined => {
+  return array.find((item) => item.slug === slug);
 };
 
-// Fonction pour mettre la première lettre en majuscule
+// Fonction utilitaire pour mettre la première lettre en majuscule
 export const capitalizeFirstLetter = (str: string) => {
   return str.charAt(0).toUpperCase() + str.slice(1);
 };

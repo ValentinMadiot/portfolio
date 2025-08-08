@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "key": "sushi",
+    "slug": "sushi-restaurant",
+    "img": "",
+    "iconLists": ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    "linkDemo": "https://sushiya-vm.netlify.app/",
+    "linkGithub": "sushiya_ui",
+    "isGridThreeCols": true,
+    "isClientProject": true
+  },
+  {
+    "id": 2,
+    "key": "pizzeria",
+    "slug": "pizzeria",
+    "img": "",
+    "iconLists": ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    "linkDemo": "https://pizzeria-paris.netlify.app/",
+    "linkGithub": "pizzeria_ui",
+    "isGridThreeCols": true,
+    "isClientProject": true
+  },
+  {
+    "id": 3,
+    "key": "fruit",
+    "slug": "fruit",
+    "img": "",
+    "iconLists": ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    "linkDemo": "https://fruit-shop-vm.netlify.app/",
+    "linkGithub": "fruit-shop_ui",
+    "isGridThreeCols": true,
+    "isClientProject": true
+  },
+  {
+    "id": 4,
+    "key": "construction",
+    "slug": "construction",
+    "img": "",
+    "iconLists": [
+      "/next.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/three.svg",
+      "/gsap.svg"
+    ],
+    "linkDemo": "https://construction-company-vm.netlify.app/",
+    "linkGithub": "construction-company_ui",
+    "isGridThreeCols": true,
+    "isClientProject": true
+  },
+  {
+    "id": 5,
+    "key": "bakery",
+    "slug": "bakery",
+    "img": "",
+    "iconLists": [
+      "/next.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/three.svg",
+      "/gsap.svg"
+    ],
+    "linkDemo": "https://bakery-vm.netlify.app/",
+    "linkGithub": "bakery_ui",
+    "isGridThreeCols": true,
+    "isClientProject": true
+  },
+  {
+    "id": 6,
+    "key": "salad",
+    "slug": "salad",
+    "img": "",
+    "iconLists": [
+      "/next.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/three.svg",
+      "/gsap.svg"
+    ],
+    "linkDemo": "https://salad-shop-vm.netlify.app/",
+    "linkGithub": "salad-shop_ui",
+    "isGridThreeCols": true,
+    "isClientProject": true
+  }
+]

@@ -1,6 +1,6 @@
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
-import { LanguageProvider } from "@/contexts/LanguageContext";
+import { LanguageProvider } from "@/context/LanguageContext";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";

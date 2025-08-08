@@ -2,10 +2,10 @@
 import BackButton from "@/components/BackButton";
 import { DotBackgroundDemo } from "@/components/ui/DotBackgroundDemo";
 import { Spotlight } from "@/components/ui/Spotlight";
-import { useTranslation } from "@/contexts/LanguageContext";
+import { useTranslation } from "@/utils/useTranslation";
 
 const Legacy = () => {
-  const { t } = useTranslation();
+  const t = useTranslation("legacy");
 
   return (
     <>
@@ -28,120 +28,106 @@ const Legacy = () => {
           <BackButton />
           <div className="flex flex-col gap-6 pb-8 sm:pb-16">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold">
-              {t("Mentions Légales")}
+              {t("title")}
             </h2>
-            <p className="flex gap-1 text-lg">
-              📅 {t("Date de mise à jour : 01 janvier 2025")}
-            </p>
+            <p className="flex gap-1 text-lg">📅 {t("updateDate")}</p>
             <h3 className="text-2xl sm:text-3xl font-bold text-lightblue-200">
-              {t("Informations Générales")}
+              {t("generalInfoHeading")}
             </h3>
             <ul>
               <li className="flex flex-col gap-6 text-lg mb-2">
                 &nbsp;&nbsp;&nbsp;➤&nbsp;&nbsp;&nbsp;
-                {t("Raison sociale : VALENTIN MADIOT")}
+                {t("companyName")}
               </li>
               <li className="flex flex-col gap-6 text-lg mb-2">
                 &nbsp;&nbsp;&nbsp;➤&nbsp;&nbsp;&nbsp;
-                {t("Forme juridique : Entreprise individuelle (EI)")}
+                {t("legalForm")}
               </li>
               <li className="flex flex-col gap-6 text-lg mb-2">
                 &nbsp;&nbsp;&nbsp;➤&nbsp;&nbsp;&nbsp;
-                {t("Siège social : 3 ter rue Chevreul, 49630 Mazé, France")}
+                {t("headOffice")}
               </li>
               <li className="flex flex-col gap-6 text-lg mb-2">
                 &nbsp;&nbsp;&nbsp;➤&nbsp;&nbsp;&nbsp;
-                {t("Numéro SIREN : 922 188 446")}
+                {t("sirenNumber")}
               </li>
             </ul>
             <h3 className="text-2xl sm:text-3xl font-bold text-lightblue-200">
-              {t("Contact")}
+              {t("contactHeading")}
             </h3>
             <ul>
               <li className="flex flex-col gap-6 text-lg mb-2">
                 &nbsp;&nbsp;&nbsp;📧&nbsp;&nbsp;
-                {t("Email : valentin.madiot@gmail.com")}
+                {t("email")}
               </li>
               <li className="flex flex-col gap-6 text-lg mb-2">
                 &nbsp;&nbsp;&nbsp;📞&nbsp;&nbsp;
-                {t("Téléphone : +33 6 77 50 55 31")}
+                {t("phone")}
               </li>
               <li className="flex flex-col gap-6 text-lg mb-2">
                 &nbsp;&nbsp;&nbsp;🌐&nbsp;&nbsp;
-                {t("Site web : valentinmadiot.com")}
+                {t("website")}
               </li>
             </ul>
 
             <h3 className="text-2xl sm:text-3xl font-bold text-lightblue-200">
-              {t("Hébergeur du Site")}
+              {t("hostingHeading")}
             </h3>
             <ul>
               <li className="flex flex-col gap-6 text-lg mb-2">
                 &nbsp;&nbsp;&nbsp;➤&nbsp;&nbsp;&nbsp;
-                {t("Nom de l’hébergeur : Hostinger")}
+                {t("hostName")}
               </li>
               <li className="flex flex-col gap-6 text-lg mb-2">
                 &nbsp;&nbsp;&nbsp;➤&nbsp;&nbsp;&nbsp;
-                {t("Adresse : UAB. Jonavos g. 60C, 44192. Vilnius, Lituanie")}
+                {t("hostAddress")}
               </li>
               <li className="flex flex-col gap-6 text-lg mb-2">
                 &nbsp;&nbsp;&nbsp;➤&nbsp;&nbsp;&nbsp;
-                {t("Téléphone : +370 645 03378")}
+                {t("hostPhone")}
               </li>
               <li className="flex flex-col gap-6 text-lg mb-2">
                 &nbsp;&nbsp;&nbsp;➤&nbsp;&nbsp;&nbsp;
-                {t("Site web : domains@hostinger.com.")}
+                {t("hostWebsite")}
               </li>
             </ul>
 
             <h3 className="text-2xl sm:text-3xl font-bold text-lightblue-200">
-              {t("Propriété Intellectuelle")}
+              {t("intellectualPropertyHeading")}
             </h3>
             <p className="flex flex-col gap-6 text-lg">
-              {t(
-                "L’ensemble du contenu présent sur ce site (textes, images, logos, graphiques, etc.) est la propriété exclusive de M. Valentin Madiot, sauf indication contraire."
-              )}
+              {t("intellectualPropertyParagraph1")}
             </p>
             <p className="flex flex-col gap-6 text-lg">
               &nbsp;&nbsp;&nbsp;❌&nbsp;&nbsp;{" "}
-              {t(
-                "Toute reproduction, modification, distribution ou exploitation, totale ou partielle, sans autorisation écrite préalable est strictement interdite et pourra faire l’objet de poursuites judiciaires."
-              )}
+              {t("intellectualPropertyParagraph2")}
             </p>
             <h3 className="text-2xl sm:text-3xl font-bold text-lightblue-200">
-              {t("Responsabilités")}
+              {t("responsibilitiesHeading")}
             </h3>
             <p className="flex flex-col gap-6 text-lg">
-              {t(
-                "Nous nous efforçons de garantir l’exactitude et la mise à jour des informations disponibles sur ce site. Toutefois, nous ne pouvons être tenus responsables des éventuelles erreurs, interruptions ou dysfonctionnements qui pourraient survenir lors de son utilisation."
-              )}
+              {t("responsibilitiesParagraph1")}
             </p>
             <p className="flex flex-col gap-6 text-lg">
               &nbsp;&nbsp;&nbsp;➤&nbsp;&nbsp;&nbsp;
-              {t(
-                "Liens externes : Ce site peut contenir des liens vers des plateformes tierces. Nous ne contrôlons pas leur contenu et déclinons toute responsabilité quant aux informations, services ou pratiques qu’elles proposent."
-              )}
+              {t("responsibilitiesParagraph2")}
             </p>
             <h3 className="text-2xl sm:text-3xl font-bold text-lightblue-200">
-              {t("Juridiction & Droit Applicable")}
+              {t("jurisdictionHeading")}
             </h3>
             <p className="flex flex-col gap-6 text-lg">
-              {t(
-                "Ce site est administré par M. Valentin Madiot, basé en France. En naviguant sur ce site, vous acceptez de vous conformer aux lois françaises en vigueur."
-              )}
+              {t("jurisdictionParagraph")}
             </p>
 
             <h3 className="text-2xl sm:text-3xl font-bold text-lightblue-200">
-              {t("Contact")}
+              {t("finalContactHeading")}
             </h3>
             <p className="flex flex-col gap-6 text-lg">
-              {t(
-                "Pour toute question ou demande, n’hésitez pas à nous contacter :"
-              )}
+              {t("finalContactIntro")}
             </p>
             <ul>
               <li className="flex gap-1 text-lg mb-5">
-                &nbsp;&nbsp;&nbsp;📧 {t("Email : valentin.madiot@gmail.com")}
+                &nbsp;&nbsp;&nbsp;📧 {t("finalContactEmail")}
               </li>
             </ul>
           </div>
