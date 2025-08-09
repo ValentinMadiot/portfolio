@@ -804,7 +804,7 @@
       "/badges/cloudinary.svg"
     ],
     "linkDemo": "https://groupomania-vm.vercel.app/signup",
-    "linkGithub": "https://github.com/ValentinMadiot/groupomania-social_api",
+    "linkGithub": "groupomania-social_api",
     "isGridThreeCols": true,
     "isClientProject": false
   },
@@ -821,7 +821,7 @@
       "/badges/cloudinary.svg"
     ],
     "linkDemo": "https://piquante-sauces.vercel.app/signup",
-    "linkGithub": "https://github.com/ValentinMadiot/piquante-sauces_api",
+    "linkGithub": "piquante-sauces_api",
     "isGridThreeCols": true,
     "isClientProject": false
   },
@@ -833,7 +833,7 @@
     "img": "/projects/kanap-preview.png",
     "iconLists": ["/badges/css.svg", "/badges/js.svg", "/badges/node.svg"],
     "linkDemo": "https://kanap-vm.vercel.app/",
-    "linkGithub": "https://github.com/ValentinMadiot/kanap-ecommerce_api",
+    "linkGithub": "kanap-ecommerce_api",
     "isGridThreeCols": true,
     "isClientProject": false
   }
