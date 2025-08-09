@@ -1,5 +1,5 @@
 import Footer from "@/components/Footer";
-import Navbar from "@/components/Navbar";
+// import Navbar from "@/components/Navbar";
 import { LanguageProvider } from "@/context/LanguageContext";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
@@ -30,7 +30,7 @@ export default function RootLayout({
           <main className="relative bg-black-100 flex justify-center items-center flex-col mx-auto sm:px-10 px-5 overflow-clip">
             <div className="max-w-7xl w-full">
               <LanguageProvider>
-                <Navbar />
+                {/* <Navbar /> */}
                 {children}
                 <Footer />
               </LanguageProvider>
