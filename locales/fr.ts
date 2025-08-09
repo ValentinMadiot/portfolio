@@ -33,7 +33,7 @@ export const fr = {
 
     title4: "Apprenez-en plus sur moi !",
 
-    btn1: "Parcourez mon CV",
+    btnCv: "Parcourez mon CV",
   },
 
   projects: {

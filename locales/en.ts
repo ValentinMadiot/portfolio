@@ -32,6 +32,8 @@ export const en = {
       "No matter your time zone, I make sure to be available and responsive to your needs",
 
     title4: "Learn more about me!",
+
+    btnCv: "Review my CV",
   },
 
   projects: {
@@ -193,33 +195,42 @@ export const en = {
   experience: {
     sectionTitlePrefix: "My",
     sectionTitleSuffix: "Experience",
-    job1Title: "Web Developer",
-    job1Date: "Since 2022",
-    job1Company: "Freelance",
-    job1Location: "Remote",
-    job1Desc:
-      "I design and develop websites tailored to individuals and small businesses, with a focus on custom, responsive, and intuitive interfaces. My work includes performance optimization, SEO for better visibility, and the production of unique, compliant content. I also offer logo design and social media support to strengthen brand identity and engagement.",
 
-    job2Title: "Web Developer",
-    job2Date: "November 2022",
-    job2Company: "OpenClassRooms",
-    job2Location: "Certificate",
-    job2Desc:
-      "Specialized in frontend development and backend API integration/creation. Expertise in building responsive web apps, performance optimization, and improving user experience. Full project ownership from planning to delivery, under supervision. Notable work: Groupomania, a full-stack social media platform built with the MERN stack.",
+    job1: {
+      title: "Web Developer",
+      date: "Since 2022",
+      company: "Freelance",
+      location: "Remote",
+      desc: "I design and develop websites tailored to individuals and small businesses, with a focus on custom, responsive, and intuitive interfaces. My work includes performance optimization, SEO for better visibility, and the production of unique, compliant content. I also offer logo design and social media support to strengthen brand identity and engagement.",
+    },
+
+    job2: {
+      title: "Web Developer",
+      date: "November 2022",
+      company: "OpenClassRooms",
+      location: "Certificate",
+      desc: "Specialized in frontend development and backend API integration/creation. Expertise in building responsive web apps, performance optimization, and improving user experience. Full project ownership from planning to delivery, under supervision. Notable work: Groupomania, a full-stack social media platform built with the MERN stack.",
+    },
   },
 
   process: {
     titlePrefix: "My",
     titleSuffix: "Approach",
-    step1Title: "Analysis & Planning",
-    step1Desc:
-      "We start by deeply understanding your needs and objectives. Through structured discussions, we clarify expectations, identify essential features, and define a clear strategy. We also analyze your target audience to ensure the final product aligns with user needs and your goals.",
-    step2Title: "Development",
-    step2Desc:
-      "With a clear vision, we move into design and development. We begin with interactive mockups to bring ideas to life, then implement using proven technologies and modern standards. Collaboration is key: regular checkpoints allow for feedback and iteration, ensuring the result matches your expectations.",
-    step3Title: "Delivery & Support",
-    step3Desc:
-      "Before launch, we run rigorous tests to ensure a reliable, high-performance, bug-free product. This includes UI checks and performance tests. Once validated, we deliver on schedule and remain available with post-launch support for any questions or fixes.",
+
+    step1: {
+      title: "Analysis & Planning",
+      desc: "We start by deeply understanding your needs and objectives. Through structured discussions, we clarify expectations, identify essential features, and define a clear strategy. We also analyze your target audience to ensure the final product aligns with user needs and your goals.",
+    },
+
+    step2: {
+      title: "Development",
+      desc: "With a clear vision, we move into design and development. We begin with interactive mockups to bring ideas to life, then implement using proven technologies and modern standards. Collaboration is key: regular checkpoints allow for feedback and iteration, ensuring the result matches your expectations.",
+    },
+
+    step3: {
+      title: "Delivery & Support",
+      desc: "Before launch, we run rigorous tests to ensure a reliable, high-performance, bug-free product. This includes UI checks and performance tests. Once validated, we deliver on schedule and remain available with post-launch support for any questions or fixes.",
+    },
   },
 
   footer: {

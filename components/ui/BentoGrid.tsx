@@ -188,7 +188,7 @@ export const BentoGridItem = ({
               </div>
 
               <MagicButton
-                title={t("btn1")}
+                title={t("btnCv")}
                 icon={<AiOutlineSolution />}
                 position="left"
                 handleClick={handleCopy}
