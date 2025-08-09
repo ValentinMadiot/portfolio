@@ -2,34 +2,34 @@
 import { useLanguage } from "@/context/LanguageContext";
 import { useTranslation } from "@/utils/useTranslation";
 import {
-  PiPaperPlaneTilt,
-  PiTranslate,
-  PiTrendUp,
-  PiUser,
-} from "react-icons/pi";
+  AiOutlineRise,
+  AiOutlineSend,
+  AiOutlineTranslation,
+  AiOutlineUser,
+} from "react-icons/ai";
 import { FloatingNav } from "./ui/FloatingNav";
 
 const navItems = [
   {
     name: "Profil",
     link: "#about",
-    icon: <PiUser />,
+    icon: <AiOutlineUser />,
   },
   {
     name: "Projets",
     link: "#projects",
-    icon: <PiTrendUp />,
+    icon: <AiOutlineRise />,
   },
   {
     name: "Contact",
     link: "#contact",
-    icon: <PiPaperPlaneTilt />,
+    icon: <AiOutlineSend />,
   },
   {
     // Cette entrée est un simple placeholder ; son label et son comportement sont définis dynamiquement dans le composant selon la langue en cours.
     name: "Translate",
     link: "",
-    icon: <PiTranslate />,
+    icon: <AiOutlineTranslation />,
   },
 ];
 

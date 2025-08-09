@@ -1,6 +1,6 @@
 "use client";
 import { useTranslation } from "@/utils/useTranslation";
-import { PiCheckCircle } from "react-icons/pi";
+import { AiOutlineCheckCircle } from "react-icons/ai";
 import ExternalLinks from "../ExternalLinks";
 import Badges from "./Badges";
 import ImageProject from "./ImageProject";
@@ -70,7 +70,7 @@ export const ProjectDescription = ({
           {features?.map((feature, index) => (
             <li key={index} className="flex items-start sm:items-center gap-2">
               <div className="sm:pt-0">
-                <PiCheckCircle className="text-lightblue-200 text-xl" />
+                <AiOutlineCheckCircle className="text-lightblue-200 text-xl" />
               </div>
               <p className="leading-5 text-white-100">{feature}</p>
             </li>

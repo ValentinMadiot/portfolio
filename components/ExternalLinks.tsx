@@ -1,5 +1,5 @@
 "use client";
-import { FiExternalLink, FiGithub } from "react-icons/fi";
+import { AiOutlineGithub, AiOutlineLogout } from "react-icons/ai";
 
 const ExternalLinks = ({
   linkDemo,
@@ -17,7 +17,7 @@ const ExternalLinks = ({
         href={`https://github.com/ValentinMadiot/${linkGithub}`}
         target="_blank"
         className="flex justify-center items-center gap-1 hover:text-white-100">
-        <FiGithub className="ms-3" color="#7aa0fa" />
+        <AiOutlineGithub className="ms-3" color="#7aa0fa" />
         <p>Code</p>
       </a>
       <a
@@ -33,7 +33,7 @@ const ExternalLinks = ({
             ? "cursor-not-allowed text-gray-500"
             : "hover:text-white-100"
         }`}>
-        <FiExternalLink className="ms-3" color="#7aa0fa" />
+        <AiOutlineLogout className="ms-3" color="#7aa0fa" />
         <p>Demo</p>
       </a>
     </div>

@@ -1,7 +1,7 @@
 "use client";
 import TransitionLink from "@/utils/transitionLinks";
 import { useTranslation } from "@/utils/useTranslation";
-import { FaLocationArrow } from "react-icons/fa";
+import { AiOutlineMail } from "react-icons/ai";
 import SocialMediaLinks from "./SocialMediaLinks";
 import MagicButton from "./ui/MagicButton";
 
@@ -30,7 +30,7 @@ const Footer = () => {
         <a href="mailto:valentin.madiot@gmail.com" className="mb-5">
           <MagicButton
             title={t("contactButton")}
-            icon={<FaLocationArrow />}
+            icon={<AiOutlineMail />}
             position="right"
           />
         </a>

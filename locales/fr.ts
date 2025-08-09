@@ -32,6 +32,8 @@ export const fr = {
       "Peu importe votre fuseau horaire, je m’assure d’être disponible pour répondre à vos besoins",
 
     title4: "Apprenez-en plus sur moi !",
+
+    btn1: "Parcourez mon CV",
   },
 
   projects: {

@@ -1,8 +1,9 @@
 "use client";
 import { useState } from "react";
-import { GrDocumentUser } from "react-icons/gr";
+import { AiOutlineSolution } from "react-icons/ai";
 
 import { cn } from "@/lib/utils";
+import { useTranslation } from "@/utils/useTranslation";
 import Lottie from "react-lottie";
 
 import animationData from "@/data/confetti.json";
@@ -52,6 +53,8 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
+  const t = useTranslation("grid");
+
   const leftLists = ["React.js", "Next.js", "Typescript", "Tailwind", "Vercel"];
   const rightLists = ["Node.js", "Express", "MongoDB", "PostgreSQL", "GraphQL"];
 
@@ -185,11 +188,10 @@ export const BentoGridItem = ({
               </div>
 
               <MagicButton
-                title={"Parcourez mon CV"}
-                icon={<GrDocumentUser />}
+                title={t("btn1")}
+                icon={<AiOutlineSolution />}
                 position="left"
                 handleClick={handleCopy}
-                otherClasses="!bg-[#161A31]"
               />
             </div>
           )}

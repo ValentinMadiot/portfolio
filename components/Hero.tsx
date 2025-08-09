@@ -1,7 +1,7 @@
 "use client";
 import { useTranslation } from "@/utils/useTranslation";
 import Link from "next/link";
-import { PiArrowRight } from "react-icons/pi";
+import { AiOutlineArrowRight } from "react-icons/ai";
 import SocialMediaLinks from "./SocialMediaLinks";
 import { DotBackgroundDemo } from "./ui/DotBackgroundDemo";
 import MagicButton from "./ui/MagicButton";
@@ -39,10 +39,10 @@ const Hero = () => {
           <p className="text-lightblue-100 text-center tracking-wide md:tracking-wider text-sm md:text-lg max-w-xl sm:max-w-2xl lg:max-w-3xl">
             {t("description")}
           </p>
-          <Link href="#projects" className="my-10 xl:my-5">
+          <Link href="#projects" className="my-10 xl:my-5 ">
             <MagicButton
               title={t("cta")}
-              icon={<PiArrowRight />}
+              icon={<AiOutlineArrowRight />}
               position="right"
             />
           </Link>
