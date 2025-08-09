@@ -3,7 +3,7 @@
     "id": 1,
     "key": "sushi",
     "slug": "sushi-restaurant",
-    "img": "",
+    "img": "/projects/sushiya-preview.png",
     "iconLists": [
       "/badges/css.svg",
       "/badges/js.svg",
@@ -15,11 +15,12 @@
     "isGridThreeCols": true,
     "isClientProject": true
   },
+
   {
     "id": 2,
     "key": "pizzeria",
     "slug": "pizzeria",
-    "img": "",
+    "img": "/projects/pizzeria-preview.png",
     "iconLists": [
       "/badges/js.svg",
       "/badges/swiper.svg",
@@ -31,11 +32,12 @@
     "isGridThreeCols": true,
     "isClientProject": true
   },
+
   {
     "id": 3,
     "key": "fruit",
     "slug": "fruit",
-    "img": "",
+    "img": "/projects/fruit-preview.png",
     "iconLists": [
       "/badges/css.svg",
       "/badges/js.svg",
@@ -47,11 +49,12 @@
     "isGridThreeCols": true,
     "isClientProject": true
   },
+
   {
     "id": 4,
     "key": "construction",
     "slug": "construction",
-    "img": "",
+    "img": "/projects/construction-preview.png",
     "iconLists": [
       "/badges/js.svg",
       "/badges/swiper.svg",
@@ -63,11 +66,12 @@
     "isGridThreeCols": true,
     "isClientProject": true
   },
+
   {
     "id": 5,
     "key": "bakery",
     "slug": "bakery",
-    "img": "",
+    "img": "/projects/bakery-preview.png",
     "iconLists": [
       "/badges/css.svg",
       "/badges/js.svg",
@@ -79,11 +83,12 @@
     "isGridThreeCols": true,
     "isClientProject": true
   },
+
   {
     "id": 6,
     "key": "salad",
     "slug": "salad",
-    "img": "",
+    "img": "/projects/salad-preview.png",
     "iconLists": [
       "/badges/css.svg",
       "/badges/js.svg",
@@ -94,5 +99,742 @@
     "linkGithub": "salad-shop_ui",
     "isGridThreeCols": true,
     "isClientProject": true
+  },
+
+  {
+    "id": 7,
+    "key": "burger",
+    "slug": "burger-restaurant",
+    "img": "/projects/burger-preview.png",
+    "iconLists": [
+      "/badges/css.svg",
+      "/badges/js.svg",
+      "/badges/scroll.svg",
+      "/badges/netli.svg"
+    ],
+    "linkDemo": "https://burger-restaurant-vm.netlify.app/",
+    "linkGithub": "burger-restaurant_ui",
+    "isGridThreeCols": true,
+    "isClientProject": true
+  },
+
+  {
+    "id": 8,
+    "key": "chips",
+    "slug": "chips-shop",
+    "img": "/projects/chips-preview.png",
+    "iconLists": [
+      "/badges/css.svg",
+      "/badges/js.svg",
+      "/badges/swiper.svg",
+      "/badges/scroll.svg",
+      "/badges/netli.svg"
+    ],
+    "linkDemo": "https://chips-shop-vm.netlify.app/",
+    "linkGithub": "chips-shop_ui",
+    "isGridThreeCols": true,
+    "isClientProject": true
+  },
+
+  {
+    "id": 9,
+    "key": "clothing",
+    "slug": "clothing-store",
+    "img": "/projects/clothing1-preview.png",
+    "iconLists": [
+      "/badges/css.svg",
+      "/badges/js.svg",
+      "/badges/swiper.svg",
+      "/badges/scroll.svg",
+      "/badges/netli.svg"
+    ],
+    "linkDemo": "https://clothing-store-vm.netlify.app/",
+    "linkGithub": "clothing-store_ui",
+    "isGridThreeCols": true,
+    "isClientProject": true
+  },
+
+  {
+    "id": 10,
+    "key": "coffee1",
+    "slug": "coffee-shop-1",
+    "img": "/projects/coffee-1-preview.png",
+    "iconLists": ["/badges/css.svg", "/badges/js.svg", "/badges/netli.svg"],
+    "linkDemo": "https://coffee-shop-1-vm.netlify.app/",
+    "linkGithub": "coffee-shop-1_ui",
+    "isGridThreeCols": true,
+    "isClientProject": true
+  },
+
+  {
+    "id": 11,
+    "key": "coffee2",
+    "slug": "coffee-shop-2",
+    "img": "/projects/coffee-2-preview.png",
+    "iconLists": [
+      "/badges/css.svg",
+      "/badges/js.svg",
+      "/badges/scroll.svg",
+      "/badges/netli.svg"
+    ],
+    "linkDemo": "https://coffee-shop-2-vm.netlify.app/",
+    "linkGithub": "coffee-shop-2_ui",
+    "isGridThreeCols": true,
+    "isClientProject": true
+  },
+
+  {
+    "id": 12,
+    "key": "coffee3",
+    "slug": "coffee-shop-3",
+    "img": "/projects/coffee-3-preview.png",
+    "iconLists": [
+      "/badges/css.svg",
+      "/badges/js.svg",
+      "/badges/swiper.svg",
+      "/badges/scroll.svg",
+      "/badges/netli.svg"
+    ],
+    "linkDemo": "https://coffee-shop-3-vm.netlify.app/",
+    "linkGithub": "coffee-shop-3_ui",
+    "isGridThreeCols": true,
+    "isClientProject": true
+  },
+
+  {
+    "id": 13,
+    "key": "delivery",
+    "slug": "delivery-service",
+    "img": "/projects/delivery-preview.png",
+    "iconLists": [
+      "/badges/css.svg",
+      "/badges/js.svg",
+      "/badges/scroll.svg",
+      "/badges/netli.svg"
+    ],
+    "linkDemo": "https://delivery-service-vm.netlify.app/",
+    "linkGithub": "delivery-service_ui",
+    "isGridThreeCols": true,
+    "isClientProject": true
+  },
+
+  {
+    "id": 14,
+    "key": "electric",
+    "slug": "electric-car-store",
+    "img": "/projects/electric-preview.png",
+    "iconLists": [
+      "/badges/css.svg",
+      "/badges/js.svg",
+      "/badges/swiper.svg",
+      "/badges/scroll.svg",
+      "/badges/netli.svg"
+    ],
+    "linkDemo": "https://electric-car-store-vm.netlify.app/",
+    "linkGithub": "electric-car-store_ui",
+    "isGridThreeCols": true,
+    "isClientProject": true
+  },
+
+  {
+    "id": 15,
+    "key": "fitness",
+    "slug": "fitness-center",
+    "img": "/projects/fitness-preview.png",
+    "iconLists": [
+      "/badges/css.svg",
+      "/badges/js.svg",
+      "/badges/mailchimp.svg",
+      "/badges/scroll.svg",
+      "/badges/netli.svg"
+    ],
+    "linkDemo": "https://fitness-center-vm.netlify.app/",
+    "linkGithub": "fitness-center_ui",
+    "isGridThreeCols": true,
+    "isClientProject": true
+  },
+
+  {
+    "id": 16,
+    "key": "chicken",
+    "slug": "fried-chicken-shop",
+    "img": "/projects/fried-chicken-preview.png",
+    "iconLists": [
+      "/badges/css.svg",
+      "/badges/js.svg",
+      "/badges/scroll.svg",
+      "/badges/netli.svg"
+    ],
+    "linkDemo": "https://fried-chicken-shop-vm.netlify.app/",
+    "linkGithub": "fried-chicken-shop_ui",
+    "isGridThreeCols": true,
+    "isClientProject": true
+  },
+
+  {
+    "id": 17,
+    "key": "aventador",
+    "slug": "gasoline-car-store",
+    "img": "/projects/gasoline-car-preview.png",
+    "iconLists": [
+      "/badges/css.svg",
+      "/badges/js.svg",
+      "/badges/swiper.svg",
+      "/badges/scroll.svg",
+      "/badges/netli.svg"
+    ],
+    "linkDemo": "https://gasoline-car-store-vm.netlify.app/",
+    "linkGithub": "gasoline-car-store_ui",
+    "isGridThreeCols": true,
+    "isClientProject": true
+  },
+
+  {
+    "id": 18,
+    "key": "halloween",
+    "slug": "halloween-store",
+    "img": "/projects/halloween1-preview.png",
+    "iconLists": [
+      "/badges/css.svg",
+      "/badges/js.svg",
+      "/badges/scroll.svg",
+      "/badges/netli.svg"
+    ],
+    "linkDemo": "https://halloween-store-vm.netlify.app/",
+    "linkGithub": "halloween-store_ui",
+    "isGridThreeCols": true,
+    "isClientProject": true
+  },
+
+  {
+    "id": 19,
+    "key": "headphones",
+    "slug": "headphones-store",
+    "img": "/projects/headphones-preview.png",
+    "iconLists": [
+      "/badges/css.svg",
+      "/badges/js.svg",
+      "/badges/swiper.svg",
+      "/badges/scroll.svg",
+      "/badges/netli.svg"
+    ],
+    "linkDemo": "https://headphones-store-vm.netlify.app/",
+    "linkGithub": "headphones-store_ui",
+    "isGridThreeCols": true,
+    "isClientProject": true
+  },
+
+  {
+    "id": 20,
+    "key": "lighting",
+    "slug": "lighting-store",
+    "img": "/projects/lighting-preview.png",
+    "iconLists": [
+      "/badges/css.svg",
+      "/badges/js.svg",
+      "/badges/swiper.svg",
+      "/badges/scroll.svg",
+      "/badges/netli.svg"
+    ],
+    "linkDemo": "https://lighting-store-vm.netlify.app/",
+    "linkGithub": "lighting-store_ui",
+    "isGridThreeCols": true,
+    "isClientProject": true
+  },
+
+  {
+    "id": 21,
+    "key": "plant",
+    "slug": "plant-shop",
+    "img": "/projects/plant-preview.png",
+    "iconLists": [
+      "/badges/css.svg",
+      "/badges/js.svg",
+      "/badges/scroll.svg",
+      "/badges/netli.svg"
+    ],
+    "linkDemo": "https://plant-shop-vm.netlify.app/",
+    "linkGithub": "plant-shop_ui",
+    "isGridThreeCols": true,
+    "isClientProject": true
+  },
+
+  {
+    "id": 22,
+    "key": "realestate",
+    "slug": "real-estate-agency",
+    "img": "/projects/real-estate-preview.png",
+    "iconLists": [
+      "/badges/css.svg",
+      "/badges/js.svg",
+      "/badges/swiper.svg",
+      "/badges/scroll.svg",
+      "/badges/netli.svg"
+    ],
+    "linkDemo": "https://real-estate-agency-vm.netlify.app/",
+    "linkGithub": "real-estate-agency_ui",
+    "isGridThreeCols": true,
+    "isClientProject": true
+  },
+
+  {
+    "id": 23,
+    "key": "sneakers",
+    "slug": "shoe-store",
+    "img": "/projects/shoe-preview.png",
+    "iconLists": [
+      "/badges/css.svg",
+      "/badges/js.svg",
+      "/badges/swiper.svg",
+      "/badges/scroll.svg",
+      "/badges/netli.svg"
+    ],
+    "linkDemo": "https://shoe-store-vm.netlify.app/",
+    "linkGithub": "shoe-store_ui",
+    "isGridThreeCols": true,
+    "isClientProject": true
+  },
+
+  {
+    "id": 24,
+    "key": "travel1",
+    "slug": "travel-agency-1",
+    "img": "/projects/travel-1-preview.png",
+    "iconLists": [
+      "/badges/css.svg",
+      "/badges/js.svg",
+      "/badges/swiper.svg",
+      "/badges/scroll.svg",
+      "/badges/netli.svg"
+    ],
+    "linkDemo": "https://travel-agency-1-vm.netlify.app/",
+    "linkGithub": "travel-agency-1_ui",
+    "isGridThreeCols": true,
+    "isClientProject": true
+  },
+
+  {
+    "id": 25,
+    "key": "travel2",
+    "slug": "travel-agency-2",
+    "img": "/projects/travel-2-preview.png",
+    "iconLists": [
+      "/badges/css.svg",
+      "/badges/js.svg",
+      "/badges/scroll.svg",
+      "/badges/netli.svg"
+    ],
+    "linkDemo": "https://travel-agency-2-vm.netlify.app/",
+    "linkGithub": "travel-agency-2_ui",
+    "isGridThreeCols": true,
+    "isClientProject": true
+  },
+
+  {
+    "id": 26,
+    "key": "watches",
+    "slug": "watch-store",
+    "img": "/projects/watch1-preview.png",
+    "iconLists": [
+      "/badges/css.svg",
+      "/badges/js.svg",
+      "/badges/swiper.svg",
+      "/badges/scroll.svg",
+      "/badges/netli.svg"
+    ],
+    "linkDemo": "https://watch-store-vm.netlify.app/",
+    "linkGithub": "watch-store_ui",
+    "isGridThreeCols": true,
+    "isClientProject": true
+  },
+  {
+    "id": 27,
+    "key": "anim404",
+    "slug": "animation-404",
+    "img": "/projects/404-preview.png",
+    "iconLists": ["/badges/css.svg", "/badges/js.svg", "/badges/gsap.svg"],
+    "linkDemo": "https://background-animation-404.netlify.app/",
+    "linkGithub": "background-animation-404_js",
+    "isGridThreeCols": true,
+    "isClientProject": true
+  },
+
+  {
+    "id": 28,
+    "key": "camping",
+    "slug": "animation-camping",
+    "img": "/projects/camping-preview.png",
+    "iconLists": ["/badges/css.svg", "/badges/js.svg", "/badges/gsap.svg"],
+    "linkDemo": "https://background-animation-camping.netlify.app/",
+    "linkGithub": "background-animation-camping_js",
+    "isGridThreeCols": true,
+    "isClientProject": true
+  },
+
+  {
+    "id": 29,
+    "key": "christmas",
+    "slug": "animation-christmas",
+    "img": "/projects/christmas1-preview.png",
+    "iconLists": ["/badges/css.svg", "/badges/js.svg", "/badges/gsap.svg"],
+    "linkDemo": "https://background-animation-christmas.netlify.app/",
+    "linkGithub": "background-animation-christmas_js",
+    "isGridThreeCols": true,
+    "isClientProject": true
+  },
+
+  {
+    "id": 30,
+    "key": "halloween1",
+    "slug": "animation-halloween-1",
+    "img": "/projects/halloween2-preview.png",
+    "iconLists": ["/badges/css.svg", "/badges/js.svg", "/badges/gsap.svg"],
+    "linkDemo": "https://background-animation-halloween-1.netlify.app/",
+    "linkGithub": "background-animation-halloween_js",
+    "isGridThreeCols": true,
+    "isClientProject": true
+  },
+
+  {
+    "id": 31,
+    "key": "halloween2",
+    "slug": "animation-halloween-2",
+    "img": "/projects/halloween3-preview.png",
+    "iconLists": ["/badges/css.svg", "/badges/js.svg", "/badges/gsap.svg"],
+    "linkDemo": "https://background-animation-halloween-2.netlify.app/",
+    "linkGithub": "background-animation-halloween2_js",
+    "isGridThreeCols": true,
+    "isClientProject": true
+  },
+
+  {
+    "id": 32,
+    "key": "juice",
+    "slug": "animation-juice",
+    "img": "/projects/juice-preview.png",
+    "iconLists": ["/badges/css.svg", "/badges/js.svg", "/badges/gsap.svg"],
+    "linkDemo": "https://background-animation-juice.netlify.app/",
+    "linkGithub": "background-animation-juice_js",
+    "isGridThreeCols": true,
+    "isClientProject": true
+  },
+
+  {
+    "id": 33,
+    "key": "pirate",
+    "slug": "animation-pirate",
+    "img": "/projects/pirate-preview.png",
+    "iconLists": ["/badges/css.svg", "/badges/js.svg"],
+    "linkDemo": "https://background-animation-pirate.netlify.app/",
+    "linkGithub": "background-animation-pirate_js",
+    "isGridThreeCols": true,
+    "isClientProject": true
+  },
+
+  {
+    "id": 34,
+    "key": "temple",
+    "slug": "animation-temple",
+    "img": "/projects/temple-preview.png",
+    "iconLists": ["/badges/css.svg", "/badges/js.svg", "/badges/gsap.svg"],
+    "linkDemo": "https://background-animation-temple.netlify.app/",
+    "linkGithub": "background-animation-temple_js",
+    "isGridThreeCols": true,
+    "isClientProject": true
+  },
+
+  {
+    "id": 35,
+    "key": "archiSlider",
+    "slug": "slider-architect",
+    "img": "/projects/architecture-preview.png",
+    "iconLists": ["/badges/css.svg", "/badges/js.svg", "/badges/swiper.svg"],
+    "linkDemo": "https://background-slider-architect.netlify.app/",
+    "linkGithub": "background-slider-architect_js",
+    "isGridThreeCols": true,
+    "isClientProject": true
+  },
+
+  {
+    "id": 36,
+    "key": "travelSlider",
+    "slug": "slider-travel",
+    "img": "/projects/travel-preview.png",
+    "iconLists": [
+      "/badges/css.svg",
+      "/badges/js.svg",
+      "/badges/swiper.svg",
+      "/badges/gsap.svg"
+    ],
+    "linkDemo": "https://background-slider-travel.netlify.app/",
+    "linkGithub": "background-slider-travel_js",
+    "isGridThreeCols": true,
+    "isClientProject": true
+  },
+
+  {
+    "id": 37,
+    "key": "imageHover",
+    "slug": "image-hover-effects",
+    "img": "/projects/nature-preview.png",
+    "iconLists": ["/badges/css.svg", "/badges/netli.svg"],
+    "linkDemo": "https://image-hover-effects-1.netlify.app/",
+    "linkGithub": "img-hover-effects_css",
+    "isGridThreeCols": true,
+    "isClientProject": false
+  },
+
+  {
+    "id": 38,
+    "key": "carSlider",
+    "slug": "image-slider-car",
+    "img": "/projects/car-preview.png",
+    "iconLists": [
+      "/badges/css.svg",
+      "/badges/js.svg",
+      "/badges/swiper.svg",
+      "/badges/gsap.svg"
+    ],
+    "linkDemo": "https://image-slider-car.netlify.app/",
+    "linkGithub": "img-slider-car_js",
+    "isGridThreeCols": true,
+    "isClientProject": false
+  },
+
+  {
+    "id": 39,
+    "key": "clothingSlider",
+    "slug": "image-slider-clothing",
+    "img": "/projects/clothing2-preview.png",
+    "iconLists": [
+      "/badges/css.svg",
+      "/badges/js.svg",
+      "/badges/swiper.svg",
+      "/badges/scroll.svg"
+    ],
+    "linkDemo": "https://image-slider-clothing.netlify.app/",
+    "linkGithub": "img-slider-clothing_js",
+    "isGridThreeCols": true,
+    "isClientProject": false
+  },
+
+  {
+    "id": 40,
+    "key": "vaseSlider",
+    "slug": "image-slider-vases",
+    "img": "/projects/vase-preview.png",
+    "iconLists": [
+      "/badges/css.svg",
+      "/badges/js.svg",
+      "/badges/swiper.svg",
+      "/badges/netli.svg"
+    ],
+    "linkDemo": "https://image-slider-gallery-1.netlify.app/",
+    "linkGithub": "img-slider-gallery_js",
+    "isGridThreeCols": true,
+    "isClientProject": false
+  },
+
+  {
+    "id": 41,
+    "key": "watchSlider",
+    "slug": "image-slider-watches",
+    "img": "/projects/watch2-preview.png",
+    "iconLists": [
+      "/badges/css.svg",
+      "/badges/js.svg",
+      "/badges/swiper.svg",
+      "/badges/gsap.svg"
+    ],
+    "linkDemo": "https://image-slider-watch.netlify.app/",
+    "linkGithub": "img-slider-watches_js",
+    "isGridThreeCols": true,
+    "isClientProject": false
+  },
+
+  {
+    "id": 42,
+    "key": "parallaxChina",
+    "slug": "background-slider-parallax-china",
+    "img": "/projects/china-preview.png",
+    "iconLists": ["/badges/css.svg", "/badges/js.svg", "/badges/swiper.svg"],
+    "linkDemo": "https://background-slider-parallax-china.netlify.app/",
+    "linkGithub": "background-slider-parallax-china_js",
+    "isGridThreeCols": true,
+    "isClientProject": false
+  },
+
+  {
+    "id": 43,
+    "key": "parallaxChristmas",
+    "slug": "background-parallax-christmas",
+    "img": "/projects/christmas2-preview.png",
+    "iconLists": [
+      "/badges/css.svg",
+      "/badges/js.svg",
+      "/badges/gsap.svg",
+      "/badges/scroll.svg"
+    ],
+    "linkDemo": "https://background-parallax-christmas.netlify.app/",
+    "linkGithub": "background-parallax-christmas_js",
+    "isGridThreeCols": true,
+    "isClientProject": false
+  },
+
+  {
+    "id": 44,
+    "key": "parallaxMountain",
+    "slug": "background-parallax-mountain",
+    "img": "/projects/mountain-preview.png",
+    "iconLists": ["/badges/css.svg", "/badges/js.svg", "/badges/gsap.svg"],
+    "linkDemo": "https://background-parallax-mountain.netlify.app/",
+    "linkGithub": "background-parallax-mountain_js",
+    "isGridThreeCols": true,
+    "isClientProject": false
+  },
+
+  {
+    "id": 45,
+    "key": "parallaxEgypt",
+    "slug": "background-parallax-egypt",
+    "img": "/projects/egypt-preview.png",
+    "iconLists": ["/badges/css.svg", "/badges/js.svg", "/badges/netli.svg"],
+    "linkDemo": "https://background-parallax-egypt.netlify.app/",
+    "linkGithub": "background-parallax-egypt_js",
+    "isGridThreeCols": true,
+    "isClientProject": false
+  },
+
+  {
+    "id": 46,
+    "key": "carouselMenu",
+    "slug": "carousel-menu",
+    "img": "/projects/menu-preview.png",
+    "iconLists": ["/badges/css.svg", "/badges/js.svg", "/badges/netli.svg"],
+    "linkDemo": "https://carousel-menu.netlify.app/",
+    "linkGithub": "carousel-menu_js",
+    "isGridThreeCols": true,
+    "isClientProject": true
+  },
+
+  {
+    "id": 47,
+    "key": "galleryMovies",
+    "slug": "gallery-movies",
+    "img": "/projects/movies-preview.png",
+    "iconLists": ["/badges/css.svg", "/badges/netli.svg"],
+    "linkDemo": "https://gallery-movies.netlify.app/",
+    "linkGithub": "gallery-movies_css",
+    "isGridThreeCols": true,
+    "isClientProject": true
+  },
+
+  {
+    "id": 48,
+    "key": "componentsAuth",
+    "slug": "components-authentication",
+    "img": "/projects/authentication-preview.png",
+    "iconLists": [
+      "/badges/css.svg",
+      "/badges/react.svg",
+      "/badges/vite.svg",
+      "/badges/vercel.svg"
+    ],
+    "linkDemo": "https://components-authentication.vercel.app",
+    "linkGithub": "components-authentication_ui",
+    "isGridThreeCols": true,
+    "isClientProject": true
+  },
+
+  {
+    "id": 49,
+    "key": "componentsNav",
+    "slug": "components-navigation",
+    "img": "/projects/navigation-preview.png",
+    "iconLists": [
+      "/badges/css.svg",
+      "/badges/react.svg",
+      "/badges/vite.svg",
+      "/badges/vercel.svg"
+    ],
+    "linkDemo": "https://components-navigation.vercel.app",
+    "linkGithub": "components-navigation_ui",
+    "isGridThreeCols": true,
+    "isClientProject": true
+  },
+
+  {
+    "id": 50,
+    "key": "componentsModern",
+    "slug": "components-modern",
+    "img": "/projects/modern-preview.png",
+    "iconLists": ["/badges/css.svg", "/badges/react.svg", "/badges/vercel.svg"],
+    "linkDemo": "https://components-modern.vercel.app",
+    "linkGithub": "components-modern_ui",
+    "isGridThreeCols": true,
+    "isClientProject": true
+  },
+
+  {
+    "id": 51,
+    "key": "countryFilter",
+    "slug": "country-filter-app",
+    "img": "/projects/country-preview.png",
+    "iconLists": [
+      "/badges/react.svg",
+      "/badges/sass.svg",
+      "/badges/axios.svg",
+      "/badges/vercel.svg"
+    ],
+    "linkDemo": "https://country-filter-api.vercel.app/",
+    "linkGithub": "country-filter_api",
+    "isGridThreeCols": true,
+    "isClientProject": false
+  },
+
+  {
+    "id": 52,
+    "key": "groupomania",
+    "slug": "groupomania",
+    "img": "/projects/groupomania-preview.png",
+    "iconLists": [
+      "/badges/react.svg",
+      "/badges/node.svg",
+      "/badges/mongo.svg",
+      "/badges/cloudinary.svg"
+    ],
+    "linkDemo": "https://groupomania-vm.vercel.app/signup",
+    "linkGithub": "https://github.com/ValentinMadiot/groupomania-social_api",
+    "isGridThreeCols": true,
+    "isClientProject": false
+  },
+
+  {
+    "id": 53,
+    "key": "piquante",
+    "slug": "piquante",
+    "img": "/projects/piquante-preview.png",
+    "iconLists": [
+      "/badges/angular.svg",
+      "/badges/node.svg",
+      "/badges/mongo.svg",
+      "/badges/cloudinary.svg"
+    ],
+    "linkDemo": "https://piquante-sauces.vercel.app/signup",
+    "linkGithub": "https://github.com/ValentinMadiot/piquante-sauces_api",
+    "isGridThreeCols": true,
+    "isClientProject": false
+  },
+
+  {
+    "id": 54,
+    "key": "kanap",
+    "slug": "kanap",
+    "img": "/projects/kanap-preview.png",
+    "iconLists": ["/badges/css.svg", "/badges/js.svg", "/badges/node.svg"],
+    "linkDemo": "https://kanap-vm.vercel.app/",
+    "linkGithub": "https://github.com/ValentinMadiot/kanap-ecommerce_api",
+    "isGridThreeCols": true,
+    "isClientProject": false
   }
 ]
