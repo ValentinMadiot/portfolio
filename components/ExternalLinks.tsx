@@ -17,7 +17,7 @@ const ExternalLinks = ({
         href={`https://github.com/ValentinMadiot/${linkGithub}`}
         target="_blank"
         className="flex justify-center items-center gap-1 hover:text-white-100">
-        <AiOutlineGithub className="ms-3" color="#7aa0fa" />
+        <AiOutlineGithub className="ms-1" />
         <p>Code</p>
       </a>
       <a
@@ -33,7 +33,7 @@ const ExternalLinks = ({
             ? "cursor-not-allowed text-gray-500"
             : "hover:text-white-100"
         }`}>
-        <AiOutlineLogout className="ms-3" color="#7aa0fa" />
+        <AiOutlineLogout className="ms-3" />
         <p>Demo</p>
       </a>
     </div>

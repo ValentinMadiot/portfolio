@@ -42,104 +42,12 @@ export const fr = {
     viewGallery: "Voir la Galerie",
     viewProject: "Voir le Projet",
 
-    sushi: {
-      id: 1,
-      key: "sushi",
-      title: "Sushikawa — Restaurant Japonais",
-      desc: "Création d'une landing page moderne et minimaliste pour un artisan, développée en HTML, CSS et JavaScript. Enrichie d'animations fluides grâce à ScrollReveal.js.",
-
-      paragraphs: [
-        "J’ai accompagné le restaurant Sushikawa de la conception à la mise en ligne afin de valoriser leur identité culinaire et faciliter les réservations.",
-        "Objectif principal : présenter une carte claire et appétissante, tout en mettant en avant les produits phares et les offres promotionnelles.",
-        "J’ai conçu une landing page performante, minimaliste et centrée sur l’essentiel, avec des animations légères pour renforcer l’engagement.",
-        "Le contenu et les visuels ont été optimisés pour le référencement local, afin d’améliorer la visibilité du restaurant sur les moteurs de recherche.",
-      ],
-      features: [
-        "Section d'accueil animée avec titre et image sushi",
-        "Section À propos avec texte illustré",
-        "Catalogue de plats populaires avec panier cliquable",
-        "Zone Nouveautés avec mise en avant d'un plat récent",
-        "Newsletter avec formulaire d'abonnement",
-        "Pied de page complet menu, infos, réseaux et adresse",
-        "Bouton scroll-up et liens actifs dynamiques",
-        "Design responsive adapté desktop et mobile",
-        "Thème sombre activable avec persistance locale",
-        "Animations d'apparition fluides via ScrollReveal",
-      ],
-    },
-
-    pizzeria: {
-      title: "Pizza Bella — Pizzeria Artisanale",
-      desc: "Pizza Bella est une landing page moderne et savoureuse pour une pizzeria artisanale. Elle met en avant des pizzas populaires, des ingrédients frais, des recettes traditionnelles et une section de contact animée. Idéale pour toute enseigne culinaire.",
-
-      paragraphs: [
-        "Pizza Bella souhaitait une présence en ligne moderne reflétant son savoir-faire artisanal et la qualité de ses ingrédients.",
-        "J’ai structuré la page autour de la découverte des pizzas phares, d’un slider immersif et d’un bloc d’ingrédients frais pour souligner la transparence.",
-        "Les appels à l’action orientent vers la commande et la prise de contact, avec des sections pensées pour le SEO local.",
-        "Le rendu final met l’accent sur la rapidité, la lisibilité et la simplicité d’usage sur mobile.",
-      ],
-      features: [
-        "Section d'accueil avec image pizza et stickers",
-        "Section à propos avec call-to-action et image illustrée",
-        "Slider des pizzas les plus populaires avec Swiper",
-        "Liste d'ingrédients naturels avec illustrations",
-        "Produits détaillés avec nom, prix et bouton panier",
-        "Section contact avec adresse, carte et réseaux",
-        "Formulaire d'inscription pour newsletter",
-        "Scroll dynamique avec lien actif et retour accueil",
-        "Responsive complet adapté à tous les écrans",
-      ],
-    },
-
-    fruit: {
-      title: "Le Panier Vitaminé   —   Boutique de Fruits Bio",
-      desc: "Le Panier Vitaminé est une landing page immersive pour un magasin de fruits bio. Pensée mobile-first, elle combine design fruité, animations au scroll et filtrage visuel des produits pour une expérience utilisateur fraîche, moderne et engageante.",
-
-      paragraphs: [
-        "La boutique souhaitait un site clair, coloré et dynamique pour valoriser des fruits bio et locaux.",
-        "J’ai développé une expérience fluide et accessible en mobile-first, avec filtrage visuel et animations au scroll.",
-        "Le design met en avant fraîcheur et saisonnalité, tout en restant sobre pour des performances élevées.",
-        "Des sections informatives rassurent l’utilisateur (origine, qualité, prix au kilo) et favorisent la conversion.",
-      ],
-      features: [
-        "Présentation des fruits populaires avec prix au kg",
-        "Section Mangez & Savourez en cartes animées",
-        "Menu sticky avec lien actif dynamique au scroll",
-        "Mode clair et sombre switchable manuellement",
-        "Design immersif avec illustrations SVG décoratives",
-        "Menu mobile animé avec ouverture et fermeture fluide",
-        "Section contact complète et formulaire d’inscription e-mail",
-        "Scroll Reveal animé sur toutes les sections",
-        "Layout responsive desktop-first",
-      ],
-    },
-
-    construction: {
-      title: "Bâtir Ensemble   —   Entreprise de Construction",
-      desc: "Bâtir Ensemble est une landing page moderne et responsive pour une entreprise du bâtiment. Elle présente services, réalisations, témoignages et contact, avec animations au scroll via ScrollReveal et slider interactif via Swiper.js, le tout dans un design clair et modulaire pour une image professionnelle et engageante.",
-
-      paragraphs: [
-        "L’entreprise de construction avait besoin d’une vitrine professionnelle mettant en avant ses services et réalisations.",
-        "J’ai travaillé l’architecture de contenu pour clarifier l’offre (construction, rénovation, gros œuvre) et présenter des preuves (projets réalisés, avis).",
-        "Un carrousel de services et des animations progressives améliorent la compréhension et l’engagement sans alourdir la page.",
-        "La structure est pensée pour la conversion (prise de contact) et le référencement local.",
-      ],
-      features: [
-        "Section d’accueil avec slogan animé et visuel double",
-        "Section À propos avec liste des engagements & images croisées",
-        "Carrousel interactif des différents services",
-        "Section projets réalisés avec date, description et visuel",
-        "Section Contact avec carte, réseaux sociaux et infos utiles",
-        "Bouton ScrollUp animé et header sticky dynamique",
-        "Animation ScrollReveal sur toutes les sections",
-        "Footer complet avec navigation, horaires et réseaux",
-      ],
-    },
-
     bakery: {
-      title: "Four & Farine   —   Boulangerie Artisanale",
-      desc: "Four & Farine est une landing page moderne et minimaliste pour une boulangerie artisanale, développée en HTML, CSS et JavaScript. Elle met en valeur les spécialités maison, les nouveautés, les produits favoris et l’adresse du commerce, avec animations fluides via ScrollReveal.js et design chaleureux. Parfaite pour tout artisan souhaitant valoriser ses créations dans le secteur culinaire.",
+      title: "Four & Farine",
+      desc: "Landing page moderne et chaleureuse pour une boulangerie artisanale, en HTML, CSS et JavaScript. Apparitions douces et performantes via ScrollReveal.js.",
 
+      prefixTitle: "Four & Farine",
+      suffixTitle: "Boulangerie Artisanale",
       paragraphs: [
         "La boulangerie voulait valoriser ses spécialités et attirer une clientèle de quartier et de passage.",
         "La page met en avant les produits vedettes, les nouveautés et l’adresse avec un parcours simple et chaleureux.",
@@ -160,34 +68,12 @@ export const fr = {
       ],
     },
 
-    salad: {
-      title: "Bol & Vitalité   —   Restaurant de Salades",
-      desc: "Bol & Vitalité est une landing page moderne pour un restaurant de salades fraîches. Elle propose une navigation fluide et responsive, un menu dynamique, une application mobile, un mode sombre, des animations ScrollReveal et un design soigné.",
-
-      paragraphs: [
-        "Le restaurant de salades voulait un site léger, rapide et convaincant pour présenter son concept.",
-        "J’ai mis l’accent sur la mise en avant du menu hebdomadaire, d’une application mobile et d’un mode sombre moderne.",
-        "La navigation est pensée pour l’efficacité : CTA clairs, sections condensées, informations utiles immédiatement accessibles.",
-        "Les animations (ScrollReveal) soulignent les éléments clés sans distraire l’utilisateur.",
-      ],
-      features: [
-        "Header fixe avec menu mobile et scroll actif",
-        "Section Héro avec call-to-action clair",
-        "Bloc À propos avec photo et bouton découverte",
-        "Services listés avec pictogrammes",
-        "Menu interactif de la semaine avec ajout au panier",
-        "Section Application avec liens de téléchargement",
-        "Bloc Contact simple et efficace avec CTA",
-        "Scroll-to-top automatique au défilement",
-        "Thème sombre activable",
-        "Animations fluides avec ScrollReveal",
-      ],
-    },
-
     burger: {
-      title: "Le Coin du Burger — Restaurant Moderne",
-      desc: "Landing page moderne et immersive pour un restaurant de burgers, avec animations ScrollReveal, navigation dynamique et sections orientées conversion.",
+      title: "Le Coin du Burger",
+      desc: "Landing page immersive pour un restaurant de burgers, développée en HTML, CSS et JavaScript. Parcours fluide et animations au scroll via ScrollReveal.js.",
 
+      prefixTitle: "Le Coin du Burger",
+      suffixTitle: "Restaurant Moderne",
       paragraphs: [
         "J’ai accompagné le restaurant Le Coin du Burger pour créer une vitrine moderne et appétissante, alignée sur leur identité de marque.",
         "L’objectif principal était de valoriser les recettes phares, de présenter la composition des burgers et d’optimiser le parcours vers la commande.",
@@ -195,11 +81,11 @@ export const fr = {
         "L’ensemble est pensé mobile-first, performant et facilement maintenable pour faire évoluer l’offre au fil du temps.",
       ],
       features: [
-        "Section Accueil avec slogan animé et ingrédients flottants",
+        "Section accueil avec slogan animé et ingrédients flottants",
         "Présentation de la recette maison par ingrédient",
         "Catalogue des burgers populaires avec prix et bouton d’ajout",
         "Bloc Livraison rapide avec call-to-action",
-        "Section Contact complète (localisation, numéros, messageries)",
+        "Section contact complète (localisation, numéros, messageries)",
         "Menu responsive avec ouverture/fermeture mobile",
         "Navigation fluide avec liens actifs au scroll",
         "Bouton de retour en haut dynamique",
@@ -209,9 +95,11 @@ export const fr = {
     },
 
     chips: {
-      title: "Crousti’Saveurs — Boutique de Chips",
-      desc: "Landing page colorée et responsive pour une boutique de chips artisanales, avec slider Swiper, animations au scroll et catalogue animé.",
+      title: "Crousti’Saveurs",
+      desc: "Landing page colorée pour une boutique de chips artisanales, en HTML, CSS et JavaScript. Slider Swiper et animations au scroll via ScrollReveal.js.",
 
+      prefixTitle: "Crousti’Saveurs",
+      suffixTitle: "Boutique de Chips",
       paragraphs: [
         "La marque souhaitait une vitrine fun et gourmande pour valoriser ses chips artisanales.",
         "J’ai conçu un design vibrant avec une navigation fluide et des animations maîtrisées pour dynamiser l’expérience.",
@@ -233,9 +121,11 @@ export const fr = {
     },
 
     clothing: {
-      title: "UrbanFit. — Boutique de Vêtements",
-      desc: "Landing page e-commerce moderne pour une collection textile, avec sliders, thème sombre et navigation sticky animée.",
+      title: "UrbanFit.",
+      desc: "Landing page e-commerce mode en HTML, CSS et JavaScript. Thème sombre persistant, sliders Swiper et animations fluides grâce à ScrollReveal.js.",
 
+      prefixTitle: "UrbanFit.",
+      suffixTitle: "Boutique de Vêtements",
       paragraphs: [
         "L’objectif était de présenter une collection mode avec une identité visuelle forte et actuelle.",
         "J’ai mis en place un héro impactant, des sections Nouveautés et Homme/Femme claires, et un carrousel produits.",
@@ -244,7 +134,7 @@ export const fr = {
       ],
       features: [
         "Accueil avec images superposées et slogan",
-        "Section Nouveautés à 3 catégories",
+        "Section nouveautés à 3 catégories",
         "Présentations Homme et Femme en split layout",
         "Carrousel Meilleurs Produits (Swiper)",
         "Logos des marques partenaires",
@@ -257,9 +147,11 @@ export const fr = {
     },
 
     coffee1: {
-      title: "Café des Rêves — Le Comptoir Moderne",
-      desc: "Landing page immersive dédiée à l’univers du café : produits gourmands, café premium, blog et identité soignée, avec filtrage dynamique.",
+      title: "Café des Rêves",
+      desc: "Landing page premium dédiée à l’univers du café, en HTML, CSS et JavaScript. Produits filtrables et animations légères via ScrollReveal.js.",
 
+      prefixTitle: "Café des Rêves",
+      suffixTitle: "Le Comptoir Moderne",
       paragraphs: [
         "La marque souhaitait une vitrine moderne avec une dimension éditoriale et premium.",
         "J’ai intégré un filtrage des produits par catégorie et des animations légères pour rythmer l’expérience.",
@@ -281,9 +173,11 @@ export const fr = {
     },
 
     coffee2: {
-      title: "Maison du Café — Tradition & Savoir-faire italien",
-      desc: "Landing page premium célébrant l’art du café italien, mêlant histoire, produits phares et animations au scroll.",
+      title: "Maison du Café",
+      desc: "Landing page élégante sur l’art du café italien, développée en HTML, CSS et JavaScript. Animations au scroll soignées grâce à ScrollReveal.js.",
 
+      prefixTitle: "Maison du Café",
+      suffixTitle: "Tradition & Savoir-faire italien",
       paragraphs: [
         "La marque souhaitait une image élégante et intemporelle fidèle à son héritage.",
         "J’ai mis en scène l’histoire, les étapes de production et les produits phares dans un parcours soigné.",
@@ -305,9 +199,11 @@ export const fr = {
     },
 
     coffee3: {
-      title: "Arôme Parisien — Café Moderne & Glacé",
-      desc: "Landing page énergique et stylisée pour une marque de cafés glacés, combinant Swiper, ScrollReveal et UI responsive.",
+      title: "Arôme Parisien",
+      desc: "Landing page énergique pour cafés glacés, en HTML, CSS et JavaScript. Slider Swiper et animations fluides au scroll via ScrollReveal.js.",
 
+      prefixTitle: "Arôme Parisien",
+      suffixTitle: "Café Moderne & Glacé",
       paragraphs: [
         "Créer une image urbaine et premium pour des boissons glacées signatures.",
         "J’ai mis l’accent sur un héro animé, un slider populaires et un catalogue détaillé.",
@@ -328,10 +224,36 @@ export const fr = {
       ],
     },
 
-    delivery: {
-      title: "Flash Livraison — Service de Livraison",
-      desc: "Landing page responsive pour un service de livraison rapide, avec thèmes clair/sombre, animations au scroll et navigation mobile fluide.",
+    construction: {
+      title: "Bâtir Ensemble",
+      desc: "Landing page professionnelle pour une entreprise du bâtiment, en HTML, CSS et JavaScript. Animations (Swiper, ScrollReveal.js) et structure modulaire.",
 
+      prefixTitle: "Bâtir Ensemble",
+      suffixTitle: "Entreprise de Construction",
+      paragraphs: [
+        "L’entreprise de construction avait besoin d’une vitrine professionnelle mettant en avant ses services et réalisations.",
+        "J’ai travaillé l’architecture de contenu pour clarifier l’offre (construction, rénovation, gros œuvre) et présenter des preuves (projets réalisés, avis).",
+        "Un carrousel de services et des animations progressives améliorent la compréhension et l’engagement sans alourdir la page.",
+        "La structure est pensée pour la conversion (prise de contact) et le référencement local.",
+      ],
+      features: [
+        "Section d’accueil avec slogan animé et visuel double",
+        "Section à propos avec liste des engagements & images croisées",
+        "Carrousel interactif des différents services",
+        "Section projets réalisés avec date, description et visuel",
+        "Section contact avec carte, réseaux sociaux et infos utiles",
+        "Bouton ScrollUp animé et header sticky dynamique",
+        "Animation ScrollReveal sur toutes les sections",
+        "Footer complet avec navigation, horaires et réseaux",
+      ],
+    },
+
+    delivery: {
+      title: "Flash Livraison",
+      desc: "Landing page claire pour un service de livraison, en HTML, CSS et JavaScript. Thème sombre, navigation mobile et animations ScrollReveal.js.",
+
+      prefixTitle: "Flash Livraison",
+      suffixTitle: "Service de Livraison",
       paragraphs: [
         "Offrir une expérience claire et rapide pour présenter les services et inciter au téléchargement de l’app.",
         "J’ai intégré un changement de thème avec persistance locale et des animations légères pour dynamiser l’interface.",
@@ -353,9 +275,11 @@ export const fr = {
     },
 
     electric: {
-      title: "eLuxe Motors — Voitures Électriques de Luxe",
-      desc: "Landing page premium en mode sombre pour présenter des modèles électriques haut de gamme, avec carrousels et filtrage dynamique.",
+      title: "eLuxe Motors",
+      desc: "Landing page premium en dark mode pour modèles électriques, en HTML, CSS et JavaScript. Carrousels Swiper et animations ScrollReveal.js.",
 
+      prefixTitle: "eLuxe Motors",
+      suffixTitle: "Voitures Électriques de Luxe",
       paragraphs: [
         "Créer une vitrine élégante mettant en valeur des modèles Porsche, Tesla et Audi.",
         "J’ai intégré un carrousel Swiper et un filtrage MixItUp pour faciliter la découverte des véhicules.",
@@ -377,9 +301,11 @@ export const fr = {
     },
 
     fitness: {
-      title: "Fit’Essence — Salle de Sport",
-      desc: "Landing page immersive et sombre pour promouvoir des offres, des programmes variés et un calculateur d’IMC.",
+      title: "Fit’Essence",
+      desc: "Landing page sombre pour une salle de sport, développée en HTML, CSS et JavaScript. Programmes, calcul IMC et animations via ScrollReveal.js.",
 
+      prefixTitle: "Fit’Essence",
+      suffixTitle: "Salle de Sport",
       paragraphs: [
         "La salle voulait une image moderne et engageante qui convertit rapidement.",
         "J’ai mis en place un calculateur d’IMC, des offres dynamiques et un formulaire EmailJS.",
@@ -401,9 +327,11 @@ export const fr = {
     },
 
     chicken: {
-      title: "CroustiPoulet — Restaurant de Poulet Frit",
-      desc: "Landing page savoureuse avec animations, commandes interactives et navigation fluide.",
+      title: "CroustiPoulet",
+      desc: "Landing page savoureuse pour restaurant de poulet frit, en HTML, CSS et JavaScript. Commandes claires et animations au scroll ScrollReveal.js.",
 
+      prefixTitle: "CroustiPoulet",
+      suffixTitle: "Restaurant de Poulet Frit",
       paragraphs: [
         "Créer une vitrine appétissante et claire pour un service de restauration rapide.",
         "J’ai structuré la présentation produits, les prix et les appels à l’action pour faciliter la commande.",
@@ -424,10 +352,37 @@ export const fr = {
       ],
     },
 
-    aventador: {
-      title: "Aventador — Lamborghini LP 780-4 Ultimae",
-      desc: "Landing page premium dédiée à la Lamborghini Ultimae, avec carrousel Swiper, animations ScrollReveal et mise en scène immersive.",
+    fruit: {
+      title: "Le Panier Vitaminé",
+      desc: "Landing page mobile-first pour une boutique de fruits bio, réalisée en HTML, CSS et JavaScript. Animations au scroll fluides avec ScrollReveal.js.",
 
+      prefixTitle: "Le Panier Vitaminé",
+      suffixTitle: "Boutique de Fruits Bio",
+      paragraphs: [
+        "La boutique souhaitait un site clair, coloré et dynamique pour valoriser des fruits bio et locaux.",
+        "J’ai développé une expérience fluide et accessible en mobile-first, avec filtrage visuel et animations au scroll.",
+        "Le design met en avant fraîcheur et saisonnalité, tout en restant sobre pour des performances élevées.",
+        "Des sections informatives rassurent l’utilisateur (origine, qualité, prix au kilo) et favorisent la conversion.",
+      ],
+      features: [
+        "Présentation des fruits populaires avec prix au kg",
+        "Section Mangez & Savourez en cartes animées",
+        "Menu sticky avec lien actif dynamique au scroll",
+        "Mode clair et sombre switchable manuellement",
+        "Design immersif avec illustrations SVG décoratives",
+        "Menu mobile animé avec ouverture et fermeture fluide",
+        "Section contact complète et formulaire d’inscription e-mail",
+        "Scroll Reveal animé sur toutes les sections",
+        "Layout responsive desktop-first",
+      ],
+    },
+
+    aventador: {
+      title: "Aventador",
+      desc: "Landing page premium dédiée à la Lamborghini Ultimae, en HTML, CSS et JavaScript. Carrousel Swiper et animations fluides ScrollReveal.js.",
+
+      prefixTitle: "Aventador",
+      suffixTitle: "Lamborghini LP 780-4 Ultimae",
       paragraphs: [
         "Créer une vitrine digitale élégante mettant en valeur la puissance et l’exclusivité du modèle.",
         "J’ai travaillé l’hero animé, la vidéo intégrée et la présentation par teintes pour renforcer l’impact visuel.",
@@ -449,9 +404,11 @@ export const fr = {
     },
 
     halloween: {
-      title: "Halloween — Sombre et Thématique",
-      desc: "Landing page immersive au style sombre avec citrouilles animées, ScrollReveal et décor thématique.",
+      title: "Halloween",
+      desc: "Landing page thématique Halloween, en HTML, CSS et JavaScript. Citrouilles animées et apparitions fluides grâce à ScrollReveal.js.",
 
+      prefixTitle: "Halloween",
+      suffixTitle: "Sombre et Thématique",
       paragraphs: [
         "Concevoir une page saisonnière marquante pour booster l’engagement et les ventes.",
         "J’ai mis l’accent sur le visuel (citrouilles, objets) et sur des animations douces au scroll.",
@@ -473,9 +430,11 @@ export const fr = {
     },
 
     headphones: {
-      title: "Casque JBL — Boutique Audio",
-      desc: "Landing page sombre et moderne pour un casque JBL, avec slider de modèles, animations et sections informatives.",
+      title: "Casque JBL",
+      desc: "Landing page moderne pour casque JBL, développée en HTML, CSS et JavaScript. Slider de modèles et animations fluides ScrollReveal.js.",
 
+      prefixTitle: "Casque JBL",
+      suffixTitle: "Boutique Audio",
       paragraphs: [
         "Créer une vitrine claire et percutante pour un produit audio phare.",
         "J’ai mis en place un slider synchronisé, des infos techniques et une mise en avant du prix.",
@@ -497,9 +456,11 @@ export const fr = {
     },
 
     lighting: {
-      title: "Luxâme — Boutique de Luminaires",
-      desc: "Landing page premium pour une boutique de lustres : slider interactif, FAQ animée et newsletter, le tout en responsive.",
+      title: "Luxâme",
+      desc: "Landing page premium pour une boutique de luminaires, en HTML, CSS et JavaScript. Carrousel produits et animations ScrollReveal.js.",
 
+      prefixTitle: "Luxâme",
+      suffixTitle: "Boutique de Luminaires",
       paragraphs: [
         "Proposer une expérience élégante pour des luminaires haut de gamme.",
         "J’ai conçu un hero immersif, un carrousel produits et une FAQ accordéon.",
@@ -520,10 +481,37 @@ export const fr = {
       ],
     },
 
-    plant: {
-      title: "Plantes de Poche — Boutique Végétale",
-      desc: "Landing page moderne pour plantes d’intérieur : sections animées, FAQ interactive, produits filtrables et thème sombre.",
+    pizzeria: {
+      title: "Pizza Bella",
+      desc: "Landing page moderne et minimaliste pour une pizzeria artisanale, développée en HTML, CSS et JavaScript. Animations légères via Swiper et ScrollReveal.js.",
 
+      prefixTitle: "Pizza Bella",
+      suffixTitle: "Pizzeria Artisanale",
+      paragraphs: [
+        "J’ai accompagné Pizza Bella pour créer une vitrine en ligne fidèle à son savoir-faire artisanal et à la qualité de ses ingrédients.",
+        "Objectif principal étant de présenter les pizzas populaires, détailler la composition et fluidifier le parcours vers la commande.",
+        "J’ai structuré la page autour d’un slider immersif, d’un bloc d’ingrédients transparents et de CTA visibles.",
+        "Le rendu final privilégie la rapidité, la lisibilité et un SEO local propre, surtout sur mobile.",
+      ],
+      features: [
+        "Section d'accueil avec image pizza et stickers",
+        "Section à propos avec call-to-action et image illustrée",
+        "Slider des pizzas les plus populaires avec Swiper",
+        "Liste d'ingrédients naturels avec illustrations",
+        "Produits détaillés avec nom, prix et bouton panier",
+        "Section contact avec adresse, carte et réseaux",
+        "Formulaire d'inscription pour newsletter",
+        "Scroll dynamique avec lien actif et retour accueil",
+        "Responsive complet adapté à tous les écrans",
+      ],
+    },
+
+    plant: {
+      title: "Plantes de Poche",
+      desc: "Landing page moderne pour plantes d’intérieur, en HTML, CSS et JavaScript. Catalogue filtrable et animations au scroll ScrollReveal.js.",
+
+      prefixTitle: "Plantes de Poche",
+      suffixTitle: "Boutique Végétale",
       paragraphs: [
         "Valoriser une sélection de plantes avec un parcours d’achat clair.",
         "J’ai défini les étapes d’accompagnement, un catalogue lisible et une FAQ accordéon.",
@@ -545,9 +533,11 @@ export const fr = {
     },
 
     realestate: {
-      title: "L’Adresse Idéale — Agence Immobilière",
-      desc: "Landing page immobilière moderne avec carrousel Swiper, FAQ interactive, formulaire complet et thème sombre.",
+      title: "L’Adresse Idéale",
+      desc: "Landing page immobilière moderne, en HTML, CSS et JavaScript. Carrousel de biens, FAQ animée et effets fluides ScrollReveal.js.",
 
+      prefixTitle: "L’Adresse Idéale",
+      suffixTitle: "Agence Immobilière",
       paragraphs: [
         "Présenter des biens résidentiels avec une expérience fiable et claire.",
         "J’ai intégré un slider de résidences populaires et un accordéon valeurs.",
@@ -568,10 +558,38 @@ export const fr = {
       ],
     },
 
-    sneakers: {
-      title: "SNEAKUP — Landing Page de Sneakers",
-      desc: "Landing page moderne avec carrousel synchronisé texte/image, sections animées et navigation responsive.",
+    salad: {
+      title: "Bol & Vitalité",
+      desc: "Landing page légère pour un restaurant de salades, codée en HTML, CSS et JavaScript. UI responsive, mode sombre et animations fluides ScrollReveal.js.",
 
+      prefixTitle: "Bol & Vitalité",
+      suffixTitle: "Restaurant de Salades",
+      paragraphs: [
+        "Le restaurant de salades voulait un site léger, rapide et convaincant pour présenter son concept.",
+        "J’ai mis l’accent sur la mise en avant du menu hebdomadaire, d’une application mobile et d’un mode sombre moderne.",
+        "La navigation est pensée pour l’efficacité : CTA clairs, sections condensées, informations utiles immédiatement accessibles.",
+        "Les animations (ScrollReveal) soulignent les éléments clés sans distraire l’utilisateur.",
+      ],
+      features: [
+        "Header fixe avec menu mobile et scroll actif",
+        "Section héro avec call-to-action clair",
+        "Bloc à propos avec photo et bouton découverte",
+        "Services listés avec pictogrammes",
+        "Menu interactif de la semaine avec ajout au panier",
+        "Section Application avec liens de téléchargement",
+        "Bloc Contact simple et efficace avec CTA",
+        "Scroll-to-top automatique au défilement",
+        "Thème sombre activable",
+        "Animations fluides avec ScrollReveal",
+      ],
+    },
+
+    sneakers: {
+      title: "SNEAKUP",
+      desc: "Landing page sneakers avec carrousel synchronisé, en HTML, CSS et JavaScript. Sections animées et transitions fluides ScrollReveal.js.",
+
+      prefixTitle: "SNEAKUP",
+      suffixTitle: "Landing Page de Sneakers",
       paragraphs: [
         "Valoriser un catalogue sneakers avec une expérience rythmée et engageante.",
         "J’ai synchronisé le slider images/titres, ajouté badges promo et CTA d’ajout au panier.",
@@ -587,15 +605,43 @@ export const fr = {
         "Section Nouveautés (overlays interactifs)",
         "Newsletter",
         "Footer complet (liens, réseaux, mentions)",
-        "Scroll actif + bouton top",
+        "Scroll actif & bouton top",
         "Responsive desktop/mobile",
       ],
     },
 
-    travel1: {
-      title: "Horizon Évasion — Agence de Voyage",
-      desc: "Landing page immersive avec ScrollReveal, carrousel Swiper, thème sombre, newsletter et section vidéo.",
+    sushi: {
+      title: "Sushikawa",
+      desc: "Landing page moderne et minimaliste pour un artisan de sushis, développée en HTML, CSS et JavaScript. Enrichie d'animations fluides grâce à ScrollReveal.js.",
 
+      prefixTitle: "Sushikawa",
+      suffixTitle: "Restaurant Japonais",
+      paragraphs: [
+        "J’ai accompagné le restaurant Sushikawa de la conception à la mise en ligne afin de valoriser leur identité culinaire et faciliter les réservations.",
+        "L'objectif principal étant de présenter une carte claire et appétissante, tout en mettant en avant les produits phares et les offres promotionnelles.",
+        "J’ai conçu une landing page performante, minimaliste et centrée sur l’essentiel, avec des animations légères pour renforcer l’engagement.",
+        "Le contenu et les visuels ont été optimisés pour le référencement local, afin d’améliorer la visibilité du restaurant sur les moteurs de recherche.",
+      ],
+      features: [
+        "Section d'accueil animée avec titre et image sushi",
+        "Section à propos avec texte illustré",
+        "Catalogue de plats populaires avec panier cliquable",
+        "Zone nouveautés avec mise en avant d'un plat récent",
+        "Newsletter avec formulaire d'abonnement",
+        "Pied de page complet menu, infos, réseaux et adresse",
+        "Bouton scroll-up et liens actifs dynamiques",
+        "Design responsive adapté desktop et mobile",
+        "Thème sombre activable avec persistance locale",
+        "Animations d'apparition fluides via ScrollReveal",
+      ],
+    },
+
+    travel1: {
+      title: "Horizon Évasion",
+      desc: "Landing page immersive pour agence de voyage, en HTML, CSS et JavaScript. Carrousel Swiper et animations douces ScrollReveal.js.",
+
+      prefixTitle: "Horizon Évasion",
+      suffixTitle: "Agence de Voyage",
       paragraphs: [
         "Inspirer l’évasion et guider rapidement vers la prise de contact.",
         "J’ai conçu un hero émotionnel, un carrousel de lieux populaires et des statistiques clients.",
@@ -617,9 +663,11 @@ export const fr = {
     },
 
     travel2: {
-      title: "Aventures du Monde — Agence de Voyage",
-      desc: "Landing page sombre et immersive avec animations ScrollReveal, menu burger, newsletter et header flouté au scroll.",
+      title: "Aventures du Monde",
+      desc: "Landing page sombre pour agence de voyage, en HTML, CSS et JavaScript. Animations au scroll et header flouté via ScrollReveal.js.",
 
+      prefixTitle: "Aventures du Monde",
+      suffixTitle: "Agence de Voyage",
       paragraphs: [
         "Moderniser l’image de marque et faciliter la découverte des destinations.",
         "J’ai travaillé un accueil impactant avec cards animées et un grid destinations lisible.",
@@ -641,9 +689,11 @@ export const fr = {
     },
 
     watches: {
-      title: "Maison du Temps — Horlogerie de Luxe",
-      desc: "Landing page raffinée pour une horlogerie de luxe, avec thème sombre, carrousels Swiper et animations fluides.",
+      title: "Maison du Temps",
+      desc: "Landing page raffinée pour horlogerie de luxe, en HTML, CSS et JavaScript. Carrousels Swiper et animations fluides ScrollReveal.js.",
 
+      prefixTitle: "Maison du Temps",
+      suffixTitle: "Horlogerie de Luxe",
       paragraphs: [
         "Sublimer une sélection de montres dans un univers premium.",
         "J’ai intégré des carrousels produits et avis, un catalogue défilant et des CTA clairs.",
@@ -665,12 +715,14 @@ export const fr = {
     },
 
     anim404: {
-      title: "Animation de Fond — Page 404",
-      desc: "Page 404 thématique Espace, animée avec GSAP : éléments flottants, design galactique et retour guidé vers l'accueil.",
+      title: "Page 404",
+      desc: "Page 404 thématique animée, développée en HTML, CSS et JavaScript. Mise en scène avec animations GSAP et plein écran adaptatif.",
 
+      prefixTitle: "Page 404",
+      suffixTitle: "Animation de Fond",
       paragraphs: [
         "Remplacer une page 404 standard par une expérience visuelle mémorable, cohérente avec l'identité de marque.",
-        "Objectif : transformer une erreur en moment de marque positif, avec un message clair et des animations subtiles.",
+        "Objectif étant de transformer une erreur en moment de marque positif, avec un message clair et des animations subtiles.",
         "Mise en place d'assets vectoriels optimisés et d'un chargement léger pour des performances solides.",
         "Livraison clé en main et intégration simple dans l’existant (HTML/CSS/JS).",
       ],
@@ -684,9 +736,11 @@ export const fr = {
     },
 
     camping: {
-      title: "Animation de Fond — Événements Camping",
-      desc: "Landing page nature et immersive animée avec GSAP. Sections dynamiques, menu responsive et ambiance plein air.",
+      title: "Événements Camping",
+      desc: "Landing page nature pour événements camping, en HTML, CSS et JavaScript. Animations séquencées viaGSAP et plein écran adaptatif.",
 
+      prefixTitle: "Événements Camping",
+      suffixTitle: "Animation de Fond",
       paragraphs: [
         "Promouvoir des événements camping avec une mise en scène visuelle forte.",
         "Priorité donnée à la lisibilité, au rythme des apparitions et à la sensation de profondeur.",
@@ -703,9 +757,11 @@ export const fr = {
     },
 
     christmas: {
-      title: "Animation de Fond — Noël",
-      desc: "Landing page festive animée (GSAP + neige). Chariot, nuages, texte central et ambiance hivernale chaleureuse.",
+      title: "Noël",
+      desc: "Landing page festive de Noël, en HTML, CSS et JavaScript. Neige animée (script léger), animations GSAP et plein écran adaptatif.",
 
+      prefixTitle: "Noël",
+      suffixTitle: "Animation de Fond",
       paragraphs: [
         "Projet saisonnier pour une campagne de fin d’année.",
         "Accent sur l’émotionnel : couleurs, textures, micro-interactions.",
@@ -722,9 +778,11 @@ export const fr = {
     },
 
     halloween1: {
-      title: "Animation de Fond — Halloween 1",
-      desc: "Page thématique Halloween avec GSAP : lune, arbres, citrouilles et atmosphère sombre immersive.",
+      title: "Halloween",
+      desc: "Page Halloween animée avec GSAP, en HTML, CSS et JavaScript. Apparitions séquencées via GSAP et plein écran adaptatif.",
 
+      prefixTitle: "Halloween",
+      suffixTitle: "Animation de Fond",
       paragraphs: [
         "Projet pour un événement Halloween (opération limitée).",
         "Direction artistique : contrastes marqués, typographies thématiques.",
@@ -741,9 +799,11 @@ export const fr = {
     },
 
     halloween2: {
-      title: "Animation de Fond — Halloween 2",
-      desc: "Accueil interactif Halloween avec effet 3D au survol (Atropos.js) et animations GSAP.",
+      title: "Halloween",
+      desc: "Accueil Halloween interactif, en HTML, CSS et JavaScript. Effet 3D Atropos, animations GSAP et plein écran adaptatif.",
 
+      prefixTitle: "Halloween",
+      suffixTitle: "Animation de Fond",
       paragraphs: [
         "Projet pour déclinaison visuelle Halloween avec plus d’interactivité.",
         "Mise en scène 3D au hover, typographies et couleurs sur mesure.",
@@ -760,9 +820,11 @@ export const fr = {
     },
 
     juice: {
-      title: "Animation de Fond — Jus de Fruits",
-      desc: "Landing vitaminée animée (GSAP + TweenMax) : visuels frais, éléments flottants, palette estivale.",
+      title: "Jus de Fruits",
+      desc: "Landing page vitaminée pour jus de fruits, en HTML, CSS et JavaScript. Animations GSAP et plein écran adaptatif.",
 
+      prefixTitle: "Jus de Fruits",
+      suffixTitle: "Animation de Fond",
       paragraphs: [
         "Marque de jus souhaitant un hero animé.",
         "Focus sur la fraîcheur : couleurs vives, typographies rondes.",
@@ -779,9 +841,11 @@ export const fr = {
     },
 
     pirate: {
-      title: "Animation de Fond — Pirate",
-      desc: "Scène marine animée CSS : bateau flottant, vagues et nuages en mouvement, ambiance aventure.",
+      title: "Pirate",
+      desc: "Scène marine CSS animée pour page d’accueil, en HTML, CSS et JavaScript. Vagues, nuages et transitions.",
 
+      prefixTitle: "Pirate",
+      suffixTitle: "Animation de Fond",
       paragraphs: [
         "Animation d’accueil thématique jeu/événement.",
         "Cohérence graphique marine, assets optimisés.",
@@ -792,15 +856,17 @@ export const fr = {
         "Bateau en flottement continu (CSS)",
         "Vagues et nuages animés",
         "Menu responsive et header ombré au scroll",
-        "CTA “Explorer maintenant” animé",
+        "CTA Explorer Maintenant animé",
         "Responsive multi-résolutions",
       ],
     },
 
     temple: {
-      title: "Animation de Fond — Temple",
-      desc: "Page poétique avec GSAP + Sakura.js : pétales tombants, animations séquentielles et ambiance contemplative.",
+      title: "Temple",
+      desc: "Page poétique avec pétales Sakura, en HTML, CSS et JavaScript. Animations GSAP et plein écran adaptatif.",
 
+      prefixTitle: "Temple",
+      suffixTitle: "Animation de Fond",
       paragraphs: [
         "Projet pour un univers culturel et méditatif.",
         "Ambiance douce : palettes sobres, micro-interactions légères.",
@@ -817,9 +883,11 @@ export const fr = {
     },
 
     archiSlider: {
-      title: "Slider de Fond — Architecture",
-      desc: "Carrousel plein écran (Swiper) pour projets d’architecture, avec transitions et parallax fins.",
+      title: "Architecture",
+      desc: "Carrousel plein écran pour projets d’architecture, en HTML, CSS et JavaScript. Transitions soignées et plein écran adaptatif.",
 
+      prefixTitle: "Architecture",
+      suffixTitle: "Slider de Fond",
       paragraphs: [
         "Projet type portfolio pour studio d’architecture.",
         "Mise en avant des visuels, sobriété et rythme maîtrisé.",
@@ -827,7 +895,7 @@ export const fr = {
         "Code modulaire, prêt à étendre.",
       ],
       features: [
-        "Carrousel plein écran (fade)",
+        "Carrousel plein écran",
         "Parallax sur textes / images",
         "Pagination fraction personnalisée",
         "Boutons nav précédent / suivant",
@@ -836,9 +904,11 @@ export const fr = {
     },
 
     travelSlider: {
-      title: "Slider de Fond — Voyage",
-      desc: "Slider exotique (Swiper + GSAP) avec vignettes synchronisées, popup vidéo et transitions fluides.",
+      title: "Voyage",
+      desc: "Slider exotique pour voyage, en HTML, CSS et JavaScript. Vignettes synchronisées, animations GSAP et plein écran adaptatif.",
 
+      prefixTitle: "Voyage",
+      suffixTitle: "Slider de Fond",
       paragraphs: [
         "Projet pour une vitrine d’agences de voyage.",
         "Focus émotionnel : visuels plein écran, micro-anim.",
@@ -855,9 +925,11 @@ export const fr = {
     },
 
     imageHover: {
-      title: "Effet de Survol d'Images",
-      desc: "Composants d’images interactives 100% CSS, avec texte et CTA révélés au survol. Design responsive et animations fluides.",
+      title: "Nature",
+      desc: "Composants d’images interactives 100% CSS/HTML, sans JS. Textes révélés au survol et transitions fluides, design responsive.",
 
+      prefixTitle: "Nature",
+      suffixTitle: "Effet de Survol d'Images",
       paragraphs: [
         "Projet vitrine pour enrichir des galeries ou portfolios avec des cartes images animées sans JavaScript.",
         "Objectif : proposer des micro-interactions élégantes et accessibles, faciles à intégrer dans n’importe quelle page.",
@@ -874,9 +946,11 @@ export const fr = {
     },
 
     carSlider: {
-      title: "Carrousel d’images de Voitures",
-      desc: "Slider immersif de voitures de sport avec Swiper.js et animations d’entrée GSAP. Plein écran, fluide et responsive.",
+      title: "Voitures",
+      desc: "Carrousel immersif de voitures sport, en HTML, CSS et JavaScript. Animations GSAP et plein écran adaptatif.",
 
+      prefixTitle: "Voitures",
+      suffixTitle: "Carrousel d’Images",
       paragraphs: [
         "Conçu pour des pages événementielles ou des vitrines automobile haut de gamme.",
         "Mix Swiper.js pour le carrousel et GSAP pour les animations de titres/visuels.",
@@ -893,9 +967,11 @@ export const fr = {
     },
 
     clothingSlider: {
-      title: "Carrousel d’images de Vêtements",
-      desc: "Carrousel produit élégant avec Swiper.js, ScrollReveal et CSS custom. Parfait pour pages mode / e-commerce.",
+      title: "Vêtements",
+      desc: "Carrousel produit élégant pour mode, en HTML, CSS et JavaScript. ScrollReveal et CSS custom pour transitions douces.",
 
+      prefixTitle: "Vêtements",
+      suffixTitle: "Carrousel d’Images",
       paragraphs: [
         "Présente des articles avec visuel, nom et prix dans un slider fluide.",
         "Animations d’entrée progressives au scroll pour chaque bloc.",
@@ -912,9 +988,11 @@ export const fr = {
     },
 
     vaseSlider: {
-      title: "Carrousel d’images de Vases",
-      desc: "Galerie avec slider principal et miniatures synchronisées via Swiper.js. Navigation fluide et design épuré.",
+      title: "Vases",
+      desc: "Galerie avec slider et miniatures, en HTML, CSS et JavaScript. Synchronisation Swiper avec animations.",
 
+      prefixTitle: "Vases",
+      suffixTitle: "Carrousel d’Images",
       paragraphs: [
         "Pensé pour galeries de produits ou portfolios créatifs.",
         "Miniatures cliquables synchronisées avec l’image principale.",
@@ -931,9 +1009,11 @@ export const fr = {
     },
 
     watchSlider: {
-      title: "Carrousel d’images de Montres",
-      desc: "Galerie premium de montres avec navigation créative, Swiper.js et animations d’entrée GSAP.",
+      title: "Montres",
+      desc: "Galerie premium de montres, en HTML, CSS et JavaScript. Effets de slides créatifs et animations fluides GSAP.",
 
+      prefixTitle: "Montres",
+      suffixTitle: "Carrousel d’Images",
       paragraphs: [
         "Met en valeur des produits haut de gamme avec storytelling visuel.",
         "Effets créatifs sur les slides et typographies soignées.",
@@ -950,9 +1030,11 @@ export const fr = {
     },
 
     parallaxChina: {
-      title: "Animation Slider Parallax de Fond — Chine",
-      desc: "Slider parallaxe synchronisé (avant-plan / arrière-plan) avec ambiance cinématographique et transitions élégantes.",
+      title: "Chine",
+      desc: "Slider parallaxe inspiré de la Chine, en HTML, CSS et JavaScript. Profondeur visuelle et transitions soignées.",
 
+      prefixTitle: "Chine",
+      suffixTitle: "Animation Slider Parallax",
       paragraphs: [
         "Expérience immersive inspirée de la Chine contemporaine.",
         "Swiper.js pour le slider, parallaxe intégré pour la profondeur.",
@@ -969,9 +1051,11 @@ export const fr = {
     },
 
     parallaxChristmas: {
-      title: "Animation Parallax de Fond — Noël",
-      desc: "Landing page festive avec Rellax.js, GSAP et ScrollReveal. Design chaleureux et 100% responsive.",
+      title: "Noël",
+      desc: "Landing page parallax de Noël, en HTML, CSS et JavaScript. Rellax, animations GSAP et plein écran adaptatif.",
 
+      prefixTitle: "Noël",
+      suffixTitle: "Animation Parallax",
       paragraphs: [
         "Chaque section célèbre l’esprit des fêtes avec des animations douces.",
         "Empilement Rellax (parallaxe), GSAP (séquences) et ScrollReveal (apparitions).",
@@ -988,9 +1072,11 @@ export const fr = {
     },
 
     parallaxMountain: {
-      title: "Animation Parallax de Fond — Montagne",
-      desc: "Panorama 3D avec effet parallax (X/Y/Z) piloté au pointeur, titres animés GSAP et rendu plein écran.",
+      title: "Montagne",
+      desc: "Panorama 3D parallax multi-axes, en HTML, CSS et JavaScript. Titres animés GSAP et plein écran adaptatif.",
 
+      prefixTitle: "Montagne",
+      suffixTitle: "Animation Parallax",
       paragraphs: [
         "Déplacements subtils synchronisés des couches pour profondeur réaliste.",
         "Redimensionnement automatique pour remplir le viewport.",
@@ -1007,9 +1093,11 @@ export const fr = {
     },
 
     parallaxEgypt: {
-      title: "Animation Parallax de Fond — Égypte",
-      desc: "Paysage égyptien animé multi-calques au scroll, optimisé via requestAnimationFrame. Mobile-first.",
+      title: "Égypte",
+      desc: "Paysage égyptien en parallax scroll, en HTML, CSS et JavaScript. Vanilla JS fluide.",
 
+      prefixTitle: "Égypte",
+      suffixTitle: "Animation Parallax",
       paragraphs: [
         "Cinq couches défilent à vitesses variées pour un rendu immersif.",
         "Titre en translation latérale fluide et toujours visible.",
@@ -1026,9 +1114,11 @@ export const fr = {
     },
 
     carouselMenu: {
-      title: "Carousel Menu — Carte Filtrable",
-      desc: "Menu interactif filtrable (entrées, plats, desserts) avec cartes générées dynamiquement en JavaScript. Design responsive et animations de survol élégantes.",
+      title: "Carte Filtrable",
+      desc: "Menu filtrable (entrées, plats, desserts) en HTML, CSS et JavaScript. Cartes générées dynamiquement",
 
+      prefixTitle: "Carte Filtrable",
+      suffixTitle: "Carousel Menu",
       paragraphs: [
         "Projet client visant à présenter un menu digital clair et modulable pour un restaurant traditionnel.",
         "Objectif : permettre un filtrage instantané par catégorie tout en conservant une mise en page esthétique.",
@@ -1046,9 +1136,11 @@ export const fr = {
     },
 
     galleryMovies: {
-      title: "Galerie d’Images — Films Cultes",
-      desc: "Mosaïque responsive en HTML/CSS mettant à l’honneur des films cultes. Ratios d’images variés pour un rendu cinématographique.",
+      title: "Films Cultes",
+      desc: "Mosaïque responsive dédiée aux films cultes, en HTML et CSS. Ratios variés, effets au survol et rendu cinématographique.",
 
+      prefixTitle: "Films Cultes",
+      suffixTitle: "Galerie d’Images",
       paragraphs: [
         "Projet client pour une galerie d’inspiration autour du cinéma des années 90/2000.",
         "Objectif : créer une grille dynamique, immersive et performante, sans dépendances.",
@@ -1065,10 +1157,34 @@ export const fr = {
       ],
     },
 
-    componentsAuth: {
-      title: "Composants d’Authentification",
-      desc: "Collection de composants React prêts à l’emploi pour login / signup, déclinés en plusieurs variantes UI.",
+    countryFilter: {
+      title: "Pays",
+      desc: "Application React pour filtrer les pays par continent et population (REST Countries). Dark mode, tri fluide et responsive.",
 
+      prefixTitle: "Pays",
+      suffixTitle: "Filter App",
+      paragraphs: [
+        "Projet pour explorer et filtrer des données géographiques en temps réel.",
+        "Objectif : interface claire, rapide, en dark mode, et responsive.",
+        "Intégration de l’API REST Countries via Axios et gestion de routes.",
+        "Animations légères au survol et tri fluide par curseur de population.",
+      ],
+      features: [
+        "Filtre par continent (Africa, America, Asia, Europe, Oceania)",
+        "Curseur de population minimale",
+        "Drapeau, capitale et population",
+        "Dark mode et responsive",
+        "Axios + React Router",
+        "Déploiement Vercel",
+      ],
+    },
+
+    componentsAuth: {
+      title: "Authentification",
+      desc: "Pack React de composants d’authentification, login/signup, UI modulaire et responsive. Animations légères au scroll.",
+
+      prefixTitle: "Authentification",
+      suffixTitle: "Composants React",
       paragraphs: [
         "Projet client pour accélérer l’intégration d’interfaces d’authentification.",
         "Objectif : fournir des bases UI propres, modulaires et facilement personnalisables.",
@@ -1076,7 +1192,7 @@ export const fr = {
         "Le tout est responsive, sans framework UI externe, et déployé sur Vercel.",
       ],
       features: [
-        "Variantes auth1 → auth6",
+        "Variantes de auth1 à auth6",
         "Champs contrôlés et placeholders flottants",
         "Affichage / masquage du mot de passe",
         "Architecture modulaire par dossier",
@@ -1086,9 +1202,11 @@ export const fr = {
     },
 
     componentsNav: {
-      title: "Composants de Navigation",
-      desc: "9 barres de navigation React prêtes à l’emploi : topbar, sidebar et bottombar, avec comportements dynamiques.",
+      title: "Navigation",
+      desc: "Ensemble React de 9 barres de navigation, dynamiques et responsives. Menus, sous-menus et transitions fluides.",
 
+      prefixTitle: "Navigation",
+      suffixTitle: "Composants React",
       paragraphs: [
         "Projet client visant à standardiser les patterns de navigation multi-plateformes.",
         "Objectif : livrer des composants réutilisables et adaptables aux layouts variés.",
@@ -1106,9 +1224,11 @@ export const fr = {
     },
 
     componentsModern: {
-      title: "Composants UI Modernes",
-      desc: "Pack de composants React animés (pricing, profils, tabs, loader, dropdown, search, etc.) prêts à être intégrés.",
+      title: "UI Modernes",
+      desc: "Pack React de composants UI animés (pricing, tabs, loaders, etc.), modulaires et responsives. Framer Motion inclus.",
 
+      prefixTitle: "UI Modernes",
+      suffixTitle: "Composants React",
       paragraphs: [
         "Projet client pour enrichir rapidement l’UI d’applications React.",
         "Objectif : proposer une librairie légère, esthétique et modulaire.",
@@ -1125,30 +1245,12 @@ export const fr = {
       ],
     },
 
-    countryFilter: {
-      title: "Country Filter App",
-      desc: "Application React permettant de filtrer les pays par continent et population, basée sur l’API REST Countries.",
-
-      paragraphs: [
-        "Projet pour explorer et filtrer des données géographiques en temps réel.",
-        "Objectif : interface claire, rapide, en dark mode, et responsive.",
-        "Intégration de l’API REST Countries via Axios et gestion de routes.",
-        "Animations légères au survol et tri fluide par curseur de population.",
-      ],
-      features: [
-        "Filtre par continent (Africa, America, Asia, Europe, Oceania)",
-        "Curseur de population minimale",
-        "Drapeau, capitale et population",
-        "Dark mode et responsive",
-        "Axios + React Router",
-        "Déploiement Vercel",
-      ],
-    },
-
     groupomania: {
-      title: "Groupomania — Réseau Social d’Entreprise",
-      desc: "Réseau social d’entreprise full-stack (MERN) avec fil d’actualité, authentification JWT et gestion d’images locale/Cloudinary.",
+      title: "Groupomania",
+      desc: "Réseau social d’entreprise MERN : flux, likes, uploads et auth JWT. UI responsive et stockage Cloudinary/Local.",
 
+      prefixTitle: "Groupomania",
+      suffixTitle: "Réseau Social d’Entreprise",
       paragraphs: [
         "Groupomania est un réseau social d’entreprise complet développé en stack MERN (MongoDB, Express, React, Node.js).",
         "Les employés publient du contenu texte ou image, likent les posts et interagissent dans un fil d’actualité sécurisé et responsive.",
@@ -1160,14 +1262,16 @@ export const fr = {
         "CRUD des posts avec upload d’images",
         "Like unique par utilisateur",
         "Nettoyage des médias (local/Cloudinary)",
-        "UI responsive et feedback d’erreurs clairs",
+        "UI responsive et feedback d’errors clairs",
       ],
     },
 
     piquante: {
-      title: "Piquante — Partage de Sauces",
-      desc: "Application full-stack Angular/Node dédiée au partage de sauces : publication, vote like/dislike et API sécurisée.",
+      title: "Piquante",
+      desc: "Application Angular/Node de partage de sauces : CRUD, votes et auth JWT. UI responsive et médias Cloudinary/Local.",
 
+      prefixTitle: "Piquante",
+      suffixTitle: "Partage de Sauces",
       paragraphs: [
         "Piquante est une application web full-stack dédiée au partage de sauces piquantes.",
         "Backend Node.js/Express + MongoDB et frontend Angular moderne et responsive.",
@@ -1184,9 +1288,11 @@ export const fr = {
     },
 
     kanap: {
-      title: "Kanap — E-commerce JS Vanilla",
-      desc: "Boutique e-commerce en JavaScript Vanilla avec affichage dynamique, panier localStorage et API Node/Express.",
+      title: "Kanap",
+      desc: "Boutique e-commerce en JavaScript Vanilla : API Node/Express, panier localStorage et interface responsive performante.",
 
+      prefixTitle: "Kanap",
+      suffixTitle: "E-commerce JS Vanilla",
       paragraphs: [
         "Kanap est un site e-commerce réalisé en JavaScript Vanilla avec HTML et CSS.",
         "Les produits sont récupérés dynamiquement depuis une API Node/Express.",

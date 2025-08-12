@@ -24,7 +24,7 @@ const Confidentiality = () => {
 
         <DotBackgroundDemo />
 
-        <div className="flex flex-col gap-10 mt-32 relative lg:max-w-4xl mx-auto">
+        <div className="flex flex-col gap-10 mt-12 relative lg:max-w-4xl mx-auto z-[2]">
           <BackButton />
           <div className="flex flex-col gap-6 pb-8 sm:pb-16">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold">
@@ -67,7 +67,7 @@ const Confidentiality = () => {
               </li>
               <li className="flex flex-col gap-6 text-lg mb-2">
                 &nbsp;&nbsp;&nbsp;✔️&nbsp;&nbsp;
-                {t("VuseOfInfoBullet2")}
+                {t("useOfInfoBullet2")}
               </li>
               <li className="flex flex-col gap-6 text-lg mb-2">
                 &nbsp;&nbsp;&nbsp;➤&nbsp;&nbsp;&nbsp;

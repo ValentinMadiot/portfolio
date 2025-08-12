@@ -27,7 +27,7 @@ const Hero = () => {
 
       <DotBackgroundDemo />
 
-      <div className="flex justify-center relative z-10">
+      <div className="flex justify-center relative z-[2]">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <p className="uppercase tracking-widest text-xs text-center text-lightblue-100 max-w-80">
             {t("subheading")}

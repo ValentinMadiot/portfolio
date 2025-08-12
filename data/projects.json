@@ -490,7 +490,7 @@
     "img": "/projects/halloween2-preview.png",
     "iconLists": ["/badges/css.svg", "/badges/js.svg", "/badges/gsap.svg"],
     "linkDemo": "https://background-animation-halloween-1.netlify.app/",
-    "linkGithub": "background-animation-halloween_js",
+    "linkGithub": "background-animation-halloween-1_js",
     "isGridThreeCols": true,
     "isClientProject": true
   },
@@ -502,7 +502,7 @@
     "img": "/projects/halloween3-preview.png",
     "iconLists": ["/badges/css.svg", "/badges/js.svg", "/badges/gsap.svg"],
     "linkDemo": "https://background-animation-halloween-2.netlify.app/",
-    "linkGithub": "background-animation-halloween2_js",
+    "linkGithub": "background-animation-halloween-2_js",
     "isGridThreeCols": true,
     "isClientProject": true
   },
@@ -731,6 +731,23 @@
 
   {
     "id": 48,
+    "key": "countryFilter",
+    "slug": "country-filter-app",
+    "img": "/projects/country-preview.png",
+    "iconLists": [
+      "/badges/react.svg",
+      "/badges/sass.svg",
+      "/badges/axios.svg",
+      "/badges/vercel.svg"
+    ],
+    "linkDemo": "https://country-filter-api.vercel.app/",
+    "linkGithub": "country-filter_api",
+    "isGridThreeCols": true,
+    "isClientProject": false
+  },
+
+  {
+    "id": 49,
     "key": "componentsAuth",
     "slug": "components-authentication",
     "img": "/projects/authentication-preview.png",
@@ -747,7 +764,7 @@
   },
 
   {
-    "id": 49,
+    "id": 50,
     "key": "componentsNav",
     "slug": "components-navigation",
     "img": "/projects/navigation-preview.png",
@@ -764,7 +781,7 @@
   },
 
   {
-    "id": 50,
+    "id": 51,
     "key": "componentsModern",
     "slug": "components-modern",
     "img": "/projects/modern-preview.png",
@@ -773,23 +790,6 @@
     "linkGithub": "components-modern_ui",
     "isGridThreeCols": true,
     "isClientProject": true
-  },
-
-  {
-    "id": 51,
-    "key": "countryFilter",
-    "slug": "country-filter-app",
-    "img": "/projects/country-preview.png",
-    "iconLists": [
-      "/badges/react.svg",
-      "/badges/sass.svg",
-      "/badges/axios.svg",
-      "/badges/vercel.svg"
-    ],
-    "linkDemo": "https://country-filter-api.vercel.app/",
-    "linkGithub": "country-filter_api",
-    "isGridThreeCols": true,
-    "isClientProject": false
   },
 
   {

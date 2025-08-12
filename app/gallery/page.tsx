@@ -32,7 +32,7 @@ const Gallery = () => {
 
         <DotBackgroundDemo />
 
-        <div className="flex flex-col mt-32 relative max-w-6xl mx-auto px-4">
+        <div className="flex flex-col mt-12 relative max-w-6xl mx-auto px-4 z-[2]">
           <BackButton />
 
           <h1 className="heading mb-10">{t("title")}</h1>

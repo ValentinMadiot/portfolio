@@ -1,7 +1,7 @@
 "use client";
 import NotFound from "@/app/not-found";
 import BackButton from "@/components/BackButton";
-import { MoreProjects } from "@/components/Projects/MoreProjects";
+// import { MoreProjects } from "@/components/Projects/MoreProjects";
 import { ProjectDescription } from "@/components/Projects/ProjectDescription";
 import { DotBackgroundDemo } from "@/components/ui/DotBackgroundDemo";
 import { Spotlight } from "@/components/ui/Spotlight";
@@ -29,7 +29,7 @@ const ProjectDetail = () => {
 
   return (
     <>
-      <div className="pb-20 pt-8 fade-in">
+      <div className="xs:pb-20 pt-8 fade-in">
         <div>
           <Spotlight
             className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
@@ -44,12 +44,13 @@ const ProjectDetail = () => {
 
         <DotBackgroundDemo />
 
-        <div className="flex flex-col gap-10 mt-32 relative lg:max-w-4xl mx-auto">
+        <div className="flex flex-col gap-10 mt-12 relative lg:max-w-4xl mx-auto z-[2]">
           <BackButton />
           {/* On passe uniquement les données brutes ; les textes seront traduits dans ProjectDescription */}
           <ProjectDescription selectedProject={selectedProject} />
         </div>
-        <MoreProjects slug={slug} />
+        {/* <MoreProjects slug={slug} /> */}
+        <div className="flex flex-col border-t border-white/10"></div>
       </div>
     </>
   );
