@@ -122,3 +122,17 @@
     @apply bg-background text-foreground;
   }
 }
+
+/*=============== SCROLL BAR ===============*/
+::-webkit-scrollbar {
+  width: 0.6rem;
+  background-color: #000319;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #4643e0;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #7aa0fa;
+}
