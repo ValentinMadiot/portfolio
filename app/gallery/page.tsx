@@ -3,6 +3,7 @@
 import BackButton from "@/components/BackButton";
 import ProjectCard from "@/components/Projects/ProjectCard";
 import { DotBackgroundDemo } from "@/components/ui/DotBackgroundDemo";
+import ScrollUpButton from "@/components/ui/ScrollToUp";
 import { Spotlight } from "@/components/ui/Spotlight";
 import projects from "@/data/projects.json";
 import { useTranslation } from "@/utils/useTranslation";
@@ -17,7 +18,7 @@ const Gallery = () => {
 
   return (
     <>
-      <div className="pb-20 pt-8 fade-in">
+      <div className="pb-20 fade-in">
         <div>
           <Spotlight
             className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
@@ -35,7 +36,7 @@ const Gallery = () => {
         <div className="flex flex-col mt-12 relative max-w-6xl mx-auto px-4 z-[2]">
           <BackButton />
 
-          <h1 className="heading mb-10">{t("title")}</h1>
+          <h1 className="heading my-12">{t("title")}</h1>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {projects.map((project) => (
@@ -43,6 +44,7 @@ const Gallery = () => {
             ))}
           </div>
         </div>
+        <ScrollUpButton />
       </div>
     </>
   );

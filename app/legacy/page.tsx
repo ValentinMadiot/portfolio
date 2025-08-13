@@ -1,6 +1,7 @@
 "use client";
 import BackButton from "@/components/BackButton";
 import { DotBackgroundDemo } from "@/components/ui/DotBackgroundDemo";
+import ScrollUpButton from "@/components/ui/ScrollToUp";
 import { Spotlight } from "@/components/ui/Spotlight";
 import { useTranslation } from "@/utils/useTranslation";
 
@@ -132,6 +133,7 @@ const Legacy = () => {
             </ul>
           </div>
         </div>
+        <ScrollUpButton />
       </div>
     </>
   );
