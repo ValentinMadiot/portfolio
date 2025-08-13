@@ -1,6 +1,7 @@
 "use client";
 import BackButton from "@/components/BackButton";
 import { DotBackgroundDemo } from "@/components/ui/DotBackgroundDemo";
+import LanguageToggleButton from "@/components/ui/LanguageToggleButton";
 import ScrollUpButton from "@/components/ui/ScrollToUp";
 import { Spotlight } from "@/components/ui/Spotlight";
 import { useTranslation } from "@/utils/useTranslation";
@@ -26,7 +27,10 @@ const Legacy = () => {
         <DotBackgroundDemo />
 
         <div className="flex flex-col gap-10 mt-12 relative lg:max-w-4xl mx-auto z-[2]">
-          <BackButton />
+          <div className="flex justify-between items-center">
+            <BackButton />
+            <LanguageToggleButton />
+          </div>
           <div className="flex flex-col gap-6 pb-8 sm:pb-16">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold">
               {t("title")}

@@ -3,6 +3,7 @@
 import BackButton from "@/components/BackButton";
 import ProjectCard from "@/components/Projects/ProjectCard";
 import { DotBackgroundDemo } from "@/components/ui/DotBackgroundDemo";
+import LanguageToggleButton from "@/components/ui/LanguageToggleButton";
 import ScrollUpButton from "@/components/ui/ScrollToUp";
 import { Spotlight } from "@/components/ui/Spotlight";
 import projects from "@/data/projects.json";
@@ -33,19 +34,21 @@ const Gallery = () => {
 
         <DotBackgroundDemo />
 
-        <div className="flex flex-col mt-12 relative max-w-6xl mx-auto px-4 z-[2]">
-          <BackButton />
+        <div className="flex flex-col mt-12 relative max-w-6xl mx-auto z-[2]">
+          <div className="flex justify-between items-center">
+            <BackButton />
+            <LanguageToggleButton />
+          </div>
 
           <h1 className="heading my-12">{t("title")}</h1>
-
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {projects.map((project) => (
               <ProjectCard key={project.id} project={project} />
             ))}
           </div>
         </div>
-        <ScrollUpButton />
       </div>
+      <ScrollUpButton />
     </>
   );
 };
