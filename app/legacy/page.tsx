@@ -26,7 +26,7 @@ const Legacy = () => {
 
         <DotBackgroundDemo />
 
-        <div className="flex flex-col gap-10 mt-12 relative lg:max-w-4xl mx-auto z-[2]">
+        <div className="flex flex-col gap-10 mt-12 relative lg:max-w-5xl mx-auto z-[2]">
           <div className="flex justify-between items-center">
             <BackButton />
             <LanguageToggleButton />

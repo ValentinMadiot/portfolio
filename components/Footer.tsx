@@ -10,7 +10,7 @@ const Footer = () => {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="max-w-7xl relative -z-1" id="contact">
+    <footer className="max-w-[1440px] mx-auto relative -z-1" id="contact">
       <div className="w-full absolute left-0 -bottom-72 min-h-96">
         <img
           src="/assets/footer-grid.svg"
