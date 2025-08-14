@@ -10,7 +10,7 @@ export default function BackButton(): JSX.Element {
 
   return (
     <button
-      className="flex items-center gap-1 text-lg hover:text-white-100 pb-[2px] cursor-pointer w-fit"
+      className="flex items-center gap-1 text-lg text-white/80 hover:text-white pb-[2px] cursor-pointer w-fit"
       onClick={() => router.back()}>
       <AiOutlineArrowLeft />
       <span>{t("back")}</span>

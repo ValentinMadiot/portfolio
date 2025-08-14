@@ -11,7 +11,7 @@ const Badges: React.FC<BadgesProps> = ({ iconLists }) => {
       {iconLists.map((icon, index) => (
         <div
           key={icon}
-          className="border border-white/[0.2] rounded-full bg-black w-11 h-11 flex items-center justify-center cursor-pointer transition-transform duration-150 transform"
+          className="border border-white/[0.2] rounded-full bg-black w-11 h-11 flex items-center justify-center cursor-default transition-transform duration-150 transform ease-in-out"
           style={{
             transform: `translateX(-${5 * index * 2}px)`,
           }}

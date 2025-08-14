@@ -19,7 +19,7 @@ const Gallery = () => {
 
   return (
     <>
-      <div className="pb-20 fade-in">
+      <div className="lg:pb-20 pt-8 fade-in">
         <div>
           <Spotlight
             className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
@@ -47,6 +47,7 @@ const Gallery = () => {
             ))}
           </div>
         </div>
+        <div className="flex flex-col border-t border-white/10 mt-20"></div>
       </div>
       <ScrollUpButton />
     </>

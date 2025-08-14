@@ -16,7 +16,7 @@ const ExternalLinks = ({
       <a
         href={`https://github.com/ValentinMadiot/${linkGithub}`}
         target="_blank"
-        className="flex justify-center items-center gap-1 hover:text-white-100">
+        className="flex justify-center items-center gap-1 text-white/80 hover:text-white">
         <AiOutlineGithub className="ms-1" />
         <p>Code</p>
       </a>
@@ -28,10 +28,8 @@ const ExternalLinks = ({
           }
         }}
         target="_blank"
-        className={`flex justify-center items-center gap-1 ${
-          linkDemo === ""
-            ? "cursor-not-allowed text-gray-500"
-            : "hover:text-white-100"
+        className={`flex justify-center items-center gap-1 text-white/80 hover:text-white ${
+          linkDemo === "" ? "cursor-not-allowed " : ""
         }`}>
         <AiOutlineLogout className="ms-3" />
         <p>Demo</p>

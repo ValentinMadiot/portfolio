@@ -56,12 +56,29 @@ export const ProjectDescription = ({
         </div>
       </div>
       <div className="flex flex-col gap-6 mb-20">
-        <div className="relative rounded-3xl mb-6">
+        {/* <div className="relative rounded-3xl mb-6">
           <ImageProject
             img={selectedProject.img}
             title={prefixTitle}
             tallBackground
           />
+        </div> */}
+        <div className="relative rounded-3xl mb-6">
+          {/* Desktop/Tablet (≥640px) : image simple */}
+          <img
+            src={selectedProject.img}
+            alt={prefixTitle}
+            className="hidden sm:block w-full rounded-t-xl"
+          />
+
+          {/* Mobile (<640px) : on garde ImageProject uniquement en mobile */}
+          <div className="sm:hidden">
+            <ImageProject
+              img={selectedProject.img}
+              title={prefixTitle}
+              tallBackground
+            />
+          </div>
         </div>
         <h3 className="text-2xl sm:text-3xl font-bold text-lightblue-200">
           {tLabels("context")}

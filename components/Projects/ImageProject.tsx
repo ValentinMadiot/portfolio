@@ -22,35 +22,44 @@ const ImageProject: React.FC<ImageProjectProps> = ({
         <div
           className={`relative w-full overflow-hidden bg-[#13162d] ${
             tallBackground
-              ? "h-[360px] sm:h-[390px] md:h-[490px] min-[900px]:h-[570px]"
+              ? "h-[360px] sm:h-[390px] md:h-[490px] min-[900px]:h-[600px]"
               : isGridThreeCols
               ? "aspect-[5/3] md:aspect-[16/10] min-h-[220px]"
               : "aspect-[16/10] xl:h-[360px] min-h-[220px]"
           }`}
         />
+
         {/* Image projet */}
         <img
           src={img}
           alt={title}
           className={[
             "absolute z-10 rounded-xl sm:w-[90%]",
+            "left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2",
             imgRotate
               ? "transform-gpu will-change-transform transition-transform duration-500 ease-in-out group-hover:rotate-2 hover:scale-105"
-              : "left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2",
+              : "",
+            "object-contain",
           ].join(" ")}
         />
+        {/* COVER IMG */}
+        {/* <img
+          src={img}
+          alt={title}
+          className={[
+            "absolute inset-0 w-full h-full object-cover z-10 rounded-t-2xl",
+            imgRotate
+              ? "transform-gpu will-change-transform transition-transform duration-500 ease-in-out  hover:scale-105"
+              : "",
+          ].join(" ")}
+        /> */}
       </div>
 
       {/* Mobile */}
       <img
         src={img}
         alt={title}
-        className={[
-          "block w-full sm:hidden rounded-xl",
-          imgRotate
-            ? "transform-gpu will-change-transform transition-transform duration-500 ease-in-out hover:rotate-2"
-            : "",
-        ].join(" ")}
+        className="block w-full sm:hidden rounded-t-xl"
       />
     </>
   );
