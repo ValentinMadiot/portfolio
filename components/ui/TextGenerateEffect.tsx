@@ -1,63 +1,55 @@
 "use client";
-import { useEffect } from "react";
-import { motion, stagger, useAnimate } from "framer-motion";
 import { cn } from "@/lib/utils";
+import React, { useMemo } from "react";
 
-export const TextGenerateEffect = ({
-  words,
-  className,
-  filter = true,
-  duration = 0.5,
-}: {
+type TextGenerateProps = {
   words: string;
   className?: string;
-  filter?: boolean;
-  duration?: number;
-}) => {
-  const [scope, animate] = useAnimate();
-  let wordsArray = words.split(" ");
-  useEffect(() => {
-    animate(
-      "span",
-      {
-        opacity: 1,
-        filter: filter ? "blur(0px)" : "none",
-      },
-      {
-        duration: duration ? duration : 1,
-        delay: stagger(0.2),
-      }
-    );
-  }, [scope.current]);
+  duration?: number; // en secondes par mot
+  step?: number; // délai entre mots en ms
+  blur?: boolean; // true = blur + fade, false = fade only
+};
 
-  const renderWords = () => {
-    return (
-      <motion.div ref={scope}>
-        {wordsArray.map((word, idx) => {
-          return (
-            <motion.span
-              key={word + idx}
-              className={`${
-                idx > 3 ? "text-blue" : "dark:text-lightblue-100 text-black"
-              } opacity-0`}
-              style={{
-                filter: filter ? "blur(10px)" : "none",
-              }}>
-              {word}{" "}
-            </motion.span>
-          );
-        })}
-      </motion.div>
-    );
-  };
+export default function TextGenerateEffectFast({
+  words,
+  className,
+  duration = 0.5,
+  step = 80,
+  blur = true,
+}: TextGenerateProps) {
+  const parts = useMemo(
+    () => (words ?? "").trim().split(/\s+/).filter(Boolean),
+    [words]
+  );
+
+  if (!parts.length) return null;
 
   return (
-    <div className={cn("font-bold", className)}>
-      <div className="my-8 xl:my-4">
-        <div className=" dark:text-white text-black leading-snug tracking-wide">
-          {renderWords()}
-        </div>
+    // key relance l'anim quand le texte change (traduction)
+    <div
+      key={words}
+      className={cn(
+        "font-bold my-5  text-center text-3xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-6xl",
+        className
+      )}>
+      <div className="leading-snug tracking-wide">
+        {parts.map((w, i) => (
+          <span
+            key={`${w}-${i}`}
+            className={cn(
+              blur ? "word-reveal" : "word-reveal-noblur",
+              i > 3 ? "text-blue" : "dark:text-lightblue-100 text-black"
+            )}
+            style={
+              {
+                ["--tg-delay" as any]: `${i * step}ms`,
+                ["--tg-duration" as any]: `${duration}s`,
+              } as React.CSSProperties
+            }>
+            {w}{" "}
+          </span>
+        ))}
       </div>
     </div>
   );
-};
+}

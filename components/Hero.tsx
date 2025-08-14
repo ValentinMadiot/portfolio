@@ -1,4 +1,5 @@
 "use client";
+import TextGenerateEffect from "@/components/ui/TextGenerateEffect";
 import { useTranslation } from "@/utils/useTranslation";
 import Link from "next/link";
 import { AiOutlineArrowRight } from "react-icons/ai";
@@ -6,7 +7,6 @@ import SocialMediaLinks from "./SocialMediaLinks";
 import { DotBackgroundDemo } from "./ui/DotBackgroundDemo";
 import MagicButton from "./ui/MagicButton";
 import { Spotlight } from "./ui/Spotlight";
-import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 
 const Hero = () => {
   const t = useTranslation("hero");
@@ -33,9 +33,15 @@ const Hero = () => {
             {t("subheading")}
           </p>
           <TextGenerateEffect
+            words={t("heading")}
+            duration={0.75}
+            step={85}
+            blur={true}
+          />
+          {/* <TextGenerateEffect
             className="text-center text-3xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-6xl"
             words={t("heading")}
-          />
+          /> */}
           <p className="text-lightblue-100 text-center tracking-wide md:tracking-wider text-sm md:text-lg max-w-xl sm:max-w-2xl lg:max-w-3xl">
             {t("description")}
           </p>

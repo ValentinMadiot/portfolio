@@ -107,6 +107,54 @@
   }
 }
 
+/* ================== Text generate effect  ================== */
+@layer components {
+  @keyframes wordReveal {
+    0% {
+      opacity: 0;
+      filter: blur(10px);
+    }
+    100% {
+      opacity: 1;
+      filter: blur(0);
+    }
+  }
+  @keyframes wordRevealNoBlur {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  /* Variante avec blur */
+  .word-reveal {
+    opacity: 0;
+    animation: wordReveal var(--tg-duration, 0.5s) ease-out forwards;
+    animation-delay: var(--tg-delay, 0ms);
+    will-change: opacity, filter;
+  }
+
+  /* Variante sans blur (si tu veux juste un fade-in) */
+  .word-reveal-noblur {
+    opacity: 0;
+    animation: wordRevealNoBlur var(--tg-duration, 0.5s) ease-out forwards;
+    animation-delay: var(--tg-delay, 0ms);
+    will-change: opacity;
+  }
+
+  /* Accessibilité : si l’utilisateur réduit les animations */
+  @media (prefers-reduced-motion: reduce) {
+    .word-reveal,
+    .word-reveal-noblur {
+      animation: none !important;
+      opacity: 1 !important;
+      filter: none !important;
+    }
+  }
+}
+
 /* ================== UTILITIES PERSO ================== */
 @layer utilities {
   .heading {
