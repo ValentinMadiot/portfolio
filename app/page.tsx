@@ -7,13 +7,13 @@ import RecentProjects from "@/components/RecentProjects";
 
 export default function Home() {
   return (
-    <>
+    <div className="max-w-5xl">
       <Navbar />
       <Hero />
       <Grid />
       <RecentProjects />
       {/* <Experience /> */}
       <Process />
-    </>
+    </div>
   );
 }

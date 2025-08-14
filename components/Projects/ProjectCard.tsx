@@ -25,7 +25,7 @@ const ProjectCard: React.FC<{ project: ProjectCardProps }> = ({ project }) => {
   const desc = t(`${project.key}.desc`);
 
   return (
-    <div className="relative border border-white/10 rounded-2xl p-5 duration-150 transform hover:scale-105">
+    <div className="relative border border-white/10 rounded-2xl pb-5 duration-150 transform  ">
       <Link href={`/projects/${project.slug}`} className="">
         <div className="">
           <ImageProject
@@ -34,13 +34,13 @@ const ProjectCard: React.FC<{ project: ProjectCardProps }> = ({ project }) => {
             isGridThreeCols={project.isGridThreeCols}
             imgRotate
           />
-          <h1 className="font-bold text-lg sm:text-2xl lg:text-xl xl:text-2xl line-clamp-1 mt-7">
+          <h1 className="font-bold text-lg sm:text-2xl lg:text-xl xl:text-2xl line-clamp-1 mt-7 px-5">
             {title}
           </h1>
-          <p className="sm:text-base text-white-100 md:text-lg lg:text-base xl:text-lg text-sm font-light line-clamp-3 mt-3">
+          <p className="sm:text-base text-white-100 md:text-lg lg:text-base xl:text-lg text-sm font-light line-clamp-3 mt-3 px-5">
             {desc}
           </p>
-          <div className="flex items-center justify-between mt-7 mb-3">
+          <div className="flex items-center justify-between mt-7 mb-3 px-5">
             <Badges iconLists={project.iconLists} />
           </div>
         </div>
@@ -49,7 +49,7 @@ const ProjectCard: React.FC<{ project: ProjectCardProps }> = ({ project }) => {
         <ExternalLinks
           linkDemo={project.linkDemo}
           linkGithub={project.linkGithub}
-          className="sm:absolute sm:right-7 sm:bottom-10"
+          className="sm:absolute sm:right-5 sm:bottom-10 ml-5"
         />
       </div>
     </div>

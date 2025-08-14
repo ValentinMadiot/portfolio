@@ -2,11 +2,17 @@ import Footer from "@/components/Footer";
 // import Navbar from "@/components/Navbar";
 import { LanguageProvider } from "@/context/LanguageContext";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Poppins } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "./theme-provider";
 
 const inter = Inter({ subsets: ["latin"] });
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700"],
+  variable: "--font-poppins",
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   title: "Valentin Madiot",
@@ -21,14 +27,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
-      <body className={inter.className}>
+      {/* <body className={inter.className}> */}
+      <body className={poppins.className}>
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"
           enableSystem
           disableTransitionOnChange>
-          <main className="relative bg-black-100 flex justify-center items-center flex-col mx-auto sm:px-10 px-5 overflow-clip">
-            <div className="max-w-7xl w-full">
+          <main className="relative bg-black-100 flex justify-center items-center flex-col mx-auto sm:px-10 px-5 overflow-clip ">
+            <div className="max-w-7xl ">
               <LanguageProvider>
                 {/* <Navbar /> */}
                 {children}

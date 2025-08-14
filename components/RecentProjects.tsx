@@ -30,9 +30,13 @@ const RecentProjects = () => {
         <Link
           href="/gallery"
           aria-label={t("viewGallery")}
-          className="inline-flex items-center text-center gap-2 text-lightblue-200 hover:text-white transition">
-          <AiOutlineArrowRight size="1.25rem" />
-          <span>{t("viewGallery")}</span>
+          className="inline-flex items-center text-center gap-2 text-white/80 hover:text-white transition">
+          <AiOutlineArrowRight
+            size="1.5rem"
+            className="motion-safe:animate-arrow will-change-transform"
+            aria-hidden="true"
+          />
+          <span className="text-2xl">{t("viewGallery")}</span>
         </Link>
       </div>
 
@@ -57,9 +61,13 @@ const RecentProjects = () => {
         <Link
           href="/gallery"
           aria-label={t("viewGallery")}
-          className="inline-flex items-center text-center gap-2 text-lightblue-200 hover:text-white transition">
-          <AiOutlineArrowRight size="1.25rem" />
-          <span>{t("viewGallery")}</span>
+          className="inline-flex items-center text-center gap-2 text-white/80 hover:text-white transition">
+          <AiOutlineArrowRight
+            size="1.5rem"
+            className="motion-safe:animate-arrow will-change-transform"
+            aria-hidden="true"
+          />
+          <span className="text-2xl">{t("viewGallery")}</span>
         </Link>
       </div>
     </div>

@@ -108,6 +108,14 @@ const config = {
             height: "0",
           },
         },
+        arrow: {
+          "0%": { transform: "translateX(0)" },
+          "20%": { transform: "translateX(5px)" },
+          "40%": { transform: "translateX(0)" },
+          "60%": { transform: "translateX(5px)" },
+          "80%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(0)" },
+        },
         "bounce-scale": {
           "0%": { transform: "scale(1)" },
           "50%": { transform: "scale(1.25)" },
@@ -189,6 +197,7 @@ const config = {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        arrow: "arrow 1.2s ease-in-out infinite",
         "bounce-scale": "bounce-scale 2s ease-in-out infinite",
         spotlight: "spotlight 2s ease .75s 1 forwards",
         shimmer: "shimmer 2s linear infinite",

@@ -10,7 +10,7 @@ const Footer = () => {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="w-full relative -z-1" id="contact">
+    <footer className="max-w-7xl relative -z-1" id="contact">
       <div className="w-full absolute left-0 -bottom-72 min-h-96">
         <img
           src="/assets/footer-grid.svg"
@@ -20,11 +20,11 @@ const Footer = () => {
       </div>
 
       <div className="flex flex-col items-center my-24">
-        <h1 className="heading lg:max-w-[45vw]">
+        <h1 className="heading xxs:max-w-[600px]">
           {t("headingPart1")}
           <span className="text-blue"> {t("headingPart2")}</span>
         </h1>
-        <p className="text-blue-100 text-lg md:mt-10 m-5 text-center">
+        <p className="text-blue-100 text-lg md:mt-10 m-5 text-center xxs:max-w-[600px] md:max-w-[750px]">
           {t("description")}
         </p>
         <a href="mailto:valentin.madiot@gmail.com" className="mb-5">
@@ -41,7 +41,7 @@ const Footer = () => {
 
       <div className="flex p-10 md:flex-row flex-col justify-between items-center relative">
         <p className="text-white-200 md:text-base text-sm md:font-normal font-light">
-          Copyright © {year} | Valentin Madiot
+          Copyright © {year} Valentin Madiot
         </p>
         <div className="flex flex-col md:flex-row gap-4 mt-5 md:mt-0 items-center">
           <TransitionLink

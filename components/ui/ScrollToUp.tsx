@@ -24,7 +24,7 @@ export default function ScrollUpButton({
   //   " bg-[#4643e0] text-[#7aa0fa] shadow-[0_12px_24px_rgba(0,0,0,0.3)] z-[10] rounded-md";
 
   const base = [
-    "fixed right-4 -bottom-12 inline-flex items-center justify-center",
+    "fixed right-5 xs:right-16 -bottom-12 inline-flex items-center justify-center",
     "p-1.5 text-xl transition-[bottom,transform,color] duration-400",
     "hover:-translate-y-2 hover:text-white",
     "bg-[#4643e0] text-[#7aa0fa]",

@@ -4,6 +4,7 @@ import BackButton from "@/components/BackButton";
 // import { MoreProjects } from "@/components/Projects/MoreProjects";
 import { ProjectDescription } from "@/components/Projects/ProjectDescription";
 import { DotBackgroundDemo } from "@/components/ui/DotBackgroundDemo";
+import LanguageToggleButton from "@/components/ui/LanguageToggleButton";
 import { Spotlight } from "@/components/ui/Spotlight";
 import projectsJson from "@/data/projects.json";
 import { findProjectBySlug, Project as ProjectData } from "@/utils/helpers";
@@ -44,12 +45,13 @@ const ProjectDetail = () => {
 
         <DotBackgroundDemo />
 
-        <div className="flex flex-col gap-10 mt-12 relative lg:max-w-4xl mx-auto z-[2]">
-          <BackButton />
-          {/* On passe uniquement les données brutes ; les textes seront traduits dans ProjectDescription */}
+        <div className="flex flex-col gap-10 mt-12 relative max-w-5xl mx-auto z-[2]">
+          <div className="flex justify-between items-center">
+            <BackButton />
+            <LanguageToggleButton />
+          </div>
           <ProjectDescription selectedProject={selectedProject} />
         </div>
-        {/* <MoreProjects slug={slug} /> */}
         <div className="flex flex-col border-t border-white/10"></div>
       </div>
     </>
