@@ -124,7 +124,6 @@
     "slug": "chips-shop",
     "img": "/projects/chips-preview.png",
     "iconLists": [
-      "/badges/css.svg",
       "/badges/js.svg",
       "/badges/swiper.svg",
       "/badges/scroll.svg",
@@ -142,7 +141,6 @@
     "slug": "clothing-store",
     "img": "/projects/clothing1-preview.png",
     "iconLists": [
-      "/badges/css.svg",
       "/badges/js.svg",
       "/badges/swiper.svg",
       "/badges/scroll.svg",
@@ -189,7 +187,6 @@
     "slug": "coffee-shop-3",
     "img": "/projects/coffee-3-preview.png",
     "iconLists": [
-      "/badges/css.svg",
       "/badges/js.svg",
       "/badges/swiper.svg",
       "/badges/scroll.svg",
@@ -224,7 +221,6 @@
     "slug": "electric-car-store",
     "img": "/projects/electric-preview.png",
     "iconLists": [
-      "/badges/css.svg",
       "/badges/js.svg",
       "/badges/swiper.svg",
       "/badges/scroll.svg",
@@ -242,7 +238,6 @@
     "slug": "fitness-center",
     "img": "/projects/fitness-preview.png",
     "iconLists": [
-      "/badges/css.svg",
       "/badges/js.svg",
       "/badges/mailchimp.svg",
       "/badges/scroll.svg",
@@ -277,7 +272,6 @@
     "slug": "gasoline-car-store",
     "img": "/projects/gasoline-car-preview.png",
     "iconLists": [
-      "/badges/css.svg",
       "/badges/js.svg",
       "/badges/swiper.svg",
       "/badges/scroll.svg",
@@ -312,7 +306,6 @@
     "slug": "headphones-store",
     "img": "/projects/headphones-preview.png",
     "iconLists": [
-      "/badges/css.svg",
       "/badges/js.svg",
       "/badges/swiper.svg",
       "/badges/scroll.svg",
@@ -330,7 +323,6 @@
     "slug": "lighting-store",
     "img": "/projects/lighting-preview.png",
     "iconLists": [
-      "/badges/css.svg",
       "/badges/js.svg",
       "/badges/swiper.svg",
       "/badges/scroll.svg",
@@ -365,7 +357,6 @@
     "slug": "real-estate-agency",
     "img": "/projects/real-estate-preview.png",
     "iconLists": [
-      "/badges/css.svg",
       "/badges/js.svg",
       "/badges/swiper.svg",
       "/badges/scroll.svg",
@@ -383,7 +374,6 @@
     "slug": "shoe-store",
     "img": "/projects/shoe-preview.png",
     "iconLists": [
-      "/badges/css.svg",
       "/badges/js.svg",
       "/badges/swiper.svg",
       "/badges/scroll.svg",
@@ -401,7 +391,6 @@
     "slug": "travel-agency-1",
     "img": "/projects/travel-1-preview.png",
     "iconLists": [
-      "/badges/css.svg",
       "/badges/js.svg",
       "/badges/swiper.svg",
       "/badges/scroll.svg",
@@ -436,7 +425,6 @@
     "slug": "watch-store",
     "img": "/projects/watch1-preview.png",
     "iconLists": [
-      "/badges/css.svg",
       "/badges/js.svg",
       "/badges/swiper.svg",
       "/badges/scroll.svg",
@@ -452,7 +440,12 @@
     "key": "anim404",
     "slug": "animation-404",
     "img": "/projects/404-preview.png",
-    "iconLists": ["/badges/css.svg", "/badges/js.svg", "/badges/gsap.svg"],
+    "iconLists": [
+      "/badges/css.svg",
+      "/badges/js.svg",
+      "/badges/gsap.svg",
+      "/badges/netli.svg"
+    ],
     "linkDemo": "https://background-animation-404.netlify.app/",
     "linkGithub": "background-animation-404_js",
     "isGridThreeCols": true,
@@ -464,7 +457,12 @@
     "key": "camping",
     "slug": "animation-camping",
     "img": "/projects/camping-preview.png",
-    "iconLists": ["/badges/css.svg", "/badges/js.svg", "/badges/gsap.svg"],
+    "iconLists": [
+      "/badges/css.svg",
+      "/badges/js.svg",
+      "/badges/gsap.svg",
+      "/badges/netli.svg"
+    ],
     "linkDemo": "https://background-animation-camping.netlify.app/",
     "linkGithub": "background-animation-camping_js",
     "isGridThreeCols": true,
@@ -476,7 +474,12 @@
     "key": "christmas",
     "slug": "animation-christmas",
     "img": "/projects/christmas1-preview.png",
-    "iconLists": ["/badges/css.svg", "/badges/js.svg", "/badges/gsap.svg"],
+    "iconLists": [
+      "/badges/css.svg",
+      "/badges/js.svg",
+      "/badges/gsap.svg",
+      "/badges/netli.svg"
+    ],
     "linkDemo": "https://background-animation-christmas.netlify.app/",
     "linkGithub": "background-animation-christmas_js",
     "isGridThreeCols": true,
@@ -488,7 +491,12 @@
     "key": "halloween1",
     "slug": "animation-halloween-1",
     "img": "/projects/halloween2-preview.png",
-    "iconLists": ["/badges/css.svg", "/badges/js.svg", "/badges/gsap.svg"],
+    "iconLists": [
+      "/badges/css.svg",
+      "/badges/js.svg",
+      "/badges/gsap.svg",
+      "/badges/netli.svg"
+    ],
     "linkDemo": "https://background-animation-halloween-1.netlify.app/",
     "linkGithub": "background-animation-halloween-1_js",
     "isGridThreeCols": true,
@@ -500,7 +508,12 @@
     "key": "halloween2",
     "slug": "animation-halloween-2",
     "img": "/projects/halloween3-preview.png",
-    "iconLists": ["/badges/css.svg", "/badges/js.svg", "/badges/gsap.svg"],
+    "iconLists": [
+      "/badges/css.svg",
+      "/badges/js.svg",
+      "/badges/gsap.svg",
+      "/badges/netli.svg"
+    ],
     "linkDemo": "https://background-animation-halloween-2.netlify.app/",
     "linkGithub": "background-animation-halloween-2_js",
     "isGridThreeCols": true,
@@ -512,7 +525,12 @@
     "key": "juice",
     "slug": "animation-juice",
     "img": "/projects/juice-preview.png",
-    "iconLists": ["/badges/css.svg", "/badges/js.svg", "/badges/gsap.svg"],
+    "iconLists": [
+      "/badges/css.svg",
+      "/badges/js.svg",
+      "/badges/gsap.svg",
+      "/badges/netli.svg"
+    ],
     "linkDemo": "https://background-animation-juice.netlify.app/",
     "linkGithub": "background-animation-juice_js",
     "isGridThreeCols": true,
@@ -524,7 +542,7 @@
     "key": "pirate",
     "slug": "animation-pirate",
     "img": "/projects/pirate-preview.png",
-    "iconLists": ["/badges/css.svg", "/badges/js.svg"],
+    "iconLists": ["/badges/css.svg", "/badges/js.svg", "/badges/netli.svg"],
     "linkDemo": "https://background-animation-pirate.netlify.app/",
     "linkGithub": "background-animation-pirate_js",
     "isGridThreeCols": true,
@@ -536,7 +554,12 @@
     "key": "temple",
     "slug": "animation-temple",
     "img": "/projects/temple-preview.png",
-    "iconLists": ["/badges/css.svg", "/badges/js.svg", "/badges/gsap.svg"],
+    "iconLists": [
+      "/badges/css.svg",
+      "/badges/js.svg",
+      "/badges/gsap.svg",
+      "/badges/netli.svg"
+    ],
     "linkDemo": "https://background-animation-temple.netlify.app/",
     "linkGithub": "background-animation-temple_js",
     "isGridThreeCols": true,
@@ -548,7 +571,12 @@
     "key": "archiSlider",
     "slug": "slider-architect",
     "img": "/projects/architecture-preview.png",
-    "iconLists": ["/badges/css.svg", "/badges/js.svg", "/badges/swiper.svg"],
+    "iconLists": [
+      "/badges/css.svg",
+      "/badges/js.svg",
+      "/badges/swiper.svg",
+      "/badges/netli.svg"
+    ],
     "linkDemo": "https://background-slider-architect.netlify.app/",
     "linkGithub": "background-slider-architect_js",
     "isGridThreeCols": true,
@@ -561,10 +589,10 @@
     "slug": "slider-travel",
     "img": "/projects/travel-preview.png",
     "iconLists": [
-      "/badges/css.svg",
       "/badges/js.svg",
       "/badges/swiper.svg",
-      "/badges/gsap.svg"
+      "/badges/gsap.svg",
+      "/badges/netli.svg"
     ],
     "linkDemo": "https://background-slider-travel.netlify.app/",
     "linkGithub": "background-slider-travel_js",
@@ -590,10 +618,10 @@
     "slug": "image-slider-car",
     "img": "/projects/car-preview.png",
     "iconLists": [
-      "/badges/css.svg",
       "/badges/js.svg",
       "/badges/swiper.svg",
-      "/badges/gsap.svg"
+      "/badges/gsap.svg",
+      "/badges/netli.svg"
     ],
     "linkDemo": "https://image-slider-car.netlify.app/",
     "linkGithub": "img-slider-car_js",
@@ -607,10 +635,10 @@
     "slug": "image-slider-clothing",
     "img": "/projects/clothing2-preview.png",
     "iconLists": [
-      "/badges/css.svg",
       "/badges/js.svg",
       "/badges/swiper.svg",
-      "/badges/scroll.svg"
+      "/badges/scroll.svg",
+      "/badges/netli.svg"
     ],
     "linkDemo": "https://image-slider-clothing.netlify.app/",
     "linkGithub": "img-slider-clothing_js",
@@ -641,10 +669,10 @@
     "slug": "image-slider-watches",
     "img": "/projects/watch2-preview.png",
     "iconLists": [
-      "/badges/css.svg",
       "/badges/js.svg",
       "/badges/swiper.svg",
-      "/badges/gsap.svg"
+      "/badges/gsap.svg",
+      "/badges/netli.svg"
     ],
     "linkDemo": "https://image-slider-watch.netlify.app/",
     "linkGithub": "img-slider-watches_js",
@@ -657,7 +685,12 @@
     "key": "parallaxChina",
     "slug": "background-slider-parallax-china",
     "img": "/projects/china-preview.png",
-    "iconLists": ["/badges/css.svg", "/badges/js.svg", "/badges/swiper.svg"],
+    "iconLists": [
+      "/badges/css.svg",
+      "/badges/js.svg",
+      "/badges/swiper.svg",
+      "/badges/netli.svg"
+    ],
     "linkDemo": "https://background-slider-parallax-china.netlify.app/",
     "linkGithub": "background-slider-parallax-china_js",
     "isGridThreeCols": true,
@@ -670,10 +703,10 @@
     "slug": "background-parallax-christmas",
     "img": "/projects/christmas2-preview.png",
     "iconLists": [
-      "/badges/css.svg",
       "/badges/js.svg",
       "/badges/gsap.svg",
-      "/badges/scroll.svg"
+      "/badges/scroll.svg",
+      "/badges/netli.svg"
     ],
     "linkDemo": "https://background-parallax-christmas.netlify.app/",
     "linkGithub": "background-parallax-christmas_js",
@@ -686,7 +719,12 @@
     "key": "parallaxMountain",
     "slug": "background-parallax-mountain",
     "img": "/projects/mountain-preview.png",
-    "iconLists": ["/badges/css.svg", "/badges/js.svg", "/badges/gsap.svg"],
+    "iconLists": [
+      "/badges/css.svg",
+      "/badges/js.svg",
+      "/badges/gsap.svg",
+      "/badges/netli.svg"
+    ],
     "linkDemo": "https://background-parallax-mountain.netlify.app/",
     "linkGithub": "background-parallax-mountain_js",
     "isGridThreeCols": true,
@@ -735,8 +773,8 @@
     "slug": "country-filter-app",
     "img": "/projects/country-preview.png",
     "iconLists": [
-      "/badges/react.svg",
       "/badges/sass.svg",
+      "/badges/react.svg",
       "/badges/axios.svg",
       "/badges/vercel.svg"
     ],
@@ -831,7 +869,12 @@
     "key": "kanap",
     "slug": "kanap",
     "img": "/projects/kanap-preview.png",
-    "iconLists": ["/badges/css.svg", "/badges/js.svg", "/badges/node.svg"],
+    "iconLists": [
+      "/badges/css.svg",
+      "/badges/js.svg",
+      "/badges/node.svg",
+      "/badges/vercel.svg"
+    ],
     "linkDemo": "https://kanap-vm.vercel.app/",
     "linkGithub": "kanap-ecommerce_api",
     "isGridThreeCols": true,
