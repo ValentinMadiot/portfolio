@@ -5,6 +5,7 @@ import Link from "next/link";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import SocialMediaLinks from "./SocialMediaLinks";
 import { DotBackgroundDemo } from "./ui/DotBackgroundDemo";
+import LanguageToggleButton from "./ui/LanguageToggleButton";
 import MagicButton from "./ui/MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 
@@ -26,6 +27,8 @@ const Hero = () => {
       </div>
 
       <DotBackgroundDemo />
+
+      <LanguageToggleButton className="absolute top-5 left-5" />
 
       <div className="flex justify-center relative z-[2]">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">

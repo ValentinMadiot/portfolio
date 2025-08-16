@@ -1,6 +1,7 @@
 // English translations
 export const en = {
   navbar: {
+    home: "Home",
     profile: "Profile",
     projects: "Projects",
     contact: "Contact",

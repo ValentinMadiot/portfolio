@@ -1,6 +1,7 @@
 // French translations
 export const fr = {
   navbar: {
+    home: "Accueil",
     profile: "Profil",
     projects: "Projets",
     contact: "Contact",
