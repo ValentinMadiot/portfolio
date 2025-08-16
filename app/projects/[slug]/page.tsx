@@ -47,7 +47,7 @@ const ProjectDetail = () => {
 
         <div className="flex flex-col gap-10 mt-12 relative max-w-5xl mx-auto z-[2]">
           <div className="flex justify-between items-center">
-            <BackButton />
+            <BackButton fallbackHref="/#projects" />
             <LanguageToggleButton />
           </div>
           <ProjectDescription selectedProject={selectedProject} />

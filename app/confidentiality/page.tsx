@@ -28,7 +28,7 @@ const Confidentiality = () => {
 
         <div className="flex flex-col gap-10 mt-12 relative lg:max-w-5xl mx-auto z-[2]">
           <div className="flex justify-between items-center">
-            <BackButton />
+            <BackButton fallbackHref="/#contact" />
             <LanguageToggleButton />
           </div>
           <div className="flex flex-col gap-6 pb-8 sm:pb-16">

@@ -36,7 +36,7 @@ const Gallery = () => {
 
         <div className="flex flex-col mt-12 relative max-w-6xl mx-auto z-[2]">
           <div className="flex justify-between items-center">
-            <BackButton />
+            <BackButton fallbackHref="/#projects" />
             <LanguageToggleButton />
           </div>
 

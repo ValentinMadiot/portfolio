@@ -1,8 +1,8 @@
 "use client";
 import ProjectCard from "@/components/Projects/ProjectCard";
 import projects from "@/data/projects.json";
+import TransitionLink from "@/utils/transitionLinks";
 import { useTranslation } from "@/utils/useTranslation";
-import Link from "next/link";
 import { AiOutlineArrowRight } from "react-icons/ai";
 
 const RecentProjects = () => {
@@ -27,7 +27,7 @@ const RecentProjects = () => {
       </h1>
 
       <div className="mt-12 text-center">
-        <Link
+        <TransitionLink
           href="/gallery"
           aria-label={t("viewGallery")}
           className="inline-flex items-center text-center gap-2 text-white/80 hover:text-white transition">
@@ -37,7 +37,7 @@ const RecentProjects = () => {
             aria-hidden="true"
           />
           <span className="text-2xl">{t("viewGallery")}</span>
-        </Link>
+        </TransitionLink>
       </div>
 
       <div className="grid md:grid-cols-2 grid-cols-1 gap-6 mt-10">
@@ -58,7 +58,7 @@ const RecentProjects = () => {
       </div>
 
       <div className="mt-12 text-center">
-        <Link
+        <TransitionLink
           href="/gallery"
           aria-label={t("viewGallery")}
           className="inline-flex items-center text-center gap-2 text-white/80 hover:text-white transition">
@@ -68,7 +68,7 @@ const RecentProjects = () => {
             aria-hidden="true"
           />
           <span className="text-2xl">{t("viewGallery")}</span>
-        </Link>
+        </TransitionLink>
       </div>
     </div>
   );

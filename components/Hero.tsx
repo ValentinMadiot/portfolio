@@ -13,7 +13,7 @@ const Hero = () => {
   const t = useTranslation("hero");
 
   return (
-    <div className="h-screen m-auto flex flex-col justify-center items-center">
+    <div className="h-screen m-auto flex flex-col justify-center lg:pt-20 items-center">
       <div className="">
         <Spotlight
           className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"

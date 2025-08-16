@@ -1,6 +1,6 @@
 "use client";
+import TransitionLink from "@/utils/transitionLinks";
 import { useTranslation } from "@/utils/useTranslation";
-import Link from "next/link";
 import React from "react";
 import ExternalLinks from "../ExternalLinks";
 import Badges from "./Badges";
@@ -26,7 +26,7 @@ const ProjectCard: React.FC<{ project: ProjectCardProps }> = ({ project }) => {
 
   return (
     <div className="relative border border-white/10 rounded-2xl pb-5 transform transition-colors duration-500 ease-in-out max-sm:hover:bg-[#13162d]">
-      <Link href={`/projects/${project.slug}`} className="">
+      <TransitionLink href={`/projects/${project.slug}`} className="">
         <div className="">
           <ImageProject
             img={project.img}
@@ -44,7 +44,7 @@ const ProjectCard: React.FC<{ project: ProjectCardProps }> = ({ project }) => {
             <Badges iconLists={project.iconLists} />
           </div>
         </div>
-      </Link>
+      </TransitionLink>
       <div className="mt-6 sm:mt-0">
         <ExternalLinks
           linkDemo={project.linkDemo}
