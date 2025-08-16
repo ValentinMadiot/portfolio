@@ -40,7 +40,7 @@ const Footer = () => {
       </div>
 
       <div className="flex p-10 md:flex-row flex-col justify-between items-center relative z-10">
-        <p className="text-white/80 md:text-base text-sm md:font-normal font-light">
+        <p className="text-white/80 md:text-base text-sm md:font-normal font-light cursor-default">
           Copyright © {year} Valentin Madiot
         </p>
         <div className="flex flex-col md:flex-row gap-4 mt-5 md:mt-0 items-center">
