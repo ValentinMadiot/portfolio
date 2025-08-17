@@ -1,4 +1,5 @@
 "use client";
+
 import { cn } from "@/lib/utils";
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 import Link from "next/link";
@@ -20,32 +21,34 @@ export const FloatingNav = ({
   navItems,
   className,
 }: {
-  navItems: {
-    name: string;
-    href: string;
-    icon?: JSX.Element;
-  }[];
+  navItems: { name: string; href: string; icon?: JSX.Element }[];
   className?: string;
 }) => {
   const [visible, setVisible] = useState(true);
   const isDesktop = useIsDesktop();
+
+  // ✅ correct hook + safe boolean
   const prefersReduced = useReducedMotion();
 
   const variants = {
     initial: (desktop: boolean) =>
-      desktop
-        ? { opacity: 0, y: -30, filter: "blur(6px)" } // depuis le haut
-        : { opacity: 0, y: 100 }, // depuis le bas
+      prefersReduced
+        ? { opacity: 1, y: 0, filter: "blur(0px)" }
+        : desktop
+        ? { opacity: 0, y: -30, filter: "blur(6px)" } // from top (desktop)
+        : { opacity: 0, y: 100 }, // from bottom (mobile)
     animate: { opacity: 1, y: 0, filter: "blur(0px)" },
     exit: (desktop: boolean) =>
-      desktop
-        ? { opacity: 0, y: -40, scale: 0.98, filter: "blur(6px)" } // sortie desktop
-        : { opacity: 0, y: 80 }, // sortie mobile
-  };
+      prefersReduced
+        ? { opacity: 1, y: 0, filter: "blur(0px)" }
+        : desktop
+        ? { opacity: 0, y: -40, scale: 0.98, filter: "blur(6px)" } // out desktop
+        : { opacity: 0, y: 80 }, // out mobile
+  } as const;
 
   const timing = prefersReduced
-    ? { duration: 0.01 }
-    : { duration: 0.22, ease: [0.22, 1, 0.36, 1] }; // ease-out douce
+    ? { duration: 0 }
+    : { duration: 0.22, ease: [0.22, 1, 0.36, 1] };
 
   useEffect(() => {
     let last = window.scrollY;
@@ -85,7 +88,7 @@ export const FloatingNav = ({
                   className="flex flex-col lg:flex-row items-center gap-2 text-white hover:text-lightblue-200"
                   aria-label={item.name}
                   prefetch={false}>
-                  <span className="text-2xl leading-none ">{item.icon}</span>
+                  <span className="text-2xl leading-none">{item.icon}</span>
                   <span className="text-[0.8rem] sm:text-sm lg:text-lg leading-none max-[310px]:hidden">
                     {item.name}
                   </span>

@@ -1,15 +1,17 @@
 "use client";
-import { useState } from "react";
-import { AiOutlineSolution } from "react-icons/ai";
 
 import { cn } from "@/lib/utils";
 import { useTranslation } from "@/utils/useTranslation";
-import Lottie from "react-lottie";
+import dynamic from "next/dynamic";
+import { useState } from "react";
+import { AiOutlineSolution } from "react-icons/ai";
 
 import animationData from "@/data/confetti.json";
 import { BackgroundGradientAnimation } from "./GradientBg";
 import { GlobeDemo } from "./GridGlobe";
 import MagicButton from "./MagicButton";
+
+const Lottie = dynamic(() => import("lottie-react"), { ssr: false });
 
 export const BentoGrid = ({
   className,
@@ -21,7 +23,6 @@ export const BentoGrid = ({
   return (
     <div
       className={cn(
-        // "grid grid-cols-1 md:grid-cols-6 lg:grid-cols-5 gap-4 lg:gap-8 max-w-6xl mx-auto",
         "grid grid-cols-1 md:grid-cols-6 lg:grid-cols-5 md:grid-row-7 gap-4 lg:gap-8 mx-auto",
         className
       )}>
@@ -47,7 +48,7 @@ export const BentoGridItem = ({
   description?: string | React.ReactNode;
   description2?: string | React.ReactNode;
   description3?: string | React.ReactNode;
-  id?: Number;
+  id?: number;
   img?: string;
   imgClassName?: string;
   titleClassName?: string;
@@ -81,9 +82,9 @@ export const BentoGridItem = ({
         className
       )}
       style={{
-        background: "rgb(2,0,36)",
-        backgroundColor:
-          "linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(70,67,224,1) 35%, rgba(0,212,255,1) 100%)",
+        background:
+          "linear-gradient(135deg, #000319 0%, #0a0f2d 50%, #000319 100%)",
+        // "linear-gradient(135deg, #000319 0%, #0d1b52 50%, #1e3a8a 100%)",
       }}>
       <div className={`${id === 6 && "flex justify-center"} h-full`}>
         <div className="w-full h-full absolute">
@@ -93,7 +94,7 @@ export const BentoGridItem = ({
               alt={img}
               className={cn(
                 imgClassName,
-                "object-cover object-center  w-full h-full"
+                "object-cover object-center w-full h-full"
               )}
             />
           )}
@@ -106,26 +107,30 @@ export const BentoGridItem = ({
             <img
               src={spareImg}
               alt={spareImg}
-              className={"object-cover object-center w-full h-full"}
+              className="object-cover object-center w-full h-full"
             />
           )}
         </div>
+
         {id === 6 && (
           <BackgroundGradientAnimation>
-            <div className="absolute z-50 inset-0 flex items-center justify-center text-white font-bold px-4 pointer-events-none text-3xl text-center md:text-4xl lg:text-7xl"></div>
+            <div className="absolute z-50 inset-0 flex items-center justify-center text-white font-bold px-4 pointer-events-none text-3xl text-center md:text-4xl lg:text-7xl">
+              {/* Optionnel : texte si tu veux */}
+            </div>
           </BackgroundGradientAnimation>
         )}
+
         <div
           className={cn(
             titleClassName,
-            " transition duration-200 relative md:h-full min-h-60 flex flex-col px-5 p-5 lg:p-10"
+            "transition duration-200 relative md:h-full min-h-60 flex flex-col px-5 p-5 lg:p-10"
           )}>
           <div className="font-sans text-lg lg:text-3xl font-bold z-10">
             {id === 2 ? (
               <div className="text-end md:ml-10 leading-snug">{title}</div>
             ) : id === 4 ? (
               <div className="text-center md:text-start mt-16 lg:mt-0">
-                {id !== 1 && title}
+                {title}
               </div>
             ) : id === 6 ? (
               <div className="mb-10">{title}</div>
@@ -133,6 +138,7 @@ export const BentoGridItem = ({
               title
             )}
           </div>
+
           {id === 1 && (
             <>
               {[description, description2, description3].map(
@@ -148,6 +154,7 @@ export const BentoGridItem = ({
               )}
             </>
           )}
+
           {id === 2 && (
             <div className="absolute inset-0 z-0">
               <GlobeDemo />
@@ -178,15 +185,17 @@ export const BentoGridItem = ({
               </div>
             </div>
           )}
+
           {id === 6 && (
             <div className="relative">
-              <div
-                className={`absolute -bottom-5 right-0 ${
-                  copied ? "block" : "block"
-                }`}>
-                <Lottie options={defaultOptions} height={200} width={400} />
+              <div className="absolute -bottom-5 right-0">
+                <Lottie
+                  animationData={animationData}
+                  loop={copied}
+                  autoplay={copied}
+                  style={{ width: 400, height: 200 }}
+                />
               </div>
-
               <MagicButton
                 title={t("btnCv")}
                 icon={<AiOutlineSolution />}
